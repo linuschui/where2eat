@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from './Button';
+import { Button } from './components/Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
-function Navbar() {
+function Navbar({handleLogOut}) {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
@@ -43,11 +43,11 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='/restaurants'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                SERVICES
+                RESTAURANTS
               </Link>
             </li>
             <li className='nav-item'>
@@ -59,18 +59,8 @@ function Navbar() {
                 LOCATIONS
               </Link>
             </li>
-
-            <li>
-              <Link
-                to='/sign-up'
-                className='nav-links-mobile'
-                onClick={closeMobileMenu}
-              >
-                SIGN UP
-              </Link>
-            </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          {button && <Button onClick={handleLogOut} buttonStyle='btn--outline'>LOG OUT</Button>}
         </div>
       </nav>
     </>

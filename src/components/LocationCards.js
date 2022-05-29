@@ -12,28 +12,28 @@ function LocationCards() {
             <CardItem
               src='images/music.jpg'
               text='Music'
-              label='Fast Food'
-              path='/products'
+              label='YST'
+              path='/yst'
             />  
             <CardItem
               src='images/yih.jpg'
               text='Yusof Ishak House'
-              label='Japanese'
-              path='/products'
+              label='YIH'
+              path='/yih'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
               src='images/utown.jpg'
               text='University Town | Yale-NUS College'
-              label='Japanese'
-              path='/products'
+              label='UTN'
+              path='/utn'
             />
             <CardItem
               src='images/usc.jpg'
               text='University Sports Centre'
-              label='Japanese'
-              path='/products'
+              label='USC'
+              path='/usc'
             />
           </ul>
         </div>
@@ -45,40 +45,40 @@ function LocationCards() {
             <CardItem
               src='images/business.jpg'
               text='Business'
-              label='Fast Food'
-              path='/products'
+              label='BIZ'
+              path='/biz'
             />
             <CardItem
               src='images/dentistry.jpg'
               text='Medicine | Dentistry | Nursing'
-              label='Korean'
-              path='/products'
+              label='MDN'
+              path='/mdn'
             />
           </ul>
           <ul className='cards__items'>  
             <CardItem
               src='images/computing.jpg'
               text='Computing'
-              label='Fast Food'
-              path='/products'
+              label='COM'
+              path='/com'
             />
             <CardItem
               src='images/science.jpeg'
               text='Science | Pharmacy'
-              label='Japanese'
-              path='/products'
+              label='SCP'
+              path='/scp'
             />
             <CardItem
               src='images/sde.jpg'
               text='School of Design and Engineering'
-              label='Thai'
-              path='/products'
+              label='SDE'
+              path='/sde'
             />
             <CardItem
               src='images/fass.png'
               text='Faculty of Arts and Social Sciences'
-              label='Indian'
-              path='/products'
+              label='FASS'
+              path='/fass'
             />
           </ul>
         </div>
@@ -90,8 +90,8 @@ function LocationCards() {
             <CardItem
               src='images/law.jpg'
               text='Law'
-              label='Japanese'
-              path='/products'
+              label='LAW'
+              path='/law'
             />
           </ul>
         </div>
