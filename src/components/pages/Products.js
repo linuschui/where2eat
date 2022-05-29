@@ -1,6 +1,19 @@
 import React from 'react';
 import '../../App.css';
+import Footer from '../Footer';
+import '../Cards.css';
+// import LocationCards from '../LocationCards';
+import HomePageCards from '../HomePageCards';
 
-export default function Products() {
-  return <h1 className='products'>PRODUCTS</h1>;
+
+function Products() {
+  return (
+    <>
+      {/* <LocationCards /> */}
+      <HomePageCards />
+      <Footer />
+    </>
+  );
 }
+
+export default Products;

@@ -8,6 +8,7 @@
 .home,
 .services,
 .products,
+.locations
 .sign-up {
   display: flex;
   height: 90vh;
@@ -33,6 +34,17 @@
   color: #fff;
   font-size: 100px;
 }
+
+.locations {
+  background-image: url('/images/img-korean.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+
 
 .sign-up {
   /* background-image: url('/images/img-8.jpg'); */

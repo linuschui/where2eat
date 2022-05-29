@@ -2,7 +2,7 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 
-function Cards() {
+function HomePageCards() {
   return (
     <div className='cards'>
       <h1>Check out these EPIC food destinations!</h1>
@@ -48,4 +48,4 @@ function Cards() {
   );
 }
 
-export default Cards;
+export default HomePageCards;
