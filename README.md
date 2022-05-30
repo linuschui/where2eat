@@ -1,6 +1,7 @@
 # where2eat
 
 where2eat webapp
+https://linuschui.github.io/where2eat/
 
 V1.1
 - added sign in page
@@ -20,3 +21,6 @@ V1.3
 - edited home page
 - edited trending cards
 - added log out button to mobile nav bar
+
+V1.4
+- added GitHub Page
