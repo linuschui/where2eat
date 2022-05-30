@@ -5,15 +5,17 @@ import CardItem from './CardItem';
 function LocationCards() {
   return (
     <div className='cards'>
-      <h1>Kent Ridge North</h1>
+      
       <div className='cards__container'>
         <div className='cards__wrapper'>
+          <h1>Kent Ridge North</h1>
+          
           <ul className='cards__items'>
             <CardItem
-              src='images/music.jpg'
-              text='Music'
-              label='YST'
-              path='/yst'
+              src='images/pgpr.jpg'
+              text="Prince George's Park Residences"
+              label='PGPR'
+              path='/pgpr'
             />  
             <CardItem
               src='images/yih.jpg'
@@ -24,8 +26,14 @@ function LocationCards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
+              src='images/music.jpg'
+              text="Music"
+              label='YST'
+              path='/yst'
+            />
+            <CardItem
               src='images/utown.jpg'
-              text='University Town | Yale-NUS College'
+              text='University Town'
               label='UTN'
               path='/utn'
             />
@@ -36,11 +44,9 @@ function LocationCards() {
               path='/usc'
             />
           </ul>
-        </div>
-      </div>
+        
       <h1>Kent Ridge South</h1>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
+      
           <ul className='cards__items'>
             <CardItem
               src='images/business.jpg'
@@ -54,15 +60,15 @@ function LocationCards() {
               label='MDN'
               path='/mdn'
             />
-          </ul>
-          <ul className='cards__items'>  
             <CardItem
               src='images/computing.jpg'
               text='Computing'
               label='COM'
               path='/com'
             />
-            <CardItem
+          </ul>
+          <ul className='cards__items'>  
+          <CardItem
               src='images/science.jpeg'
               text='Science | Pharmacy'
               label='SCP'
@@ -81,18 +87,16 @@ function LocationCards() {
               path='/fass'
             />
           </ul>
-        </div>
-      </div>
-      <h1>Bukit Timah</h1>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
+        
+        <h1>Bukit Timah</h1>
           <ul className='cards__items'>
             <CardItem
-              src='images/law.jpg'
-              text='Law'
+              src='images/law1.jpg'
+              text='Law' 
               label='LAW'
               path='/law'
             />
+          
           </ul>
         </div>
       </div>

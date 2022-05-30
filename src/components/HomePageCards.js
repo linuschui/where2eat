@@ -10,36 +10,36 @@ function HomePageCards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-mcdonalds.jpeg'
-              text='MCDONALDS MCDONALDS MCDONALDS MCDOANLDS'
-              label='Fast Food'
-              path='/products'
+              src='images/cards-utn-udon1.jpeg'
+              text='Udon Don Bar'
+              label='Japanese'
+              path='/udondonbar'
             />
             <CardItem
-              src='images/img-japanese.jpg'
-              text='JAPANESE JAPANESE JAPANESE JAPANESE'
-              label='Japanese'
-              path='/products'
+            src='images/cards-pgpr-lejomo1.jpg'
+            text='LeJomo'
+            label='Cafe'
+            path='/lejomo'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-thai.png'
-              text='THAI THAI THAI THAI THAI THAI THAI'
-              label='Thai'
-              path='/products'
+              src='images/cards-utn-starbucks2.jpg'
+              text='Starbucks'
+              label='Cafe'
+              path='/starbucks'
             />
             <CardItem
-              src='images/img-indian2.jpg'
-              text='INDIAN INDIAN INDIAN INDIAN INDIAN'
-              label='Indian'
-              path='/products'
+              src='images/cards-utn-waacow1.jpeg'
+              text='Waa Cow'
+              label='Japanese'
+              path='/waacow'
             />
             <CardItem
-              src='images/img-korean.jpg'
-              text='KOREAN KOREAN KOREAN KOREAN KOREAN'
-              label='Korean'
-              path='/products'
+              src='images/cards-pgpr-bober1.jpg'
+              text='Bober Tea'
+              label='Drinks'
+              path='/bober'
             />
           </ul>
         </div>

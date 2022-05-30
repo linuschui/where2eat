@@ -4,6 +4,7 @@ import './Hero.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Locations from './components/pages/Locations';
+import PGPR from './components/pages/PGPR';
 import YST from './components/pages/YST';
 import YIH from './components/pages/YIH';
 import UTN from './components/pages/UTN';
@@ -25,6 +26,7 @@ function App2({handleLogOut}) {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/locations' component={Locations} />
+          <Route path='/pgpr' component={PGPR} />
           <Route path='/yst' component={YST} />
           <Route path='/yih' component={YIH} />
           <Route path='/utn' component={UTN} />

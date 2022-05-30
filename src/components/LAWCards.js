@@ -8,38 +8,22 @@ function LAWCards() {
       <h1>Check out dining options in LAW!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
+        <h1>Li Ka Shing Building</h1>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-mcdonalds.jpeg'
-              text='MCDONALDS MCDONALDS MCDONALDS MCDOANLDS'
-              label='Fast Food'
-              path='/'
-            />
-            <CardItem
-              src='images/img-japanese.jpg'
-              text='JAPANESE JAPANESE JAPANESE JAPANESE'
-              label='Japanese'
-              path='/'
+              src='images/cards-law-reedz1.jpg'
+              text='Reedz Cafe'
+              label='Cafe'
+              path='/reedz'
             />
           </ul>
+          <h1>Block B</h1>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-thai.png'
-              text='THAI THAI THAI THAI THAI THAI THAI'
-              label='Thai'
-              path='/'
-            />
-            <CardItem
-              src='images/img-indian2.jpg'
-              text='INDIAN INDIAN INDIAN INDIAN INDIAN'
-              label='Indian'
-              path='/'
-            />
-            <CardItem
-              src='images/img-korean.jpg'
-              text='KOREAN KOREAN KOREAN KOREAN KOREAN'
-              label='Korean'
-              path='/'
+              src='images/cards-law-summit1.jpg'
+              text='The Summit'
+              label='Food Court'
+              path='/thesummit'
             />
           </ul>
         </div>

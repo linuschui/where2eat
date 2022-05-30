@@ -1,7 +1,7 @@
 import React from 'react'
-import YSTCards from '../YSTCards'
+import YSTCards from '../YSTCards';
 
-function USC() {
+function YST() {
   return (
     <>
       <YSTCards />
@@ -9,4 +9,4 @@ function USC() {
   )
 }
 
-export default USC
+export default YST;
