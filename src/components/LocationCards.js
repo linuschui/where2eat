@@ -8,15 +8,16 @@ function LocationCards() {
       
       <div className='cards__container'>
         <div className='cards__wrapper'>
+
           <h1>Kent Ridge North</h1>
-          
+
           <ul className='cards__items'>
             <CardItem
-              src='images/pgpr.jpg'
-              text="Prince George's Park Residences"
-              label='PGPR'
-              path='/pgpr'
-            />  
+              src='images/utown.jpg'
+              text='University Town'
+              label='UTN'
+              path='/utn'
+            />
             <CardItem
               src='images/yih.jpg'
               text='Yusof Ishak House'
@@ -32,28 +33,30 @@ function LocationCards() {
               path='/yst'
             />
             <CardItem
-              src='images/utown.jpg'
-              text='University Town'
-              label='UTN'
-              path='/utn'
-            />
-            <CardItem
               src='images/usc.jpg'
               text='University Sports Centre'
               label='USC'
               path='/usc'
             />
           </ul>
-        
-      <h1>Kent Ridge South</h1>
-      
+
+          <h1>Kent Ridge South</h1>
+
           <ul className='cards__items'>
+          <CardItem
+              src='images/pgpr.jpg'
+              text="Prince George's Park Residences"
+              label='PGPR'
+              path='/pgpr'
+            />  
             <CardItem
               src='images/business.jpg'
               text='Business'
               label='BIZ'
               path='/biz'
             />
+          </ul>
+          <ul className='cards__items'> 
             <CardItem
               src='images/dentistry.jpg'
               text='Medicine | Dentistry | Nursing'
@@ -89,6 +92,7 @@ function LocationCards() {
           </ul>
         
         <h1>Bukit Timah</h1>
+        
           <ul className='cards__items'>
             <CardItem
               src='images/law1.jpg'

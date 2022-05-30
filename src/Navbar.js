@@ -59,6 +59,15 @@ function Navbar({handleLogOut}) {
                 LOCATIONS
               </Link>
             </li>
+            <li>  
+              <Link
+                to='/'
+                className='nav-links-mobile'
+                onClick={handleLogOut}
+              >
+                LOG OUT
+              </Link>
+            </li>
           </ul>
           {button && <Button onClick={handleLogOut} buttonStyle='btn--outline'>LOG OUT</Button>}
         </div>

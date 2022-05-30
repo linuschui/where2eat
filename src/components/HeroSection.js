@@ -16,6 +16,14 @@ function HeroSection() {
           buttonStyle='btn--primary'
           buttonSize='btn--large'
         >
+          TRENDING <i class="fa-solid fa-fire"></i>
+        </Button>
+        <Button
+          className='btns'
+          buttonStyle='btn--primary'
+          buttonSize='btn--large'
+          onClick={console.log('hey')}
+        >
           CHECKLIST <i class="fa-solid fa-bookmark"></i>
         </Button>
         <Button
@@ -24,7 +32,7 @@ function HeroSection() {
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
-          TRENDING <i class="fa-solid fa-fire"></i>
+          FAVOURITES <i class="fa-solid fa-star"></i>
         </Button>
       </div>
       <div className='hero-btns'>
@@ -46,22 +54,13 @@ function HeroSection() {
           KENT RIDGE SOUTH <i className="fa-solid fa-arrow-down" />
           </Button>
         </Link>
-        <Link to='/locations'>
+        <Link to='/usc' className='btn-mobile'>
           <Button
             className='btns'
             buttonStyle='btn--outline'
             buttonSize='btn--large'
           >
           BUKIT TIMAH <i class="fa-solid fa-gavel"></i>
-          </Button>
-        </Link>
-        <Link to='/locations'>
-          <Button
-            className='btns'
-            buttonStyle='btn--outline'
-            buttonSize='btn--large'
-          >
-          FAVOURITES <i class="fa-solid fa-star"></i>
           </Button>
         </Link>
       </div>

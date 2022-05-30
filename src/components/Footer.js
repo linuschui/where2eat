@@ -13,7 +13,7 @@ function Footer() {
         so you are no longer burdened with the difficult task of making a decision!
         </p>
       </section>
-      <div class='footer-links'>
+      {/* <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>ABOUT US</h2>
@@ -46,7 +46,7 @@ function Footer() {
             <Link to='/'>Twitter</Link>
           </div>
         </div>
-      </div>
+      </div> */}
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
