@@ -1,7 +1,7 @@
 # where2eat
 
 where2eat webapp
-https://linuschui.github.io/where2eat/
+https://whr2eat-nus.herokuapp.com/
 
 V1.1
 - added sign in page
@@ -24,3 +24,7 @@ V1.3
 
 V1.4
 - added GitHub Page
+
+V1.5
+- removed GitHub Page
+- hosted website on Heroku
