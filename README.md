@@ -35,3 +35,6 @@ V1.6
 - added Map to navbar
 - renamed checklist to search
 - added pages for KRNorth, KRSouth and Bukit Timah in home page
+
+V1.7
+- added Google Maps

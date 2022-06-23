@@ -1,0 +1,40 @@
+{
+    "listtt": [
+      {
+        "Name": "Arise and Shine",
+        "Location": "Engineering",
+        "SeatingCapacity": ,
+        "TermOpHours": "Mon-Fri, 8.00am-6.00pm
+        Sat, 8.30am-3.30pm
+        Sun/PH Closed",
+        "VacOpHours": "Mon-Fri, 8.00pm-5.00pm
+        Sat/Sun/PH Closed",
+        "Contact": ,
+        "Website": ,
+      },
+      {
+        "Name": "Arise and Shine",
+        "Location": "Engineering",
+        "SeatingCapacity": ,
+        "TermOpHours": "Mon-Fri, 8.00am-6.00pm
+        Sat, 8.30am-3.30pm
+        Sun/PH Closed",
+        "VacOpHours": "Mon-Fri, 8.00pm-5.00pm
+        Sat/Sun/PH Closed",
+        "Contact": ,
+        "Website": ,
+      },
+      {
+        "Name": "Arise and Shine",
+        "Location": "Engineering",
+        "SeatingCapacity": ,
+        "TermOpHours": "Mon-Fri, 8.00am-6.00pm
+        Sat, 8.30am-3.30pm
+        Sun/PH Closed",
+        "VacOpHours": "Mon-Fri, 8.00pm-5.00pm
+        Sat/Sun/PH Closed",
+        "Contact": ,
+        "Website": ,
+      }
+    ]
+}
