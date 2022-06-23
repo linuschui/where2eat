@@ -31,7 +31,7 @@ function Navbar({handleLogOut}) {
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             WHR2EAT 
             <i class="fa-solid fa-bowl-rice"></i>
-          </Link>
+          </Link> 
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
@@ -48,6 +48,15 @@ function Navbar({handleLogOut}) {
                 onClick={closeMobileMenu}
               >
                 RESTAURANTS
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/map'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                MAP
               </Link>
             </li>
             <li className='nav-item'>

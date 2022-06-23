@@ -28,3 +28,10 @@ V1.4
 V1.5
 - removed GitHub Page
 - hosted website on Heroku
+
+V1.6
+- added search bar
+- added data to test the search filter function
+- added Map to navbar
+- renamed checklist to search
+- added pages for KRNorth, KRSouth and Bukit Timah in home page

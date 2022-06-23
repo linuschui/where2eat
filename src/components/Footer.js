@@ -47,6 +47,17 @@ function Footer() {
           </div>
         </div>
       </div> */}
+      <div>
+        <iframe 
+          width="560" 
+          height="315" 
+          src="https://www.youtube.com/embed/JJnxXRqBF5U" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      </div>
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
@@ -65,30 +76,30 @@ function Footer() {
             >
               <i class='fab fa-facebook-f' />
             </Link>
-            <Link
+            <a
               class='social-icon-link-instagram'
-              to='/'
+              href="https://www.instagram.com/linusfatfauk/"
               target='_blank'
               aria-label='Instagram'
             >
               <i class='fab fa-instagram' />
-            </Link>
-            <Link
+            </a>
+            <a
               class='social-icon-link-youtube'
-              to='/'
+              href="https://youtu.be/JJnxXRqBF5U"
               target='_blank'
               aria-label='Youtube'
             >
               <i class='fab fa-youtube' />
-            </Link>
-            <Link
-              class='social-icon-link-twitter'
-              to='/'
+            </a>
+            <a
+              class='social-icon-link-github'
+              href="https://github.com/linuschui"
               target='_blank'
-              aria-label='Twitter'
+              aria-label='GitHub'
             >
-              <i class='fab fa-twitter' />
-            </Link>
+              <i class='fab fa-github' />
+            </a>
             <Link
               class='social-icon-link-linkedin'
               to='/'

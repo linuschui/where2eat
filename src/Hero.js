@@ -17,6 +17,9 @@ import SDE from './components/pages/SDE';
 import FASS from './components/pages/FASS';
 import LAW from './components/pages/LAW';
 import Footer from './components/Footer';
+import KRNorth from './components/pages/KRNorth';
+import KRSouth from './components/pages/KRSouth';
+import Search from './components/pages/Search';
 
 function App2({handleLogOut}) {
   return (
@@ -38,6 +41,9 @@ function App2({handleLogOut}) {
           <Route path='/sde' component={SDE} />
           <Route path='/fass' component={FASS} />
           <Route path='/law' component={LAW} />
+          <Route path='/KRNorth' component={KRNorth} />
+          <Route path='/KRSouth' component={KRSouth} />
+          <Route path='/search' component={Search} />
         </Switch>
         <Footer />
       </Router>
