@@ -3,6 +3,9 @@
       {
         "Name": "Arise and Shine",
         "Location": "Engineering",
+        "Building": "Engineering Block E4",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
         "SeatingCapacity": ,
         "TermOpHours": "Mon-Fri, 8.00am-6.00pm
         Sat, 8.30am-3.30pm
@@ -14,27 +17,730 @@
       },
       {
         "Name": "Arise and Shine",
-        "Location": "Engineering",
+        "Location": "Science",
+        "Building": "Science Block S16",
+        "Latitude": 1.296849,
+        "Longitude": 103.779710,
         "SeatingCapacity": ,
         "TermOpHours": "Mon-Fri, 8.00am-6.00pm
-        Sat, 8.30am-3.30pm
-        Sun/PH Closed",
-        "VacOpHours": "Mon-Fri, 8.00pm-5.00pm
+        Sat/Sun/PH closed",
+        "VacOpHours": "Mon-Fri, 8.00pm-4.00pm
         Sat/Sun/PH Closed",
         "Contact": ,
         "Website": ,
       },
       {
-        "Name": "Arise and Shine",
-        "Location": "Engineering",
+        "Name": "Bar Bar Black Sheep",
+        "Location": "Music",
+        "Building": "Alice Lee Plaza",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
         "SeatingCapacity": ,
-        "TermOpHours": "Mon-Fri, 8.00am-6.00pm
-        Sat, 8.30am-3.30pm
-        Sun/PH Closed",
-        "VacOpHours": "Mon-Fri, 8.00pm-5.00pm
-        Sat/Sun/PH Closed",
+        "TermOpHours": "Mon-Sat, 12.00pm-11.30pm
+        Sun, closed",
+        "VacOpHours": "Mon-Sat, 12.00pm-11.30pm
+        Sun, closed",
+        "Contact": 62591050,
+        "Website": ,
+      },
+      {
+        "Name": "Bistro Box",
+        "Location": "School of Design and Engineering",
+        "Building": "Techno Edge",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "150",
+        "TermOpHours": "Mon-Fri, 7.30am-8.00pm
+        Sat/Sun/PH closed",
+        "VacOpHours": "Mon-Fri, 8.00pm-7.00pm
+        Sat/Sun, closed",
         "Contact": ,
         "Website": ,
-      }
+      },
+      {
+        "Name": "Bober Tea @ My Village",
+        "Location": "Prince George’s Park Residences",
+        "Building": "My Village",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "",
+        "TermOpHours": "Mon-Sun, 11am to 10pm",
+        "VacOpHours": "Mon-Sun, 11am to 10pm",
+        "Contact": 96629060,
+        "Website": ,
+      },
+      {
+        "Name": "Cafe Delight",
+        "Location": "Faculty of Arts and Sciences", //actually its next to eusoff but
+        "Building": "Ventus",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "",
+        "TermOpHours": "Mon-Fri, 8.00am-5.00pm
+        Sat/Sun/PH closed",
+        "VacOpHours": "Mon-Fri, 8.00am-5.00pm
+        Sat/Sun/PH closed",
+        "Contact": ,
+        "Website": ,
+      },
+      {
+        "Name": "Central Square",
+        "Location": "Yusof Ishak House Level 2", 
+        "Building": "YIH",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "363",
+        "TermOpHours": "Mon-Fri, 8.00am-8.00pm
+        Sat, 8.00am-3.00pm
+        Sun/PH closed",
+        "VacOpHours": "Mon-Fri, 7.30am-7.30pm
+        Sat, 8.30am-7.30pm",
+        "Contact": ,
+        "Website": ,
+      },
+      {
+        "Name": "Chop Chop by PUTIEN",
+        "Location": "UTown", 
+        "Building": "Town Plaza",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "40",
+        "TermOpHours": "Mon-Sun, 11.00am-9.00pm (Last order 8.30pm)",
+        "VacOpHours": "Mon-Sun, 11.00am-8.00pm (Last order 7.30pm)",
+        "Contact": 63340201,
+        "Website": ,
+      },
+      {
+        "Name": "E2 Kitchen",
+        "Location": "Engineering", 
+        "Building": "Engineering Block E2",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "363",
+        "TermOpHours": "Mon-Fri, 8.00am-7.00pm
+        Sat, 8.00am-2.00pm
+        Sun/PH closed",
+        "VacOpHours": "Mon-Fri, 8.00am-7.00pm
+        Sat, 8.00am-2.00pm
+        Sun/PH closed",
+        "Contact": ,
+        "Website": ,
+      },
+      {
+        "Name": "Eureka Taste",
+        "Location": "Medicine|Dentistry|Nursing", 
+        "Building": "Medicine Block MD6",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "363",
+        "TermOpHours": "Mon-Fri, 7.00am-6.00pm
+        Sat/Sun/ PH Closed",
+        "VacOpHours": "Mon-Fri, 7.00am-6.00pm
+        Sat/Sun/ PH Closed",
+        "Contact": 96602224,
+        "Website": ,
+      },
+      {
+        "Name": "Fine Food",
+        "Location": "UTown", 
+        "Building": "Town Plaza",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "410",
+        "TermOpHours": "Mon-Sun, 8.00am-8.30pm",
+        "VacOpHours": "Mon-Sun, 8.00am-8.30pm",
+        "Contact": 87793739,
+        "Website": ,
+      },
+      {
+        "Name": "Flash Coffee",
+        "Location": "Yusof Ishak House", 
+        "Building": "Yusof Ishak House",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "363",
+        "TermOpHours": "Mon-Sun, 8.00am-5.00pm",
+        "VacOpHours": "Mon-Sun, 8.00am-5.00pm",
+        "Contact": 87793739,
+        "Website": ,
+      },
+      {
+        "Name": "Flavours @ UTown",
+        "Location": "UTown", 
+        "Building": "Stephen Riady Centre",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "700",
+        "TermOpHours": "Mon-Sun: 7.30am-8.30pm",
+        "VacOpHours": "Mon-Sun: 7.30am-8.30pm",
+        "Contact": 87793739,
+        "Website": ,
+      },
+      {
+        "Name": "Foreword Coffee Roaster",
+        "Location": "Music", 
+        "Building": "Yong Siew Toh Conservatory of Music",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "363",
+        "TermOpHours": "Mon-Fri, 1.00pm-5.00pm
+        Sat/Sun/PH, closed",
+        "VacOpHours": "Mon-Fri, 1.00pm-5.00pm
+        Sat/Sun/PH, closed",
+        "Contact": 89490142,
+        "Website": ,
+      },
+      {
+        "Name": "Frontier",
+        "Location": "Science", 
+        "Building": "Frontier",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "700",
+        "TermOpHours": "Mon-Fri, 7.30am-4.00pm/8.00pm*
+        Sat, 7.30am-3.00pm
+        Sun/PH closed",
+        "VacOpHours": "Mon-Fri, 7.00am to 7.00pm
+        Sat, 7.00am-2.00pm",
+        "Contact": ,
+        "Website": ,
+      },
+      {
+        "Name": "Huggs Coffee",
+        "Location": "Engineering", 
+        "Building": "Engineering Block E7",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "700",
+        "TermOpHours": "Mon-Fri, 8.00am-8.00pm
+        Sat: 8.00am-5.00pm
+        Sun / PH: Closed",
+        "VacOpHours": "Mon-Fri: 8.00am-2.00pm
+        Sat/Sun/PH: Closed",
+        "Contact": ,
+        "Website": ,
+      },
+      {
+        "Name": "Hwang’s Korean Restaurant",
+        "Location": "UTown", 
+        "Building": "Town Plaza",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "114",
+        "TermOpHours": "Mon-Sat, 10.30am-9.00pm
+        Sun closed",
+        "VacOpHours": "Mon-Sat, 10.30am-9.00pm
+        Sun closed",
+        "Contact": 98330603,
+        "Website": ,
+      },
+      {
+        "Name": "Jewel Coffee",
+        "Location": "Medicine|Dentistry|Nursing", 
+        "Building": "Medicine Block MD11",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "",
+        "TermOpHours": "Mon-Fri: 7.30am-5.00pm
+        Sat/Sun/PH: Closed",
+        "VacOpHours": "Mon-Fri: 7.30am-5.00pm
+        Sat/Sun/PH: Closed",
+        "Contact": ,
+        "Website": ,
+      },
+      {
+        "Name": "KOI",
+        "Location": "Yusof Ishak House", 
+        "Building": "Central Square",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "",
+        "TermOpHours": "Mon-Fri, 1.00pm-5.00pm
+        Sat/Sun/PH, closed",
+        "VacOpHours": "Mon-Fri, 1.00pm-5.00pm
+        Sat/Sun/PH, closed",
+        "Contact": 89490142,
+        "Website": ,
+      },
+      {
+        "Name": "Lejomo Cafe",
+        "Location": "Prince George’s Park Residences",
+        "Building": "My Village @ Prince George’s Park Residences",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "",
+        "TermOpHours": "Mon-Fri, 11am to 3pm
+        Sat/Sun, closed",
+        "VacOpHours": "Mon-Fri, 11am to 3pm
+        Sat/Sun, closed",
+        "Contact": 98202273,
+        "Website": ,
+      },
+      {
+        "Name": "Li Ji Coffeehouse",
+        "Location": "Science", 
+        "Building": "Frontier",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "",
+        "TermOpHours": "Mon-Fri, 7.00am-7.30pm
+        Sat, 7.00am-3.00pm
+        Sun/PH closed",
+        "VacOpHours": "Mon-Fri, 7.00am-7.30pm
+        Sat/Sun/PH closed",
+        "Contact": ,
+        "Website": ,
+      },
+      {
+        "Name": "Liang Ban Kung Fu",
+        "Location": "Computing", 
+        "Building": "Deck Level 2",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "268",
+        "TermOpHours": "Mon-Sat, 8.00am-6.00pm
+        Sun/PH closed",
+        "VacOpHours": "Mon-Fri, 8.00am-7.00pm",
+        "Contact": 68731173,
+        "Website": ,
+      },
+      {
+        "Name": "LiHO Tea",
+        "Location": "School of Design and Engineering", 
+        "Building": "Techno Edge",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "14",
+        "TermOpHours": "Mon-Fri, 10.00am – 8.00pm
+        Sat, 10.00am – 3.00pm
+        Sun, closed",
+        "VacOpHours": "Mon-Fri, 10.00am-8.00pm
+        Sat/Sun, closed",
+        "Contact": 67775025,
+        "Website": ,
+      },
+      {
+        "Name": "Maxx Coffee",
+        "Location": "Central Library", 
+        "Building": "Central Library",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "",
+        "TermOpHours": "Mon-Fri: 9.00am-6.00pm
+        Sat/Sun/PH: Closed",
+        "VacOpHours": "Closed",
+        "Contact": ,
+        "Website": ,
+      },
+      {
+        "Name": "Nami",
+        "Location": "I4", 
+        "Building": "innovation4.0",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "",
+        "TermOpHours": "Mon-Fri, 8.00am-5.30pm
+        Sat/Sun/PH closed",
+        "VacOpHours": "Mon-Fri, 8.30am-5.00pm",
+        "Contact": ,
+        "Website": ,
+      },
+      {
+        "Name": "Nine Fresh",
+        "Location": "Science", 
+        "Building": "Science",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "9",
+        "TermOpHours": "Mon-Fri, 11.00am – 6.30pm
+        Sat, 11.00am – 3.00pm
+        Sun/PH closed",
+        "VacOpHours": "Mon-Fri, 11.00am – 6.30pm
+        Sat, 11.00am – 3.00pm
+        Sun/PH closed",
+        "Contact": ,
+        "Website": ,
+      },
+      {
+        "Name": "Pasta Express",
+        "Location": "Science", 
+        "Building": "Frontier",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "9",
+        "TermOpHours": "Mon-Fri, 9.30am-7.30pm
+        Sat, 9.30am-1.30pm
+        Sun/PH closed",
+        "VacOpHours": "Mon-Fri, 9.30am-7.30pm
+        Sat/Sun/PH closed",
+        "Contact": 90258148,
+        "Website": ,
+      },
+      {
+        "Name": "PGPR Non Aircon Canteen",
+        "Location": "Prince George’s Park Residences",
+        "Building": "Prince George’s Park Residences",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "318",
+        "TermOpHours": "Mon-Sun, 7.00am-9.30pm",
+        "VacOpHours": "Mon-Sun, 8.00am-8.00pm",
+        "Contact": 90258148,
+        "Website": ,
+      },
+      {
+        "Name": "Reedz Cafe",
+        "Location": "Shaw Foundation Alumni House",
+        "Building": "Shaw Foundation Alumni House",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "318",
+        "TermOpHours": "Mon-Fri, 8.30am-4.00pm
+        Sat/Sun,/PH closed",
+        "VacOpHours": "Mon-Fri, 8.30am-4.00pm
+        Sat/Sun,/PH closed",
+        "Contact": ,
+        "Website": ,
+      },
+      {
+        "Name": "Reedz Cafe",
+        "Location": "Law",
+        "Building": "The Thinking Corner @ Li Ka Shing Building",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "20",
+        "TermOpHours": "Mon-Fri, 8.30am-4.00pm
+        Sat/Sun,/PH closed",
+        "VacOpHours": "Mon-Fri, 8.30am-4.00pm
+        Sat/Sun,/PH closed",
+        "Contact": ,
+        "Website": ,
+      },
+      {
+        "Name": "Rice & Stuff",
+        "Location": "Prince George’s Park Residences",
+        "Building": "My Village",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "",
+        "TermOpHours": "Mon-Sat, 10am to 1pm, self-service thereafter
+        Sun/PH, self-service",
+        "VacOpHours": "Mon-Sat, 10am to 1pm, self-service thereafter
+        Sun/PH, self-service",
+        "Contact": ,
+        "Website": ,
+      },
+      {
+        "Name": "Salad Express X Pasta Express",
+        "Location": "Computing", 
+        "Building": "Deck Level 2",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "",
+        "TermOpHours": "Mon-Fri, 9.30am-7.30pm
+        Sat, 9.30am – 1.30pm
+        Sun/PH closed",
+        "VacOpHours": "Mon-Fri, 9.30am – 7.30pm
+        Sat/Sun/PH closed",
+        "Contact": 90258148,
+        "Website": ,
+      },
+      {
+        "Name": "Sapore Italian Restaurant",
+        "Location": "UTown", 
+        "Building": "Town Plaza",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "122",
+        "TermOpHours": "Tues-Sun, 12.00pm-9.30pm
+        Mon, closed",
+        "VacOpHours": "Tue-Sun, 12.00pm-9.00pm
+        Mon, closed",
+        "Contact": 62620287,
+        "Website": ,
+      },
+      {
+        "Name": "Spinelli",
+        "Location": "University Hall", 
+        "Building": "UHall Tan Chin Tuan Wing",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "73",
+        "TermOpHours": "Mon-Fri, 8.00am-5.00pm
+        Sat/Sun/PH closed",
+        "VacOpHours": "Mon-Fri, 8.00am-5.00pm
+        Sat/Sun/PH closed",
+        "Contact": 67775025,
+        "Website": ,
+      },
+      {
+        "Name": "Spinelli Coffee Company",
+        "Location": "Engineering", 
+        "Building": "Engineering Block EA",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "",
+        "TermOpHours": "Mon-Fri, 8.30am-5.00pm
+        Sat/Sun/PH closed",
+        "VacOpHours": "Mon-Fri, 8.00am-5.00pm
+        Sat/Sun/PH closed",
+        "Contact": 62524736,
+        "Website": ,
+      },
+      {
+        "Name": "Starbucks",
+        "Location": "Science", 
+        "Building": "Science Block S9",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "",
+        "TermOpHours": "Mon-Fri/PH eve, 7.30am to 7.00pm
+        Sat/Sun/PH Closed",
+        "VacOpHours": "Mon-Fri/PH eve, 8.30am-4.30pm
+        Sat/Sun/PH Closed",
+        "Contact": 68160981,
+        "Website": ,
+      },
+      {
+        "Name": "Starbucks",
+        "Location": "School of Design and Engineering", 
+        "Building": "Techno Edge",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "",
+        "TermOpHours": "Mon-Fri/PH Eve, 8.30am to 5.30pm
+        Sat/Sun/PH Closed",
+        "VacOpHours": "Mon-Fri/PH eve, 8.30am-4.30pm
+        Sat/Sun/PH Closed",
+        "Contact": 69746925,
+        "Website": ,
+      },
+      {
+        "Name": "Starbucks",
+        "Location": "UTown", 
+        "Building": "Education Resource Centre",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "300",
+        "TermOpHours": "Mon-Sun 8.00am to 10.00pm",
+        "VacOpHours": "Mon-Sun 8.00am to 10.00pm",
+        "Contact": 69101127,
+        "Website": ,
+      },
+      {
+        "Name": "Supersnacks",
+        "Location": "UTown", 
+        "Building": "Stephen Riady Centre",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "",
+        "TermOpHours": "Mon-Fri, 11.00am-2.00am
+        Sat/Sun/PH, 6.00pm-2.00am",
+        "VacOpHours": "Mon-Fri, 11.00am-2.00am
+        Sat/Sun/PH, 6.00pm-2.00am",
+        "Contact": ,
+        "Website": ,
+      },
+      {
+        "Name": "Supersnacks",
+        "Location": "Prince George’s Park Residences",
+        "Building": "Prince George’s Park Residences",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "80",
+        "TermOpHours": "Mon-Fri, 11.00am-2.00am
+        Sat/Sun/PH, 6.00pm-2.00am",
+        "VacOpHours": "Mon-Fri, 11.00am-2.00am
+        Sat/Sun/PH, 6.00pm-2.00am",
+        "Contact": 69746925,
+        "Website": ,
+      },
+      {
+        "Name": "Taiwan Ichiban",
+        "Location": "Science",
+        "Building": "Frontier",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "80",
+        "TermOpHours": "Mon-Fri, 8.30am-7.30pm
+        Sat, 8.30am-3.00pm
+        Sun/PH closed",
+        "VacOpHours": "Mon-Fri, 10.00am-7.15pm
+        Sat, 10.00am-2.30pm
+        Sun/PH closed",
+        "Contact": 98555793,
+        "Website": ,
+      },
+      {
+        "Name": "Techno Edge",
+        "Location": "School of Design and Engineering", 
+        "Building": "Techno Edge",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "450",
+        "TermOpHours": "Mon-Fri, 7.30am-4.00pm/8.00pm*
+        Sat, 7.30-am-3.00pm
+        Sun/PH closed",
+        "VacOpHours": "Mon-Fri, 7.00am-8.00pm
+        Sat, 7.30am-6.00pm",
+        "Contact": ,
+        "Website": ,
+      },
+      {
+        "Name": "The Coffee Hut",
+        "Location": "FASS", 
+        "Building": "Arts Block AS2",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "36",
+        "TermOpHours": "Mon-Sun, Closed",
+        "VacOpHours": "Mon-Sun, Closed",
+        "Contact": ,
+        "Website": ,
+      },
+      {
+        "Name": "The Coffee Roaster",
+        "Location": "FASS", 
+        "Building": "Arts Block AS8",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "36",
+        "TermOpHours": "Mon-Fri, 8.00am-5.30pm
+        Sat/Sun/PH closed",
+        "VacOpHours": "Mon-Fri, 8.00am-5.30pm
+        Sat/Sun/PH closed",
+        "Contact": ,
+        "Website": ,
+      },
+      {
+        "Name": "Deck",
+        "Location": "Computing", 
+        "Building": "Deck",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "1018",
+        "TermOpHours": "Mon-Fri, 7.30am-4.00pm/8.00pm*
+        Sat,7.30am-3.00pm
+        Sun/PH closed",
+        "VacOpHours": "Mon-Fri, 7.00am-6.00pm",
+        "Contact": ,
+        "Website": ,
+      },
+      {
+        "Name": "The Royals Bistro",
+        "Location": "UTown", 
+        "Building": "Town Plaza",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "60",
+        "TermOpHours": "Mon-Sat, 11.00am-8.00pm
+        Sun/PH closed",
+        "VacOpHours": "Mon-Sat, 11.00am-8.00pm
+        Sun/PH closed",
+        "Contact": 97771353,
+        "Website": ,
+      },
+      {
+        "Name": "The Spread",
+        "Location": "Business", 
+        "Building": "Business School Mochtar Riady Building",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "100",
+        "TermOpHours": "Mon-Fri, 8.00am-8.00pm
+        Sat, 8.00am-3.00pm
+        Sun/PH closed",
+        "VacOpHours": "Mon-Thu, 8.00am-7.30pm
+        Fri, 9.00am-6.00pm
+        Sat, 8.00am-2.00pm
+        Sun/PH, Closed",
+        "Contact": 69085955,
+        "Website": ,
+      },
+      {
+        "Name": "The Summit",
+        "Location": "Law", 
+        "Building": "BTC Block B",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "300",
+        "TermOpHours": "Mon-Fri, 7.00am-8.00pm
+        Sat 7.00am-4.00pm
+        Sun/PH closed",
+        "VacOpHours": "Mon-Fri, 7.30am-6.00pm
+        Sat, 7.30am-3.00pm
+        Sun/PH, Closed",
+        "Contact": 69085955,
+        "Website": ,
+      },
+      {
+        "Name": "The Tea Party",
+        "Location": "University Sports Centre", 
+        "Building": "University Sports Centre",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "",
+        "TermOpHours": "Mon-Sat, 10.30am-10.30pm
+        Sun/PH closed",
+        "VacOpHours": "Mon-Sat, 10.30am-10.00pm",
+        "Contact": 93625379,
+        "Website": ,
+      },
+      {
+        "Name": "Udon Don Bar",
+        "Location": "UTown", 
+        "Building": "Town Plaza",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "",
+        "TermOpHours": "Mon-Sun: 11.00am-9.30pm",
+        "VacOpHours": "Mon-Sun: 11.00am-9.00pm",
+        "Contact": 66946240,
+        "Website": ,
+      },
+      {
+        "Name": "Uncle Penyet Fusion",
+        "Location": "Science", 
+        "Building": "Frontier",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "",
+        "TermOpHours": "Mon-Fri, 9.00am-7.30pm
+        Sat, 9.00am-2.30pm
+        Sun/PH closed",
+        "VacOpHours": "Mon-Fri, 9.00am-7.30pm
+        Sat, 9.00am-2.30pm
+        Sun/PH closed",
+        "Contact": 93625379,
+        "Website": ,
+      },
+      {
+        "Name": "University Club",
+        "Location": "Shaw Foundation Alumni House", 
+        "Building": "Shaw Foundation Alumni House",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "",
+        "TermOpHours": "Mon-Fri, 12.00pm-3.00pm (Last order 2.45pm)
+        Sat/Sun/PH closed",
+        "VacOpHours": "Mon-Fri, 12.00pm-3.00pm (Last order 2.45pm)
+        Sat/Sun/PH closed",
+        "Contact": 67798919,
+        "Website": ,
+      },
+      {
+        "Name": "Waa Cow",
+        "Location": "UTown", 
+        "Building": "Stephen Riady Centre",
+        "Latitude": 1.298488,
+        "Longitude": 103.772199,
+        "SeatingCapacity": "",
+        "TermOpHours": "Mon-Fri, 11.30am-8.30pm
+        Sat/Sun/PH, 12.00pm-8.30pm",
+        "VacOpHours": "Mon-Fri, 11.30am-8.30pm
+        Sat/Sun/PH, 12.00pm-8.30pm",
+        "Contact": 82230550,
+        "Website": ,
+      },
     ]
 }
