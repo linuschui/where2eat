@@ -47,7 +47,7 @@ function Footer() {
           </div>
         </div>
       </div> */}
-      <div>
+      {/* <div>
         <iframe 
           width="560" 
           height="315" 
@@ -57,7 +57,7 @@ function Footer() {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
           allowfullscreen>
         </iframe>
-      </div>
+      </div> */}
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
