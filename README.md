@@ -41,3 +41,6 @@ V1.7
 
 V1.8
 - added favourites page
+
+V1.9
+- improved favourites page

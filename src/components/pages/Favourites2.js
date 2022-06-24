@@ -1,4 +1,5 @@
 import React from "react";
+import { ButtonFAV2 } from "../ButtonFAV2";
 import "./Favourites2.css";
 
 const Favourites2 = () => {
@@ -60,17 +61,23 @@ const Favourites2 = () => {
 
   return (
     <div id="todo-list">
-      <h1>Todo List</h1>
+      <h1>whr2eat tomorrow ?</h1>
+      <h2>SAVE YOUR FAVOURITES NOW !</h2>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
           onChange={(e) => setTodo(e.target.value)}
           value={todo}
         />
-        <button type="submit">Add Todo</button>
+        <ButtonFAV2 
+          className='btns'
+          buttonStyle='btn--secondary' 
+          type="submit">
+          <i class="fa-solid fa-plus"></i>
+        </ButtonFAV2>
       </form>
       {todos.map((todo) => (
-        <div key={todo.id} className="todo">
+        <div key={todo.id} className="todo-input">
           <div className="todo-text">
             <input
               type="checkbox"
@@ -89,12 +96,28 @@ const Favourites2 = () => {
           </div>
           <div className="todo-actions">
             {todo.id === todoEditing ? (
-              <button onClick={() => submitEdits(todo.id)}>Submit Edits</button>
+              <ButtonFAV2 
+              className='btns'
+              buttonStyle='btn--outline' 
+              onClick={() => submitEdits(todo.id)}>
+                CHANGE <i class="fa-solid fa-arrows-rotate"></i>
+              </ButtonFAV2>
             ) : (
-              <button onClick={() => setTodoEditing(todo.id)}>Edit</button>
+              <ButtonFAV2 
+              className='btns'
+              buttonStyle='btn--outline' 
+              onClick={() => setTodoEditing(todo.id)}
+              >
+                EDIT <i class="fa-solid fa-pen"></i>
+              </ButtonFAV2>
             )}
 
-            <button onClick={() => deleteTodo(todo.id)}>Delete</button>
+            <ButtonFAV2 
+            className='btns'
+            buttonStyle='btn--outline'
+            onClick={() => deleteTodo(todo.id)}>
+              DELETE <i class="fa fa-trash"></i>
+            </ButtonFAV2>
           </div>
         </div>
       ))}

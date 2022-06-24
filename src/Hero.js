@@ -21,6 +21,7 @@ import Footer from './components/Footer';
 import KRNorth from './components/pages/KRNorth';
 import KRSouth from './components/pages/KRSouth';
 import Search from './components/pages/Search';
+import Favourites from './components/pages/Favourites';
 import Favourites2 from './components/pages/Favourites2';
 
 function App2({handleLogOut}) {
@@ -47,6 +48,7 @@ function App2({handleLogOut}) {
           <Route path='/KRNorth' component={KRNorth} />
           <Route path='/KRSouth' component={KRSouth} />
           <Route path='/search' component={Search} />
+          <Route path='/favourites' component={Favourites} />
           <Route path='/favourites2' component={Favourites2} />
         </Switch>
         <Footer />
