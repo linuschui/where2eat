@@ -104,7 +104,7 @@
     "country": "Italy",
     "imageLink": "images/the-decameron.jpg",
     "language": "Italian",
-    "link": "https://en.wikipedia.org/wiki/The_Decameron\n",
+    "link": "/reeds",
     "pages": 1024,
     "title": "Reeds Cafe",
     "year": 1351
@@ -114,7 +114,7 @@
     "country": "Argentina",
     "imageLink": "images/ficciones.jpg",
     "language": "Spanish",
-    "link": "https://en.wikipedia.org/wiki/Ficciones\n",
+    "link": "/thesummit",
     "pages": 224,
     "title": "The Summit",
     "year": 1965
@@ -124,7 +124,7 @@
     "country": "United Kingdom",
     "imageLink": "images/wuthering-heights.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Wuthering_Heights\n",
+    "link": "/bobertea",
     "pages": 342,
     "title": "Bober Tea",
     "year": 1847

@@ -38,3 +38,9 @@ V1.6
 
 V1.7
 - added Google Maps
+
+V1.8
+- added favourites page
+
+V1.9
+- improved favourites page

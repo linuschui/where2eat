@@ -1,12 +1,11 @@
 import React from 'react';
 import './Button.css';
-import { Link } from 'react-router-dom';
 
 const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
 
 const SIZES = ['btn--medium', 'btn--large'];
 
-export const ButtonFAV = ({
+export const ButtonFAV2 = ({
   children,
   type,
   onClick,
@@ -20,7 +19,6 @@ export const ButtonFAV = ({
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   return (
-    <Link to='/favourites2' className='btn-mobile'>
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}
@@ -28,6 +26,5 @@ export const ButtonFAV = ({
       >
         {children}
       </button>
-    </Link>
   );
 };
