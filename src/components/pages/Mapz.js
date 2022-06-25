@@ -8,6 +8,7 @@ import {
     InfoWindow
   } from "react-google-maps";
 import * as parkData from "../../data/skateboard-parks.json";
+import * as resData from "../../data/allRestaurants.json";
 
 function MapzCards() {
     const [selectedPark, setSelectedPark] = useState(null);
