@@ -38,16 +38,7 @@ function Navbar({handleLogOut}) {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                HOME
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/restaurants'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                RESTAURANTS
+                <i class="fa-solid fa-house"></i>
               </Link>
             </li>
             <li className='nav-item'>
@@ -56,7 +47,7 @@ function Navbar({handleLogOut}) {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                MAP
+                <i class="fa-solid fa-location-crosshairs"></i>
               </Link>
             </li>
             <li className='nav-item'>
@@ -65,7 +56,16 @@ function Navbar({handleLogOut}) {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                LOCATIONS
+                <i class="fa-solid fa-location-dot"></i>
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/search'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
               </Link>
             </li>
             <li>  

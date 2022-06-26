@@ -48,3 +48,8 @@ V1.9
 V1.10
 - added maps pin to NUS buildings in Google Maps
 - added restaurants page
+
+V1.11
+- improved restaurants page
+- revamped home page
+- edited cards styling

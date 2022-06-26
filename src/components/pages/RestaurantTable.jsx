@@ -5,14 +5,13 @@ const RestaurantTable = ({data}) => {
     <table>
       <tbody>
         <tr>
-          <th>Name</th>
-          
-          <th>Location</th>
+          <th>NAME</th>
+          <th>LOCATION</th>
         </tr>
         {data.map((item) => (
           <tr key={item.id}>
-            <td>{item.first_name}</td>
-            <td>{item.email}</td>
+            <td>{item.Name}</td>
+            <td>{item.Location}</td>
           </tr>
         ))}
       </tbody>

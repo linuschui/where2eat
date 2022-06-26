@@ -1,15 +1,22 @@
 .Restaurants {
-  margin: 50px;
+  margin: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: auto;
 }
-
+h5 {
+  text-align: center;
+  margin-top: 10px;
+  width: auto;
+  font-family: "Nunito", sans-serif;
+}
 
 .search {
+  margin-top: 20px;
   padding: 10px;
   font-size: 20px;
+  font-family: "Nunito", sans-serif;
 }
 
 .list {
@@ -27,8 +34,8 @@
 }
 
 table {
-  width: 200px;
-  margin: 50px 0px;
+  width: auto;
+  margin-top: 10px;
   border-spacing: 15px;
   color: #444;
 }
@@ -38,12 +45,17 @@ tr {
 }
 
 th {
-  width: 250px;
+  width: auto;
   text-align: left;
   font-size: 20px;
+  color: #ffc3f4;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
 }
 
 td {
-  width: 250px;
-  font-size: 20px;
+  width: auto;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
 }

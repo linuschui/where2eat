@@ -7,18 +7,19 @@ h1 {
   text-align: center;
 }
 
+
 .cards__container {
   display: float; 
   flex-flow: column;
   align-items: center;
   max-width: 1120px;
-  width:80%;
+  width: 100%;
   margin: 0 auto;
 }
 
 .cards__wrapper {
   position: relative;
-  margin: 50px 0 45px;
+  margin: 10px 0 45px;
 }
 
 .cards__items {
@@ -66,8 +67,8 @@ h1 {
   max-width: calc((100%) - 60px);
   font-size: 12px;
   font-weight: 700;
-  color: #fff;
-  background-color: #1f98f4;
+  color: #000;
+  background-color: #ffc3f4;
   box-sizing: border-box;
 }
 
@@ -91,13 +92,13 @@ h1 {
 }
 
 .cards__item__info {
-  padding: 20px 30px 30px;
+  padding: 5px 30px 15px;
 }
 
 .cards__item__text {
   color: #252e48;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 20px;
 }
 
 @media only screen and (min-width: 1200px) {

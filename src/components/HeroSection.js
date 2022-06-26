@@ -7,6 +7,7 @@ import { ButtonKRN } from './ButtonKRN'
 import { ButtonKRS } from './ButtonKRS'
 import { ButtonBKT } from './ButtonBKT'
 import './HeroSection.css';
+import { ButtonRST } from './ButtonRST';
 
 function HeroSection() {
   return (
@@ -22,14 +23,6 @@ function HeroSection() {
         >
           TRENDING <i class="fa-solid fa-fire"></i>
         </ButtonTRD>
-        <ButtonCHK
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-          onClick={console.log('hey')}
-        >
-          SEARCH <i class="fa-solid fa-magnifying-glass"></i>
-        </ButtonCHK>
         <ButtonFAV
           className='btns'
           buttonStyle='btn--primary'
@@ -38,6 +31,14 @@ function HeroSection() {
         >
           FAVOURITES <i class="fa-solid fa-star"></i>
         </ButtonFAV>
+        <ButtonRST
+          className='btns'
+          buttonStyle='btn--primary'
+          buttonSize='btn--large'
+          onClick={console.log('hey')}
+        >
+          ALL RESTAURANTS <i class="fa-solid fa-pizza-slice"></i>
+        </ButtonRST>
       </div>
       <div className='hero-btns'>
         <ButtonKRN
