@@ -65,6 +65,7 @@ const Favourites2 = () => {
       <h2>SAVE YOUR FAVOURITES NOW !</h2>
       <form onSubmit={handleSubmit}>
         <input
+          name="name"
           type="text"
           onChange={(e) => setTodo(e.target.value)}
           value={todo}

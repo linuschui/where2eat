@@ -1,13 +1,13 @@
 import React from 'react'
 import SearchBar from '../SearchBar'
 import "../SearchBar.css"
-import ShopData from "../Data.json"
+import resData from "../../data/allRestaurants.json";
 import "./Search.css"
 
 function Search() {
   return (
   <div className='search-container'>
-    <SearchBar placeholder="find where2eat now !!" data={ShopData} />
+    <SearchBar placeholder="find where2eat now !!" data={resData} />
   </div>
   )
 }

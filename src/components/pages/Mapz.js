@@ -7,7 +7,6 @@ import {
     Marker,
     InfoWindow
   } from "react-google-maps";
-import * as resData from "../../data/allRestaurants.json";
 import * as buildData from "../../data/buildings.json";
 import useGetLocation from "../../useGetLocation"
 import { Link } from 'react-router-dom';

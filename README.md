@@ -44,3 +44,7 @@ V1.8
 
 V1.9
 - improved favourites page
+
+V1.10
+- added maps pin to NUS buildings in Google Maps
+- added restaurants page
