@@ -110,8 +110,8 @@
       },
       {
         "Name": "Eureka Taste",
-        "Location": "Medicine|Dentistry|Nursing", 
-        "Building": "Medicine Block MD6",
+        "Location": "Medicine", 
+        "Building": "Medicine Block MD6 - Centre for Translational Medicine",
         "Latitude": 1.298488,
         "Longitude": 103.772199,
         "SeatingCapacity": null,
@@ -207,7 +207,7 @@
       {
         "Name": "Jewel Coffee",
         "Location": "Medicine|Dentistry|Nursing", 
-        "Building": "Medicine Block MD11",
+        "Building": "Medicine Block MD11 - Clinical Research Centre",
         "Latitude": 1.298488,
         "Longitude": 103.772199,
         "SeatingCapacity": null,
@@ -219,7 +219,7 @@
       {
         "Name": "KOI",
         "Location": "Yusof Ishak House", 
-        "Building": "Central Square",
+        "Building": "Yusof Ishak House",
         "Latitude": 1.298488,
         "Longitude": 103.772199,
         "SeatingCapacity": null,
@@ -255,7 +255,7 @@
       {
         "Name": "Liang Ban Kung Fu",
         "Location": "Computing", 
-        "Building": "Deck Level 2",
+        "Building": "Deck",
         "Latitude": 1.298488,
         "Longitude": 103.772199,
         "SeatingCapacity": 268,
@@ -290,8 +290,8 @@
       },
       {
         "Name": "Nami",
-        "Location": "I4", 
-        "Building": "innovation4.0",
+        "Location": "Computing", 
+        "Building": "Innovation 4.0",
         "Latitude": 1.298488,
         "Longitude": 103.772199,
         "SeatingCapacity": null,
@@ -351,7 +351,7 @@
       {
         "Name": "Reedz Cafe",
         "Location": "Law",
-        "Building": "The Thinking Corner @ Li Ka Shing Building",
+        "Building": "Li Ka Shing Building",
         "Latitude": 1.298488,
         "Longitude": 103.772199,
         "SeatingCapacity": 20,
@@ -375,7 +375,7 @@
       {
         "Name": "Salad Express X Pasta Express",
         "Location": "Computing", 
-        "Building": "Deck Level 2",
+        "Building": "Deck",
         "Latitude": 1.298488,
         "Longitude": 103.772199,
         "SeatingCapacity": null,
@@ -399,7 +399,7 @@
       {
         "Name": "Spinelli",
         "Location": "University Hall", 
-        "Building": "UHall Tan Chin Tuan Wing",
+        "Building": "University Hall Tan Chin Tuan Wing",
         "Latitude": 1.298488,
         "Longitude": 103.772199,
         "SeatingCapacity": 73,
@@ -423,7 +423,7 @@
       {
         "Name": "Starbucks",
         "Location": "Science", 
-        "Building": "Science Block S9",
+        "Building": "Science Block S9 Wet Science Building",
         "Latitude": 1.298488,
         "Longitude": 103.772199,
         "SeatingCapacity": null,
@@ -555,7 +555,7 @@
       {
         "Name": "The Spread",
         "Location": "Business", 
-        "Building": "Business School Mochtar Riady Building",
+        "Building": "Mochtar Riady Building",
         "Latitude": 1.298488,
         "Longitude": 103.772199,
         "SeatingCapacity": 100,
@@ -567,7 +567,7 @@
       {
         "Name": "The Summit",
         "Location": "Law", 
-        "Building": "BTC Block B",
+        "Building": "Law Block B",
         "Latitude": 1.298488,
         "Longitude": 103.772199,
         "SeatingCapacity": 300,

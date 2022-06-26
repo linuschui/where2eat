@@ -7,47 +7,72 @@ import {
     Marker,
     InfoWindow
   } from "react-google-maps";
-import * as parkData from "../../data/skateboard-parks.json";
 import * as resData from "../../data/allRestaurants.json";
+import * as buildData from "../../data/buildings.json";
+import useGetLocation from "../../useGetLocation"
+import { Link } from 'react-router-dom';
 
 function MapzCards() {
-    const [selectedPark, setSelectedPark] = useState(null);
+    const [selectedBuilding, setSelectedBuilding] = useState(null);
+    const location = useGetLocation();
+
   return (
     < GoogleMap
-      defaultZoom={10}
-      //defaultZoom={12}
-      defaultCenter={{ lat: 45.4211, lng: -75.6903 }}
-      //defaultCenter={{ lat: 1.3521, lng: 103.8198 }} //Singapore hehe
+      defaultZoom={12}
+      defaultCenter={ location.loaded ? 
+        { lat: location.coordinates.lat, lng: location.coordinates.lng } : 
+        { lat: 1.3521, lng: 103.8198 }}
     >
-      {parkData.features.map(park => (
-        < Marker
-          key={park.properties.PARK_ID}
+    < Marker
+          key={location}
           position={{
-            lat: park.geometry.coordinates[1],
-            lng: park.geometry.coordinates[0]
+            lat: location.coordinates.lat,
+            lng: location.coordinates.lng
           }} 
-          onClick={() => {
-            setSelectedPark(park);
+          
+          icon={{
+            url: 'images/pin.png',
+            scaledSize: new window.google.maps.Size(40, 40)
           }}
           />
-      ))}
-      {selectedPark && (
-        <InfoWindow
-          onCloseClick={() => {
-            setSelectedPark(null);
-          }}
-          position={{
-            lat: selectedPark.geometry.coordinates[1],
-            lng: selectedPark.geometry.coordinates[0]
-          }}
-        >
-        
-          <div>
-            <h2>{selectedPark.properties.NAME}</h2>
-            <p>{selectedPark.properties.DESCRIPTIO}</p>
-          </div>
-        </InfoWindow>
-      )}
+        {buildData.listt.map(building => (
+            < Marker
+              key={building.Name}
+              position={{
+                lat: building.Coordinates[0],
+                lng: building.Coordinates[1]
+              }} 
+              onClick={() => {
+                setSelectedBuilding(building);
+              }}
+              icon={{
+                url: 'images/resMarker3.png',
+                scaledSize: new window.google.maps.Size(40, 40)
+              }}
+              />
+          ))}
+          {selectedBuilding && (
+            <InfoWindow
+              onCloseClick={() => {
+                setSelectedBuilding(null);
+              }}
+              position={{
+                lat: selectedBuilding.Coordinates[0],
+                lng: selectedBuilding.Coordinates[1]
+              }}
+            >
+            <div>
+              <h1>{selectedBuilding.Name}</h1>
+                <Link to={selectedBuilding.Link}>
+                  <h2>{selectedBuilding.Location}</h2>
+                </Link>
+              <p>{selectedBuilding.Address}</p>
+            </div>
+            
+            </InfoWindow>
+          )}
+
+      
     </GoogleMap>
   );
 }
