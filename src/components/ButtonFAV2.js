@@ -26,7 +26,7 @@ export const ButtonFAV2 = ({
   return (
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-        onClick={scrollToTop}
+        onClick={onClick}
         type={type}
       >
         {children}
