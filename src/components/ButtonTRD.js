@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './Button.css';
-import { Link } from 'react-router-dom';
 
 const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
 
@@ -18,16 +17,23 @@ export const ButtonTRD = ({
     : STYLES[0];
 
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
-
+  const trendingSection = useRef(null)
+  const scrollDown = (ref) => {
+    window.scrollTo({
+      top: 1000,
+      behavior: 'smooth',
+    });
+  };
+  
   return (
-    <Link to='/trending' className='btn-mobile'>
+    <li className='btn-mobile' ref={trendingSection}>
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-        onClick={onClick}
+        onClick={() => scrollDown(trendingSection)}
         type={type}
       >
         {children}
       </button>
-    </Link>
+    </li>
   );
 };

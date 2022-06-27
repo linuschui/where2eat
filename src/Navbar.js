@@ -2,14 +2,17 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './components/Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import { animateScroll as scroll } from 'react-scroll';
 
 function Navbar({handleLogOut}) {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
-
+  const closeMobileMenu = () => {
+    setClick(false);
+    scroll.scrollToTop();
+  }
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
@@ -47,7 +50,7 @@ function Navbar({handleLogOut}) {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                <i class="fa-solid fa-location-crosshairs"></i>
+                MAP <i class="fa-solid fa-location-crosshairs fa-fw"></i>
               </Link>
             </li>
             <li className='nav-item'>
@@ -56,7 +59,7 @@ function Navbar({handleLogOut}) {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                <i class="fa-solid fa-location-dot"></i>
+                LOCATION <i class="fa-solid fa-location-dot fa-fw"></i>
               </Link>
             </li>
             <li className='nav-item'>

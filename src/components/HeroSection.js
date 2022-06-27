@@ -1,7 +1,6 @@
 import React from 'react';
 import '../App.css';
 import { ButtonTRD } from './ButtonTRD'
-import { ButtonCHK } from './ButtonCHK'
 import { ButtonFAV } from './ButtonFAV'
 import { ButtonKRN } from './ButtonKRN'
 import { ButtonKRS } from './ButtonKRS'
@@ -27,7 +26,6 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={console.log('hey')}
         >
           FAVOURITES <i class="fa-solid fa-star"></i>
         </ButtonFAV>
@@ -35,7 +33,6 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={console.log('hey')}
         >
           ALL RESTAURANTS <i class="fa-solid fa-pizza-slice"></i>
         </ButtonRST>

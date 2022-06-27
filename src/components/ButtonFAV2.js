@@ -1,5 +1,6 @@
 import React from 'react';
 import './Button.css';
+import { animateScroll as scroll } from 'react-scroll';
 
 const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
 
@@ -18,10 +19,14 @@ export const ButtonFAV2 = ({
 
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  }
+
   return (
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-        onClick={onClick}
+        onClick={scrollToTop}
         type={type}
       >
         {children}

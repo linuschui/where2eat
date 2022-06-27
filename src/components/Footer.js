@@ -1,8 +1,12 @@
 import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
+import { animateScroll as scroll } from 'react-scroll';
 
 function Footer() {
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  }
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
@@ -61,7 +65,11 @@ function Footer() {
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
+            <Link 
+              to='/' 
+              className='social-logo'
+              onClick={toggleHome}
+              >
               WHR2EAT
               <i class="fa-solid fa-bowl-rice"></i>
             </Link>

@@ -53,3 +53,8 @@ V1.11
 - improved restaurants page
 - revamped home page
 - edited cards styling
+
+V1.12
+- added scroll to trending section for trending button in home page
+- added auto scroll to top for all buttons in home page
+- edited navbar
