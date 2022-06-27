@@ -1,5 +1,5 @@
 import React from "react";
-import { ButtonFAV2 } from "../ButtonFAV2";
+import { ButtonFAV } from "../ButtonFAV";
 import "./Favourites2.css";
 
 const Favourites2 = () => {
@@ -70,12 +70,12 @@ const Favourites2 = () => {
           onChange={(e) => setTodo(e.target.value)}
           value={todo}
         />
-        <ButtonFAV2 
+        <ButtonFAV 
           className='btns'
           buttonStyle='btn--secondary' 
           type="submit">
           <i class="fa-solid fa-plus"></i>
-        </ButtonFAV2>
+        </ButtonFAV>
       </form>
       {todos.map((todo) => (
         <div key={todo.id} className="todo-input">
@@ -97,28 +97,28 @@ const Favourites2 = () => {
           </div>
           <div className="todo-actions">
             {todo.id === todoEditing ? (
-              <ButtonFAV2 
+              <ButtonFAV
               className='btns'
               buttonStyle='btn--outline' 
               onClick={() => submitEdits(todo.id)}>
                 CHANGE <i class="fa-solid fa-arrows-rotate"></i>
-              </ButtonFAV2>
+              </ButtonFAV>
             ) : (
-              <ButtonFAV2 
+              <ButtonFAV 
               className='btns'
               buttonStyle='btn--outline' 
               onClick={() => setTodoEditing(todo.id)}
               >
                 EDIT <i class="fa-solid fa-pen"></i>
-              </ButtonFAV2>
+              </ButtonFAV>
             )}
 
-            <ButtonFAV2 
+            <ButtonFAV
             className='btns'
             buttonStyle='btn--outline'
             onClick={() => deleteTodo(todo.id)}>
               DELETE <i class="fa fa-trash"></i>
-            </ButtonFAV2>
+            </ButtonFAV>
           </div>
         </div>
       ))}
