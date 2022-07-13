@@ -22,10 +22,18 @@ function PGPRCards() {
               label='Cafe'
               path='/bakesandbites'
             />
+          </ul>
+          <ul className='cards__items'>
+            <CardItem
+              src='images/cards-pgpr-riceandstuff1.jpeg'
+              text='Rice and Stuff'
+              label='Cafe'
+              path='/riceandstuff'
+            />
             <CardItem
             src='images/cards-pgpr-lejomo1.jpg'
             text='LeJomo'
-            label='Cafe'
+            label='Western'
             path='/lejomo'
             />
           </ul>

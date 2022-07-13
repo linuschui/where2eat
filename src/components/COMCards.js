@@ -8,38 +8,34 @@ function COMCards() {
       <h1>Check out dining options in COM!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
+        <h1>Deck</h1>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-mcdonalds.jpeg'
-              text='MCDONALDS MCDONALDS MCDONALDS MCDOANLDS'
-              label='Fast Food'
-              path='/'
+              src='images/cards-com-deck2.jpeg'
+              text='The Deck'
+              label='Food Court'
+              path='/deck'
             />
             <CardItem
-              src='images/img-japanese.jpg'
-              text='JAPANESE JAPANESE JAPANESE JAPANESE'
-              label='Japanese'
-              path='/'
+              src='images/cards-com-pastaexpress1.jpeg'
+              text='Pasta Express X Salad Express'
+              label='Western'
+              path='/pastaexpress'
+            />
+            <CardItem
+              src='images/cards-com-mala1.jpeg'
+              text='Liang Ban Kung Fu'
+              label='Chinese'
+              path='/liangbankungfu'
             />
           </ul>
+          <h1>Innovation 4.0</h1>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-thai.png'
-              text='THAI THAI THAI THAI THAI THAI THAI'
-              label='Thai'
-              path='/'
-            />
-            <CardItem
-              src='images/img-indian2.jpg'
-              text='INDIAN INDIAN INDIAN INDIAN INDIAN'
-              label='Indian'
-              path='/'
-            />
-            <CardItem
-              src='images/img-korean.jpg'
-              text='KOREAN KOREAN KOREAN KOREAN KOREAN'
-              label='Korean'
-              path='/'
+              src='images/cards-com-nami1.jpeg'
+              text='Nami'
+              label='Western'
+              path='/nami'
             />
           </ul>
         </div>

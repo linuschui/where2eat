@@ -10,36 +10,10 @@ function USCCards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-mcdonalds.jpeg'
-              text='MCDONALDS MCDONALDS MCDONALDS MCDOANLDS'
-              label='Fast Food'
-              path='/'
-            />
-            <CardItem
-              src='images/img-japanese.jpg'
-              text='JAPANESE JAPANESE JAPANESE JAPANESE'
-              label='Japanese'
-              path='/'
-            />
-          </ul>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/img-thai.png'
-              text='THAI THAI THAI THAI THAI THAI THAI'
-              label='Thai'
-              path='/'
-            />
-            <CardItem
-              src='images/img-indian2.jpg'
-              text='INDIAN INDIAN INDIAN INDIAN INDIAN'
-              label='Indian'
-              path='/'
-            />
-            <CardItem
-              src='images/img-korean.jpg'
-              text='KOREAN KOREAN KOREAN KOREAN KOREAN'
-              label='Korean'
-              path='/'
+              src='images/cards-usc-teaparty4.jpeg'
+              text='The Tea Party'
+              label='Western'
+              path='/theteaparty'
             />
           </ul>
         </div>

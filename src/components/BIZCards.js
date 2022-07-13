@@ -8,38 +8,28 @@ function BIZCards() {
       <h1>Check out dining options in BIZ!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
+        <h1>Mochtar Riady Building</h1>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-mcdonalds.jpeg'
-              text='MCDONALDS MCDONALDS MCDONALDS MCDOANLDS'
-              label='Fast Food'
-              path='/'
-            />
-            <CardItem
-              src='images/img-japanese.jpg'
-              text='JAPANESE JAPANESE JAPANESE JAPANESE'
-              label='Japanese'
-              path='/'
+              src='images/cards-biz-spread3.jpeg'
+              text='The Spread'
+              label='Italian'
+              path='/thespread'
             />
           </ul>
+          <h1>Shaw Foundation Alumni House</h1>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-thai.png'
-              text='THAI THAI THAI THAI THAI THAI THAI'
-              label='Thai'
-              path='/'
+              src='images/cards-biz-privegrill2.jpeg'
+              text='Prive Grill University Club'
+              label='Western'
+              path='/privegrill'
             />
             <CardItem
-              src='images/img-indian2.jpg'
-              text='INDIAN INDIAN INDIAN INDIAN INDIAN'
-              label='Indian'
-              path='/'
-            />
-            <CardItem
-              src='images/img-korean.jpg'
-              text='KOREAN KOREAN KOREAN KOREAN KOREAN'
-              label='Korean'
-              path='/'
+              src='images/cards-biz-reedz1.jpeg'
+              text='Reedz Cafe'
+              label='Cafe'
+              path='/reedz'
             />
           </ul>
         </div>

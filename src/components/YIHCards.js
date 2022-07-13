@@ -10,36 +10,22 @@ function YIHCards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-mcdonalds.jpeg'
-              text='MCDONALDS MCDONALDS MCDONALDS MCDOANLDS'
-              label='Fast Food'
-              path='/'
+              src='images/cards-yih-centralsquare1.jpeg'
+              text='Central Square'
+              label='Food Court'
+              path='/centralsquare'
             />
             <CardItem
-              src='images/img-japanese.jpg'
-              text='JAPANESE JAPANESE JAPANESE JAPANESE'
-              label='Japanese'
-              path='/'
-            />
-          </ul>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/img-thai.png'
-              text='THAI THAI THAI THAI THAI THAI THAI'
-              label='Thai'
-              path='/'
+              src='images/cards-yih-flash1.jpeg'
+              text='Flash Coffee'
+              label='Cafe'
+              path='/flashcoffee'
             />
             <CardItem
-              src='images/img-indian2.jpg'
-              text='INDIAN INDIAN INDIAN INDIAN INDIAN'
-              label='Indian'
-              path='/'
-            />
-            <CardItem
-              src='images/img-korean.jpg'
-              text='KOREAN KOREAN KOREAN KOREAN KOREAN'
-              label='Korean'
-              path='/'
+              src='images/cards-yih-koi1.jpeg'
+              text='KOI Thé'
+              label='Drinks'
+              path='/koi'
             />
           </ul>
         </div>
