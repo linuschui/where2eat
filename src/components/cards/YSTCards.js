@@ -1,6 +1,6 @@
 import React from 'react';
-import './Cards.css';
-import CardItem from './CardItem';
+import '../Cards.css';
+import CardItem from '../CardItem';
 
 function YSTCards() {
   return (

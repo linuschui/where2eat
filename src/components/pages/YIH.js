@@ -1,5 +1,5 @@
 import React from 'react'
-import YIHCards from '../YIHCards';
+import YIHCards from '../cards/YIHCards';
 
 function YIH() {
   return (

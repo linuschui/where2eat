@@ -1,5 +1,5 @@
 import React from 'react'
-import USCCards from '../USCCards'
+import USCCards from '../cards/USCCards'
 
 function USC() {
   return (

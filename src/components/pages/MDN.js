@@ -1,5 +1,5 @@
 import React from 'react'
-import MDNCards from '../MDNCards';
+import MDNCards from '../cards/MDNCards';
 
 function MDN() {
   return (

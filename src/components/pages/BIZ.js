@@ -1,5 +1,5 @@
 import React from 'react'
-import BIZCards from '../BIZCards'
+import BIZCards from '../cards/BIZCards'
 
 function BIZ() {
   return (

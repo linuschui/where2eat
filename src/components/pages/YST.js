@@ -1,5 +1,5 @@
 import React from 'react'
-import YSTCards from '../YSTCards';
+import YSTCards from '../cards/YSTCards';
 
 function YST() {
   return (

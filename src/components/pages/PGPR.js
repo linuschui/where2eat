@@ -1,5 +1,5 @@
 import React from 'react'
-import PGPRCards from '../PGPRCards'
+import PGPRCards from '../cards/PGPRCards'
 
 function PGPR() {
   return (

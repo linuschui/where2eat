@@ -1,5 +1,5 @@
 import React from 'react'
-import SDECards from '../SDECards';
+import SDECards from '../cards/SDECards';
 
 function SDE() {
   return (

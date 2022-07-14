@@ -1,11 +1,11 @@
 import React from 'react';
-import './Cards.css';
-import CardItem from './CardItem';
+import '../Cards.css';
+import CardItem from '../CardItem';
 
-function FASSCards() {
+function SCPCards() {
   return (
     <div className='cards'>
-      <h1>Check out dining options in FASS!</h1>
+      <h1>Check out dining options in SCP!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -22,6 +22,7 @@ function FASSCards() {
               path='/'
             />
           </ul>
+          <h1>Frontier</h1>
           <ul className='cards__items'>
             <CardItem
               src='images/img-thai.png'
@@ -48,4 +49,4 @@ function FASSCards() {
   );
 }
 
-export default FASSCards;
+export default SCPCards;

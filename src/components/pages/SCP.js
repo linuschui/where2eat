@@ -1,5 +1,5 @@
 import React from 'react'
-import SCPCards from '../SCPCards';
+import SCPCards from '../cards/SCPCards';
 
 
 function SCP() {

@@ -1,5 +1,5 @@
 import React from 'react'
-import FASSCards from '../FASSCards';
+import FASSCards from '../cards/FASSCards';
 
 function FASS() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import LAWCards from '../LAWCards';
+import LAWCards from '../cards/LAWCards';
 
 function LAW() {
   return (

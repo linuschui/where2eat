@@ -1,11 +1,11 @@
 import React from 'react';
-import './Cards.css';
-import CardItem from './CardItem';
+import '../Cards.css';
+import CardItem from '../CardItem';
 
-function SCPCards() {
+function MDNCards() {
   return (
     <div className='cards'>
-      <h1>Check out dining options in SCP!</h1>
+      <h1>Check out dining options in MDN!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -48,4 +48,4 @@ function SCPCards() {
   );
 }
 
-export default SCPCards;
+export default MDNCards;
