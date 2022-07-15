@@ -22,6 +22,15 @@ function FASSCards() {
               path="/thecoffeeroaster"
             />
           </ul>
+          <h1>Central Library</h1>
+          <ul className='cards__items'>
+            <CardItem
+              src='images/cards-fass-maxx2.jpeg'
+              text='Maxx Coffee'
+              label='Cafe'
+              path='/maxxcoffee'
+            />
+          </ul>
         </div>
       </div>
     </div>
