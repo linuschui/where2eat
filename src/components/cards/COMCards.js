@@ -18,7 +18,7 @@ function COMCards() {
             />
             <CardItem
               src='images/cards-com-pastaexpress1.jpeg'
-              text='Pasta Express X Salad Express'
+              text='Salad Express X Pasta Express'
               label='Western'
               path='/pastaexpress'
             />

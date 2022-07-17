@@ -19,7 +19,7 @@ function YSTCards() {
               src='images/cards-yst-foreword1.jpeg'
               text='Foreword Coffee Roaster'
               label='Cafe'
-              path='/forewordcoffeeroaster'
+              path='/forewordcoffee'
             />
           </ul>
         </div>

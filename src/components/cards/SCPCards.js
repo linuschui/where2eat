@@ -60,7 +60,7 @@ function SCPCards() {
               src='images/cards-scp-unclepenyet1.jpeg'
               text='Uncle Penyet Fusion'
               label='Malay'
-              path='/unclepenyetfusion'
+              path='/unclepenyet'
             />
           </ul>
           <h1>University Hall</h1>
