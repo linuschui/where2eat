@@ -18,9 +18,9 @@ export const ButtonTRD = ({
 
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
   const trendingSection = useRef(null)
-  const scrollDown = (ref) => {
-    window.scrollTo({
-      top: 1000,
+  const scrollDown = () => {
+    window.scroll({
+      top: window.screen.availHeight,
       behavior: 'smooth',
     });
   };
