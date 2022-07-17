@@ -64,7 +64,7 @@ function Navbar({handleLogOut}) {
             </li>
             <li className='nav-item'>
               <Link
-                to='/search'
+                to='/restaurants'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >

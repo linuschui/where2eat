@@ -10,8 +10,16 @@ const RestaurantTable = ({data}) => {
         </tr>
         {data.map((item) => (
           <tr key={item.id}>
-            <td>{item.Name}</td>
-            <td>{item.Location}</td>
+            <td>
+              <a href={item.Website}>
+                {item.Name}
+              </a>
+            </td>
+            <td>
+              <a href={item.Website}>
+                {item.Location}
+              </a>
+            </td>
           </tr>
         ))}
       </tbody>

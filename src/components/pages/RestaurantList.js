@@ -5,14 +5,14 @@ export const RestaurantList =
     "Name": "Arise and Shine",
     "Location": "Engineering",
     "Building": "Engineering Block E4",
-    "Website": null
+    "Website": "/ariseandshine"
   },
   {
     "id": 2,
     "Name": "Arise and Shine",
     "Location": "Science",
     "Building": "Science Block S16",
-    "Website": null
+    "Website": "/ariseandshine"
   },
   {
     "id": 3,

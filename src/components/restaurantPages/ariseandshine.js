@@ -4,19 +4,26 @@ import resData from "../../data/allRestaurants.json";
 function ariseandshine() {
   return (
     <>
-    <h1>Arise and Shine</h1>
-        {resData.map(
-            res => 
-              res.Name == "Arise and Shine" && (
-                <h2 key={res.id}>
-                  {res.Location}<br></br>
-                  {res.Building}<br></br>
-                  Term Opening Hours : {res.TermOpHours}<br></br>
-
-                </h2>
-              )
-          
-          )}
+      <div>
+      <h1>Arise and Shine</h1>
+          {resData.map(
+              res => 
+                res.Name == "Arise and Shine" && (
+                  <h2 key={res.id}>
+                    Location : {res.Location} <br></br>
+                    Building : {res.Building}<br></br>
+                    <h5>
+                      Term Opening Hours <br></br>
+                      {res.TermOpHours}<br></br>
+                      <br></br>
+                      Vacation Opening Hours <br></br>
+                      {res.VacOpHours}
+                    </h5>
+                  </h2>
+                )
+            
+            )}
+        </div>
     </>
   )
         }
