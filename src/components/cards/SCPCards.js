@@ -16,12 +16,6 @@ function SCPCards() {
               path='/ariseandshine'
             />
             <CardItem
-              src='images/cards-scp-ninefresh2.jpeg'
-              text='Nine Fresh'
-              label='Dessert'
-              path='/ninefresh'
-            />
-            <CardItem
               src='images/cards-scp-starbucks1.jpeg'
               text='Starbucks'
               label='Cafe'
@@ -50,6 +44,14 @@ function SCPCards() {
               label='Western'
               path='/pastaexpress'
             />
+            <CardItem
+              src='images/cards-scp-ninefresh2.jpeg'
+              text='Nine Fresh'
+              label='Dessert'
+              path='/ninefresh'
+            />
+          </ul>
+          <ul className='cards__items'>
             <CardItem
               src='images/cards-scp-taiwanichiban1.jpeg'
               text='Taiwan Ichiban'

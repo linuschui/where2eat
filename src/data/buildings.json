@@ -11,21 +11,21 @@
         "Name": "Arts Block AS2",
         "Address": "1 Arts Link, Singapore 117568",
         "Coordinates": [1.295571226248212, 103.77104171326712],
-        "Location": "Faculty of Arts and Sciences",
+        "Location": "Faculty of Arts and Social Sciences",
         "Link": "/fass"
       },
       {
         "Name": "Arts Block AS8",
         "Address": "10 Kent Ridge Cres, Singapore 119260",
         "Coordinates": [1.2961289830296232, 103.77200730846256],
-        "Location": "Faculty of Arts and Sciences",
+        "Location": "Faculty of Arts and Social Sciences",
         "Link": "/fass"
       },
       {
         "Name": "Central Library",
         "Address": "12 Kent Ridge Cres, Singapore 119275",
         "Coordinates": [1.2969029251717656, 103.7732262984776],
-        "Location": "Faculty of Arts and Sciences",
+        "Location": "Faculty of Arts and Social Sciences",
         "Link": "/fass"
       },
       {
@@ -193,7 +193,7 @@
         "Name": "Ventus",
         "Address": "8 Kent Ridge Dr, Singapore 119246",
         "Coordinates": [1.2955185948417973, 103.77025987148981],
-        "Location": "Faculty of Arts and Sciences",
+        "Location": "Faculty of Arts and Social Sciences",
         "Link": "/fass"
       },
       {
