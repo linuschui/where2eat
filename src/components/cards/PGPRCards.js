@@ -14,16 +14,8 @@ function PGPRCards() {
               src='images/cards-pgpr-bober1.jpg'
               text='Bober Tea'
               label='Drinks'
-              path='/bober'
+              path='/bobertea'
             />
-            <CardItem
-              src='images/cards-pgpr-bakes1.jpg'
-              text='Bakes and Bites'
-              label='Cafe'
-              path='/bakesandbites'
-            />
-          </ul>
-          <ul className='cards__items'>
             <CardItem
               src='images/cards-pgpr-riceandstuff1.jpeg'
               text='Rice and Stuff'
