@@ -58,3 +58,8 @@ V1.12
 - added scroll to trending section for trending button in home page
 - added auto scroll to top for all buttons in home page
 - edited navbar
+
+V1.13
+- added restaurant cards to all locations
+- changed restaurant data
+- added restaurants pages

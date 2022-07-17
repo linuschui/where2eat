@@ -24,6 +24,8 @@ import Search from './components/pages/Search';
 import Favourites from './components/pages/Favourites';
 import Favourites2 from './components/pages/Favourites2';
 import Restaurants from './components/pages/Restaurants.jsx';
+import ariseandshine from './components/restaurantPages/ariseandshine';
+import barbarblacksheep from './components/restaurantPages/barbarblacksheep';
 
 function App2({handleLogOut}) {
   return (
@@ -52,6 +54,8 @@ function App2({handleLogOut}) {
           <Route path='/favourites' component={Favourites} />
           <Route path='/favourites2' component={Favourites2} />
           <Route path='/restaurants' component={Restaurants} />
+          <Route path='/ariseandshine' component={ariseandshine} />
+          <Route path='/barbarblacksheep' component={barbarblacksheep} />
         </Switch>
         <Footer />
       </Router>
