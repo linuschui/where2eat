@@ -65,6 +65,14 @@ export const RestaurantList =
     "LocationWesbite" : "/utn"
   },
   {
+    "id": 47,
+    "Name": "Deck",
+    "Location": "Computing", 
+    "Building": "Deck",
+    "Website": "/deck",
+    "LocationWesbite" : "/com"
+  },
+  {
     "id": 9,
     "Name": "E2 Kitchen",
     "Location": "Engineering", 
@@ -285,7 +293,8 @@ export const RestaurantList =
     "Name": "Spinelli",
     "Location": "University Hall", 
     "Building": "University Hall Tan Chin Tuan Wing",
-    "Website": null
+    "Website": "/spinelli",
+    "LocationWesbite" : "/scp"
   },
   {
     "id": 37,
@@ -293,7 +302,7 @@ export const RestaurantList =
     "Location": "Engineering", 
     "Building": "Engineering Block EA",
     "Website": "/spinelli",
-    "LocationWesbite" : "/scp"
+    "LocationWesbite" : "/sde"
   },
   {
     "id": 38,
@@ -366,14 +375,6 @@ export const RestaurantList =
     "Building": "Arts Block AS8",
     "Website": "/thecoffeeroaster",
     "LocationWesbite" : "/fass"
-  },
-  {
-    "id": 47,
-    "Name": "Deck",
-    "Location": "Computing", 
-    "Building": "Deck",
-    "Website": "/deck",
-    "LocationWesbite" : "/com"
   },
   {
     "id": 48,

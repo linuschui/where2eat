@@ -26,7 +26,10 @@ function barbarblacksheep() {
                     {res.TermOpHours} <br></br>
                     <br></br>
                     Vacation Opening Hours <br></br>
-                    {res.VacOpHours}
+                    {res.VacOpHours} <br></br>
+                    <br></br>
+                    Contact <br></br>
+                    {res.Contact}
                   </h5>
                 </h2>
               )
@@ -37,7 +40,10 @@ function barbarblacksheep() {
             href='https://www.bbbs.com.sg/'
             target="_blank"
           >
-          <h2>website : https://www.bbbs.com.sg/</h2>
+          <h2>
+            <h5>Website <br></br>
+            https://www.bbbs.com.sg/</h5>
+          </h2>
           </a>
       </div>
       <img 
@@ -57,7 +63,7 @@ function barbarblacksheep() {
       </img>
     </>
   )
-        }
+}
 
 
 export default barbarblacksheep;
