@@ -10,8 +10,7 @@ function ariseandshine() {
               res => 
                 res.Name == "Arise and Shine" && (
                   <h2 key={res.id}>
-                    Location : {res.Location} <br></br>
-                    Building : {res.Building}<br></br>
+                    {res.Building}<br></br>
                     <h5>
                       Term Opening Hours <br></br>
                       {res.TermOpHours}<br></br>
@@ -21,8 +20,14 @@ function ariseandshine() {
                     </h5>
                   </h2>
                 )
-            
             )}
+            <br></br>
+            {/* <a
+              href='https://www.starbucks.com.sg/'
+              target="_blank"
+            >
+              <h2>website : https://www.starbucks.com.sg/</h2>
+            </a> */}
         </div>
     </>
   )
