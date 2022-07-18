@@ -41,7 +41,6 @@ function ariseandshine() {
       </div>
     </>
   )
-        }
-
+}
 
 export default ariseandshine;

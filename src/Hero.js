@@ -113,7 +113,7 @@ function App2({handleLogOut}) {
           <Route path='/flashcoffee' component={flashcoffee} />
           <Route path='/flavours' component={flavours} />
           <Route path='/forewordcoffee' component={forewordcoffee} />
-          <Route path='/frontier' copmponent={frontier} />
+          <Route path='/frontier' component={frontier} />
           <Route path='/huggscoffee' component={huggscoffee} />
           <Route path='/hwangs' component={hwangs} />
           <Route path='/jewelcoffee' component={jewelcoffee} />

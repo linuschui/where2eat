@@ -7,17 +7,17 @@ function centralsquare() {
     <>
       <div>
         <br></br>
-        <h1>Bober Tea</h1>
+        <h1>Central Square</h1>
         <br></br>
         <img 
-          src="images/cards-yst-barbar1.jpeg" 
+          src="images/cards-yih-centralsquare1.jpeg" 
           class="logo"
         >
         </img>
         <br></br> 
           {resData.map(
             res => 
-              res.Name == "Bober Tea" && (
+              res.Name == "Central Square" && (
                 <h2 key={res.id}>
                   <br></br>
                   {res.Building}<br></br>
@@ -28,15 +28,15 @@ function centralsquare() {
                     Vacation Opening Hours <br></br>
                     {res.VacOpHours} <br></br>
                     <br></br>
-                    Contact <br></br>
-                    {res.Contact}
+                    {/* Contact <br></br>
+                    {res.Contact} */}
                   </h5>
                 </h2>
               )
             )
           }
         <br></br>
-          <a
+          {/* <a
             href='https://www.bbbs.com.sg/'
             target="_blank"
           >
@@ -44,9 +44,9 @@ function centralsquare() {
             <h5>Website <br></br>
             https://www.bbbs.com.sg/</h5>
           </h2>
-          </a>
+          </a> */}
       </div>
-      <img 
+      {/* <img 
           src="images/menu-bbbs1.jpg" 
           class="menu"
         >
@@ -60,10 +60,9 @@ function centralsquare() {
           src="images/menu-bbbs3.jpg" 
           class="menu"
       >
-      </img>
+      </img> */}
     </>
   )
 }
-
 
 export default centralsquare;

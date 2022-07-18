@@ -65,5 +65,4 @@ function bistrobox() {
   )
 }
 
-
 export default bistrobox;

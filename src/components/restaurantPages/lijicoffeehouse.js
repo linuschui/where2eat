@@ -7,17 +7,17 @@ function lijicoffeehouse() {
     <>
       <div>
         <br></br>
-        <h1>Bober Tea</h1>
+        <h1>Li Ji Coffee House</h1>
         <br></br>
         <img 
-          src="images/cards-yst-barbar1.jpeg" 
+          src="images/cards-scp-liji2.jpeg" 
           class="logo"
         >
         </img>
         <br></br> 
           {resData.map(
             res => 
-              res.Name == "Bober Tea" && (
+              res.Name == "Li Ji Coffeehouse" && (
                 <h2 key={res.id}>
                   <br></br>
                   {res.Building}<br></br>
@@ -28,42 +28,31 @@ function lijicoffeehouse() {
                     Vacation Opening Hours <br></br>
                     {res.VacOpHours} <br></br>
                     <br></br>
-                    Contact <br></br>
-                    {res.Contact}
+                    {/* Contact <br></br>
+                    {res.Contact} */}
                   </h5>
                 </h2>
               )
             )
           }
         <br></br>
+          <h2>Website</h2>
           <a
-            href='https://www.bbbs.com.sg/'
+            href='https://www.facebook.com/lijicoffeehouse/'
             target="_blank"
           >
           <h2>
-            <h5>Website <br></br>
-            https://www.bbbs.com.sg/</h5>
+            <h5>https://www.facebook.com/lijicoffeehouse/</h5>
           </h2>
           </a>
       </div>
       <img 
-          src="images/menu-bbbs1.jpg" 
+          src="images/menu-liji1.png" 
           class="menu"
         >
-      </img>
-      <img 
-          src="images/menu-bbbs2.jpg" 
-          class="menu"
-        >
-      </img>
-      <img 
-          src="images/menu-bbbs3.jpg" 
-          class="menu"
-      >
       </img>
     </>
   )
 }
-
 
 export default lijicoffeehouse;

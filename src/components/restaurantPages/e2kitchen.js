@@ -7,17 +7,17 @@ function e2kitchen() {
     <>
       <div>
         <br></br>
-        <h1>Bober Tea</h1>
+        <h1>E2 Kitchen</h1>
         <br></br>
         <img 
-          src="images/cards-yst-barbar1.jpeg" 
+          src="images/cards-sde-e2kitchen1.jpeg" 
           class="logo"
         >
         </img>
         <br></br> 
           {resData.map(
             res => 
-              res.Name == "Bober Tea" && (
+              res.Name == "E2 Kitchen" && (
                 <h2 key={res.id}>
                   <br></br>
                   {res.Building}<br></br>
@@ -28,39 +28,29 @@ function e2kitchen() {
                     Vacation Opening Hours <br></br>
                     {res.VacOpHours} <br></br>
                     <br></br>
-                    Contact <br></br>
-                    {res.Contact}
+                    {/* Contact <br></br>
+                    {res.Contact} */}
                   </h5>
                 </h2>
               )
             )
           }
         <br></br>
+        {/* <h2>Website</h2>
           <a
-            href='https://www.bbbs.com.sg/'
+            href='https://www.chopchopbyputien.com/'
             target="_blank"
           >
           <h2>
-            <h5>Website <br></br>
-            https://www.bbbs.com.sg/</h5>
+            <h5>https://www.chopchopbyputien.com/</h5>
           </h2>
-          </a>
+          </a> */}
       </div>
-      <img 
-          src="images/menu-bbbs1.jpg" 
+      {/* <img 
+          src="images/menu-chopchop1.png" 
           class="menu"
         >
-      </img>
-      <img 
-          src="images/menu-bbbs2.jpg" 
-          class="menu"
-        >
-      </img>
-      <img 
-          src="images/menu-bbbs3.jpg" 
-          class="menu"
-      >
-      </img>
+      </img> */}
     </>
   )
 }

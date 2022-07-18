@@ -65,5 +65,4 @@ function barbarblacksheep() {
   )
 }
 
-
 export default barbarblacksheep;
