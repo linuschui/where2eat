@@ -2,7 +2,7 @@ import React from 'react'
 import resData from "../../data/allRestaurants.json";
 import './images.css'
 
-function centralsquare() {
+function pastaexpress() {
   return (
     <>
       <div>
@@ -66,4 +66,4 @@ function centralsquare() {
 }
 
 
-export default centralsquare;
+export default pastaexpress;
