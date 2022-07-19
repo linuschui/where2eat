@@ -132,7 +132,7 @@ function App2({handleLogOut}) {
           <Route path='/reedz' component={reedz} />
           <Route path='/riceandstuff' component={riceandstuff} />
           <Route path='/sapore' component={sapore} />
-          <Route path='/liho' component={spinelli} />
+          <Route path='/spinelli' component={spinelli} />
           <Route path='/starbucks' component={starbucks} />
           <Route path='/supersnacks' component={supersnacks} />
           <Route path='/taiwanichiban' component={taiwanichiban} />

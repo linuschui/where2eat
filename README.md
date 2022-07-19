@@ -63,3 +63,6 @@ V1.13
 - added restaurant cards to all locations
 - changed restaurant data
 - added restaurants pages
+
+V1.14
+- added all restaurant pages with menus

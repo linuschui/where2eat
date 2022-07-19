@@ -7,7 +7,7 @@ function liangbankungfu() {
     <>
       <div>
         <br></br>
-        <h1>Bober Tea</h1>
+        <h1>Liang Ban Kung Fu</h1>
         <br></br>
         <img 
           src="images/cards-yst-barbar1.jpeg" 
@@ -17,7 +17,7 @@ function liangbankungfu() {
         <br></br> 
           {resData.map(
             res => 
-              res.Name == "Bober Tea" && (
+              res.Name == "Liang Ban Kung Fu" && (
                 <h2 key={res.id}>
                   <br></br>
                   {res.Building}<br></br>
@@ -36,7 +36,7 @@ function liangbankungfu() {
             )
           }
         <br></br>
-          <a
+          {/* <a
             href='https://www.bbbs.com.sg/'
             target="_blank"
           >
@@ -44,7 +44,7 @@ function liangbankungfu() {
             <h5>Website <br></br>
             https://www.bbbs.com.sg/</h5>
           </h2>
-          </a>
+          </a> */}
       </div>
       <img 
           src="images/menu-bbbs1.jpg" 

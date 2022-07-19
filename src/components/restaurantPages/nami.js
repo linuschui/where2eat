@@ -36,15 +36,15 @@ function nami() {
             )
           }
         <br></br>
-          {/* <h2>Website</h2>
+          <h2>Website</h2>
           <a
-            href='https://www.facebook.com/lijicoffeehouse/'
+            href='https://nami.sg/'
             target="_blank"
           >
           <h2>
-            <h5>https://www.facebook.com/lijicoffeehouse/</h5>
+            <h5>https://nami.sg/</h5>
           </h2>
-          </a> */}
+          </a>
       </div>
       {/* <img 
           src="images/menu-liji1.png" 

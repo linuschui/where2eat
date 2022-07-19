@@ -229,7 +229,7 @@ export const RestaurantList =
     "Name": "PGPR Aircon Canteen",
     "Location": "PGPR",
     "Building": "Prince George’s Park Residences",
-    "Website": "/airconcanteen",
+    "Website": "/pgpraircon",
     "LocationWesbite" : "/pgpr"
   },
   {
@@ -237,7 +237,7 @@ export const RestaurantList =
     "Name": "PGPR Non Aircon Canteen",
     "Location": "PGPR",
     "Building": "Prince George’s Park Residences",
-    "Website": "/nonairconcanteen",
+    "Website": "/pgprnonaircon",
     "LocationWesbite" : "/pgpr"
   },
   {
@@ -290,7 +290,7 @@ export const RestaurantList =
   },
   {
     "id": 36,
-    "Name": "Spinelli",
+    "Name": "Spinelli Coffee",
     "Location": "University Hall", 
     "Building": "University Hall Tan Chin Tuan Wing",
     "Website": "/spinelli",
@@ -298,7 +298,7 @@ export const RestaurantList =
   },
   {
     "id": 37,
-    "Name": "Spinelli Coffee Company",
+    "Name": "Spinelli Coffee",
     "Location": "Engineering", 
     "Building": "Engineering Block EA",
     "Website": "/spinelli",

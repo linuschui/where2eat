@@ -17,7 +17,7 @@ function liho() {
         <br></br> 
           {resData.map(
             res => 
-              res.Name == "Bober Tea" && (
+              res.Name == "LiHO Tea" && (
                 <h2 key={res.id}>
                   <br></br>
                   {res.Building}<br></br>
@@ -37,12 +37,12 @@ function liho() {
           }
         <br></br>
           <a
-            href='https://www.bbbs.com.sg/'
+            href='https://liho.members.royaltgroup.com/'
             target="_blank"
           >
           <h2>
             <h5>Website <br></br>
-            https://www.bbbs.com.sg/</h5>
+            https://liho.members.royaltgroup.com/</h5>
           </h2>
           </a>
       </div>

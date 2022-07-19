@@ -296,7 +296,7 @@
         "VacOpHours": "Mon-Fri 10.00am-8.00pm, Sat/Sun Closed",
         "Contact": 67775025,
         "Website": "/liho",
-        "Link": null
+        "Link": "/https://liho.members.royaltgroup.com/"
       },
       {
         "id": 24,
@@ -309,7 +309,7 @@
         "VacOpHours": "Closed",
         "Contact": null,
         "Website": "/maxxcoffee",
-        "Link": null
+        "Link": "https://www.maxx-coffee.sg/"
       },
       {
         "id": 25,
@@ -322,7 +322,7 @@
         "VacOpHours": "Mon-Fri 8.30am-5.00pm, Sat/Sun/PH Closed",
         "Contact": null,
         "Website": "/nami",
-        "Link": null
+        "Link": "https://nami.sg/"
       },
       {
         "id": 26,
@@ -348,7 +348,7 @@
         "VacOpHours": "Mon-Fri 9.30am-7.30pm, Sat/Sun/PH Closed",
         "Contact": 90258148,
         "Website": "/pastaexpress",
-        "Link": null
+        "Link": "https://www.pastaexpress.sg/"
       },
       {
         "id": 28,
@@ -387,7 +387,7 @@
         "VacOpHours": "Mon-Fri 12.00pm-3.00pm, Sat/Sun/PH Closed",
         "Contact": 67798919,
         "Website": "/privegrill",
-        "Link": null
+        "Link": "https://www.theprivegroup.com.sg/"
       },
       {
         "id": 31,
@@ -400,7 +400,7 @@
         "VacOpHours": "Mon-Fri 8.30am-4.00pm, Sat/Sun/PH Closed",
         "Contact": null,
         "Website": "/reedz",
-        "Link": null
+        "Link": "https://reedzcafe.com/"
       },
       {
         "id": 32,
@@ -413,7 +413,7 @@
         "VacOpHours": "Mon-Fri 8.30am-4.00pm, Sat/Sun/PH Closed",
         "Contact": null,
         "Website": "/reedz",
-        "Link": null
+        "Link": "https://reedzcafe.com/"
       },
       {
         "id": 33,
@@ -439,7 +439,7 @@
         "VacOpHours": "Mon-Fri 9.30am–7.30pm, Sat/Sun/PH Closed",
         "Contact": 90258148,
         "Website": "/pastaexpress",
-        "Link": null
+        "Link": "https://www.pastaexpress.sg/"
       },
       {
         "id": 35,
@@ -452,11 +452,11 @@
         "VacOpHours": "Tues-Sun 12.00pm-9.00pm, Mon Closed",
         "Contact": 62620287,
         "Website": "/sapore",
-        "Link": null
+        "Link": "https://sapore.com.sg/"
       },
       {
         "id": 36,
-        "Name": "Spinelli",
+        "Name": "Spinelli Coffee",
         "Location": "Science Pharmacy", 
         "Building": "University Hall Tan Chin Tuan Wing",
         "Coordinates": [1.2975167366511275, 103.77793608917804],
@@ -465,11 +465,11 @@
         "VacOpHours": "Mon-Fri 8.00am-5.00pm, Sat/Sun/PH Closed",
         "Contact": 67775025,
         "Website": "/spinelli",
-        "Link": null
+        "Link": "https://spinellicoffee.com/"
       },
       {
         "id": 37,
-        "Name": "Spinelli Coffee Company",
+        "Name": "Spinelli Coffee",
         "Location": "School of Design and Engineering", 
         "Building": "Engineering Block EA",
         "Coordinates": [1.300926682132843, 103.77046176908962],
@@ -478,7 +478,7 @@
         "VacOpHours": "Mon-Fri 8.00am-5.00pm, Sat/Sun/PH Closed",
         "Contact": 62524736,
         "Website": "/spinelli",
-        "Link": null
+        "Link": "https://spinellicoffee.com/"
       },
       {
         "id": 38,
@@ -491,7 +491,7 @@
         "VacOpHours": "Mon-Fri/PH Eve 8.30am-4.30pm, Sat/Sun/PH Closed",
         "Contact": 68160981,
         "Website": "/starbucks",
-        "Link": null
+        "Link": "https://www.starbucks.com.sg/"
       },
       {
         "id": 39,
@@ -504,7 +504,7 @@
         "VacOpHours": "Mon-Fri/PH Eve 8.30am-4.30pm, Sat/Sun/PH Closed",
         "Contact": 69746925,
         "Website": "/starbucks",
-        "Link": null
+        "Link": "https://www.starbucks.com.sg/"
       },
       {
         "id": 40,
@@ -517,7 +517,7 @@
         "VacOpHours": "Mon-Sun 8.00am-10.00pm",
         "Contact": 69101127,
         "Website": "/starbucks",
-        "Link": null
+        "Link": "https://www.starbucks.com.sg/"
       },
       {
         "id": 41,
@@ -528,9 +528,9 @@
         "SeatingCapacity": null,
         "TermOpHours": "Mon-Fri 11.00am-2.00am, Sat/Sun/PH 6.00pm-2.00am",
         "VacOpHours": "Mon-Fri 11.00am-2.00am, Sat/Sun/PH 6.00pm-2.00am",
-        "Contact": null,
+        "Contact": 67745898,
         "Website": "/supersnacks",
-        "Link": null
+        "Link": "https://www.facebook.com/SuperSnacks/"
       },
       {
         "id": 42,
@@ -543,7 +543,7 @@
         "VacOpHours": "Mon-Fri 11.00am-2.00am, Sat/Sun/PH 6.00pm-2.00am",
         "Contact": 69746925,
         "Website": "/supersnacks",
-        "Link": null
+        "Link": "https://www.facebook.com/SuperSnacks/"
       },
       {
         "id": 43,
@@ -556,7 +556,7 @@
         "VacOpHours": "Mon-Fri 10.00am-7.15pm, Sat 10.00am-2.30pm, Sun/PH Closed",
         "Contact": 98555793,
         "Website": "/taiwanichiban",
-        "Link": null
+        "Link": "https://www.taiwanichiban.com/"
       },
       {
         "id": 44,
@@ -582,7 +582,7 @@
         "VacOpHours": "Mon-Sun Closed",
         "Contact": null,
         "Website": "/thecoffeehut",
-        "Link": null
+        "Link": "https://www.facebook.com/NUSTheCoffeeHut/"
       },
       {
         "id": 46, 
@@ -595,7 +595,7 @@
         "VacOpHours": "Mon-Fri 8.00am-5.30pm, Sat/Sun/PH Closed",
         "Contact": null,
         "Website": "/thecoffeeroaster",
-        "Link": null
+        "Link": "https://www.thecoffeeroaster.sg/"
       },
       {
         "id": 47,
@@ -621,7 +621,7 @@
         "VacOpHours": "Mon-Sat 11.00am-8.00pm, Sun/PH Closed",
         "Contact": 97771353,
         "Website": "/theroyalsbistro",
-        "Link": null
+        "Link": "https://www.facebook.com/TheRoyalsBistro/"
       },
       {
         "id": 49,
@@ -634,7 +634,7 @@
         "VacOpHours": "Mon-Thu 8.00am-7.30pm, Fri 9.00am-6.00pm, Sat 8.00am-2.00pm, Sun/PH Closed",
         "Contact": 69085955,
         "Website": "/thespread",
-        "Link": null
+        "Link": "https://www.facebook.com/thespread.sg/"
       },
       {
         "id": 50,
@@ -660,7 +660,7 @@
         "VacOpHours": "Mon-Sat 10.30am-10.00pm, Sun/PH Closed",
         "Contact": 93625379,
         "Website": "/theteaparty",
-        "Link": null
+        "Link": "https://order.theteapartycafe.com.sg/"
       },
       {
         "id": 52,
@@ -671,9 +671,9 @@
         "SeatingCapacity": null,
         "TermOpHours": "Mon-Sun 11.00am-9.30pm",
         "VacOpHours": "Mon-Sun 11.00am-9.00pm",
-        "Contact": 66946240,
+        "Contact": 97626010,
         "Website": "/udondonbar",
-        "Link": null
+        "Link": "https://udondonbar.business.site/"
       },
       {
         "id": 53,
@@ -686,7 +686,7 @@
         "VacOpHours": "Mon-Fri 9.00am-7.30pm, Sat 9.00am-2.30pm, Sun/PH Closed",
         "Contact": 93625379,
         "Website": "/unclepenyet",
-        "Link": null
+        "Link": "https://www.unclepenyet.com.sg/"
       },
       {
         "id": 54,
@@ -699,6 +699,6 @@
         "VacOpHours": "Mon-Fri 11.30am-8.30pm, Sat/Sun/PH 12.00pm-8.30pm",
         "Contact": 82230550,
         "Website": "/waacow",
-        "Link": null
+        "Link": "https://www.waacow.sg/"
       }
     ]

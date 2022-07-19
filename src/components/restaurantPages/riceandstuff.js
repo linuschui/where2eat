@@ -7,17 +7,17 @@ function riceandstuff() {
     <>
       <div>
         <br></br>
-        <h1>Bober Tea</h1>
+        <h1>Rice & Stuff</h1>
         <br></br>
         <img 
-          src="images/cards-yst-barbar1.jpeg" 
+          src="images/cards-pgpr-riceandstuff1.jpeg" 
           class="logo"
         >
         </img>
         <br></br> 
           {resData.map(
             res => 
-              res.Name == "Bober Tea" && (
+              res.Name == "Rice & Stuff" && (
                 <h2 key={res.id}>
                   <br></br>
                   {res.Building}<br></br>
@@ -28,42 +28,81 @@ function riceandstuff() {
                     Vacation Opening Hours <br></br>
                     {res.VacOpHours} <br></br>
                     <br></br>
-                    Contact <br></br>
-                    {res.Contact}
+                    {/* Contact <br></br>
+                    {res.Contact} */}
                   </h5>
                 </h2>
               )
             )
           }
         <br></br>
+          {/* <h2>Website</h2>
           <a
-            href='https://www.bbbs.com.sg/'
+            href='https://sapore.com.sg/'
             target="_blank"
           >
           <h2>
-            <h5>Website <br></br>
-            https://www.bbbs.com.sg/</h5>
+            <h5>https://sapore.com.sg/</h5>
           </h2>
-          </a>
+          </a> */}
       </div>
       <img 
-          src="images/menu-bbbs1.jpg" 
+          src="images/menu-theroyalsbistro1.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-bbbs2.jpg" 
+          src="images/menu-theroyalsbistro2.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-bbbs3.jpg" 
+          src="images/menu-theroyalsbistro3.png" 
           class="menu"
-      >
+        >
+      </img>
+      <img 
+          src="images/menu-theroyalsbistro4.png" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-theroyalsbistro5.png" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-theroyalsbistro6.png" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-theroyalsbistro7.png" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-theroyalsbistro8.png" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-theroyalsbistro9.png" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-theroyalsbistro10.png" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-theroyalsbistro11.png" 
+          class="menu"
+        >
       </img>
     </>
   )
 }
-
 
 export default riceandstuff;

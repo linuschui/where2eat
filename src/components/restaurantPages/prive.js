@@ -7,17 +7,17 @@ function prive() {
     <>
       <div>
         <br></br>
-        <h1>Bober Tea</h1>
+        <h1>Prive Grill</h1>
         <br></br>
         <img 
-          src="images/cards-yst-barbar1.jpeg" 
+          src="images/cards-biz-privegrill2.jpeg" 
           class="logo"
         >
         </img>
         <br></br> 
           {resData.map(
             res => 
-              res.Name == "Bober Tea" && (
+              res.Name == "Prive Grill" && (
                 <h2 key={res.id}>
                   <br></br>
                   {res.Building}<br></br>
@@ -36,34 +36,33 @@ function prive() {
             )
           }
         <br></br>
+          <h2>Website</h2>
           <a
-            href='https://www.bbbs.com.sg/'
+            href='https://www.theprivegroup.com.sg/'
             target="_blank"
           >
           <h2>
-            <h5>Website <br></br>
-            https://www.bbbs.com.sg/</h5>
+            <h5>https://www.theprivegroup.com.sg/</h5>
           </h2>
           </a>
       </div>
       <img 
-          src="images/menu-bbbs1.jpg" 
+          src="images/menu-prive1.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-bbbs2.jpg" 
+          src="images/menu-prive2.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-bbbs3.jpg" 
+          src="images/menu-prive3.png" 
           class="menu"
-      >
+        >
       </img>
     </>
   )
 }
-
 
 export default prive;
