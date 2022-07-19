@@ -39,7 +39,7 @@ function HomePageCards() {
               src='images/cards-pgpr-bober1.jpg'
               text='Bober Tea'
               label='Drinks'
-              path='/bober'
+              path='/bobertea'
             />
           </ul>
         </div>
