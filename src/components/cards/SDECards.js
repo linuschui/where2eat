@@ -24,7 +24,7 @@ function SDECards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/cards-sde-ariseandshine1.jpeg'
+              src='images/cards-sde-ariseandshine2.jpeg'
               text='Arise and Shine'
               label='Cafe'
               path='/ariseandshine'
