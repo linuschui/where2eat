@@ -46,11 +46,11 @@ function maxxcoffee() {
           </h2>
           </a>
       </div>
-      {/* <img 
-          src="images/menu-liji1.png" 
+      <img 
+          src="images/menu-maxxcoffee.png" 
           class="menu"
         >
-      </img> */}
+      </img>
     </>
   )
 }

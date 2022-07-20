@@ -47,57 +47,82 @@ function sapore() {
           </a>
       </div>
       <img 
-          src="images/menu-theroyalsbistro1.png" 
+          src="images/menu-sapore1.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theroyalsbistro2.png" 
+          src="images/menu-sapore2.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theroyalsbistro3.png" 
+          src="images/menu-sapore3.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theroyalsbistro4.png" 
+          src="images/menu-sapore4.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theroyalsbistro5.png" 
+          src="images/menu-sapore5.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theroyalsbistro6.png" 
+          src="images/menu-sapore6.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theroyalsbistro7.png" 
+          src="images/menu-sapore7.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theroyalsbistro8.png" 
+          src="images/menu-sapore8.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theroyalsbistro9.png" 
+          src="images/menu-sapore9.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theroyalsbistro10.png" 
+          src="images/menu-sapore10.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theroyalsbistro11.png" 
+          src="images/menu-sapore11.png" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-sapore12.png" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-sapore13.png" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-sapore14.png" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-sapore15.png" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-sapore16.png" 
           class="menu"
         >
       </img>

@@ -32,12 +32,12 @@ function ariseandshine() {
             )
           }
         <br></br>
-          <a
+          {/* <a
             href='https://www.starbucks.com.sg/'
             target="_blank"
           >
           <h2>website : https://www.starbucks.com.sg/</h2>
-          </a>
+          </a> */}
       </div>
     </>
   )

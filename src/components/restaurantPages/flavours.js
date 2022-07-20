@@ -46,21 +46,116 @@ function flavours() {
           </h2>
           </a> */}
       </div>
-      {/* <img 
-          src="images/menu-flash1.png" 
+      <h2>Beverages</h2>
+      <img 
+          src="images/menu-flavours-beverages.jpg" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Dim Sum</h2>
+      <img 
+          src="images/menu-flavours-dimsum.jpg" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Mixed Veg Rice</h2>
+      <img 
+          src="images/menu-flavours-mixedvegrice.jpg" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Noodles</h2>
+      <img 
+          src="images/menu-flavours-noodles1.jpg" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-flash2.png" 
+          src="images/menu-flavours-noodles2.jpg" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Mala Hot Pot</h2>
+      <img 
+          src="images/menu-flavours-malahotpot1.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-flash3.png" 
+          src="images/menu-flavours-malahotpot2.jpg" 
           class="menu"
         >
-      </img> */}
+      </img>
+      <br></br>
+      <h2>Taiwanese</h2>
+      <img 
+          src="images/menu-flavours-taiwanese2.png" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Japanese</h2>
+      <img 
+          src="images/menu-flavours-jap1.jpg" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-flavours-jap2.jpg" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Mini Wok</h2>
+      <img 
+          src="images/menu-flavours-miniwok1.png" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-flavours-miniwok2.png" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Chicken Rice</h2>
+      <img 
+          src="images/menu-flavours-chickenrice.png" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Yong Tau Foo</h2>
+      <img 
+          src="images/menu-flavours-yongtaufoo.png" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Western Food</h2>
+      <img 
+          src="images/menu-flavours-western.png" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Gong Cha</h2>
+      <img 
+          src="images/menu-flavours-gongcha.png" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Coconut Queen</h2>
+      <img 
+          src="images/menu-flavours-coconutqueen.png" 
+          class="menu"
+        >
+      </img>
     </>
   )
 }

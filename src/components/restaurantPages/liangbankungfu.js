@@ -10,7 +10,7 @@ function liangbankungfu() {
         <h1>Liang Ban Kung Fu</h1>
         <br></br>
         <img 
-          src="images/cards-yst-barbar1.jpeg" 
+          src="images/cards-com-liangbankungfu.png" 
           class="logo"
         >
         </img>
@@ -47,19 +47,9 @@ function liangbankungfu() {
           </a> */}
       </div>
       <img 
-          src="images/menu-bbbs1.jpg" 
+          src="images/menu-liangbankungfu.png" 
           class="menu"
         >
-      </img>
-      <img 
-          src="images/menu-bbbs2.jpg" 
-          class="menu"
-        >
-      </img>
-      <img 
-          src="images/menu-bbbs3.jpg" 
-          class="menu"
-      >
       </img>
     </>
   )

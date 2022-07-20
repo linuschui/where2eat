@@ -17,7 +17,7 @@ function hwangs() {
         <br></br> 
           {resData.map(
             res => 
-              res.Name == "Hwang's Korean Restaurant" && (
+              res.Name == "Hwangs Korean Restaurant" && (
                 <h2 key={res.id}>
                   <br></br>
                   {res.Building}<br></br>

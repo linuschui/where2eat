@@ -47,57 +47,32 @@ function starbucks() {
           </a>
       </div>
       <img 
-          src="images/menu-theroyalsbistro1.png" 
+          src="images/menu-starbucks1.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theroyalsbistro2.png" 
+          src="images/menu-starbucks2.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theroyalsbistro3.png" 
+          src="images/menu-starbucks3.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theroyalsbistro4.png" 
+          src="images/menu-starbucks4.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theroyalsbistro5.png" 
+          src="images/menu-starbucks5.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theroyalsbistro6.png" 
-          class="menu"
-        >
-      </img>
-      <img 
-          src="images/menu-theroyalsbistro7.png" 
-          class="menu"
-        >
-      </img>
-      <img 
-          src="images/menu-theroyalsbistro8.png" 
-          class="menu"
-        >
-      </img>
-      <img 
-          src="images/menu-theroyalsbistro9.png" 
-          class="menu"
-        >
-      </img>
-      <img 
-          src="images/menu-theroyalsbistro10.png" 
-          class="menu"
-        >
-      </img>
-      <img 
-          src="images/menu-theroyalsbistro11.png" 
+          src="images/menu-starbucks6.png" 
           class="menu"
         >
       </img>

@@ -9,11 +9,11 @@ function cafedelight() {
         <br></br>
         <h1>Cafe Delight</h1>
         <br></br>
-        {/* <img 
-          src="images/cards-yst-barbar1.jpeg" 
+        <img 
+          src="images/cards-fass-cafedelight.png" 
           class="logo"
         >
-        </img> */}
+        </img>
         <br></br> 
           {resData.map(
             res => 
@@ -46,21 +46,11 @@ function cafedelight() {
           </h2>
           </a> */}
       </div>
-      {/* <img 
-          src="images/menu-bbbs1.jpg" 
+      <img 
+          src="images/menu-cafedelight.jpg" 
           class="menu"
         >
       </img>
-      <img 
-          src="images/menu-bbbs2.jpg" 
-          class="menu"
-        >
-      </img>
-      <img 
-          src="images/menu-bbbs3.jpg" 
-          class="menu"
-      >
-      </img> */}
     </>
   )
 }
