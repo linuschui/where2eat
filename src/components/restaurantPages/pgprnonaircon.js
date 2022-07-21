@@ -46,18 +46,106 @@ function pgprnonaircon() {
           </h2>
           </a> */}
       </div>
+      <h2>Ban Mian Fish Soup</h2>
       <img 
-          src="images/menu-prive1.png" 
+          src="images/menu-pgpnonac-banmianfishsoup1.png" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Beverages</h2>
+      <img 
+          src="images/menu-pgpnonac-beverages1.png" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Chicken Rice</h2>
+      <img 
+          src="images/menu-pgpnonac-chickenrice1.png" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Chinese Delights</h2>
+      <img 
+          src="images/menu-pgpnonac-chinesedelights1.png" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Indian</h2>
+      <img 
+          src="images/menu-pgpnonac-indian1.png" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Japanese</h2>
+      <img 
+          src="images/menu-pgpnonac-japanese1.png" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Mala Hot Pot</h2>
+      <img 
+          src="images/menu-pgpnonac-mala1.png" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Mini Wok</h2>
+      <img 
+          src="images/menu-pgpnonac-miniwok1.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-prive2.png" 
+          src="images/menu-pgpnonac-miniwok2.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-prive3.png" 
+          src="images/menu-pgpnonac-miniwok3.png" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Mixed Vegetables Rice</h2>
+      <img 
+          src="images/menu-pgpnonac-mixedvegetablerice1.png" 
+          class="menu"
+        >
+      </img>
+            <img 
+          src="images/menu-pgpnonac-mixedvegetablerice2.png" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Stew Soup</h2>
+      <img 
+          src="images/menu-pgpnonac-stewsoup1.png" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Taiwanese</h2>
+      <img 
+          src="images/menu-pgpnonac-taiwanese1.png" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Western</h2>
+      <img 
+          src="images/menu-pgpnonac-western1.png" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-pgpnonac-western2.png" 
           class="menu"
         >
       </img>

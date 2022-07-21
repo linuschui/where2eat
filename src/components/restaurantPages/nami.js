@@ -10,7 +10,7 @@ function nami() {
         <h1>Nami</h1>
         <br></br>
         <img 
-          src="images/cards-com-nami1.jpeg" 
+          src="images/cards-com-nami2.png" 
           class="logo"
         >
         </img>
@@ -46,11 +46,21 @@ function nami() {
           </h2>
           </a>
       </div>
-      {/* <img 
-          src="images/menu-liji1.png" 
+      <img 
+          src="images/menu-nami1.jpeg" 
           class="menu"
         >
-      </img> */}
+      </img>
+      <img 
+          src="images/menu-nami2.jpeg" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-nami3.jpeg" 
+          class="menu"
+      >
+      </img>
     </>
   )
 }

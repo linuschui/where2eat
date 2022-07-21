@@ -46,21 +46,128 @@ function centralsquare() {
           </h2>
           </a> */}
       </div>
-      {/* <img 
-          src="images/menu-bbbs1.jpg" 
+      <h2>Ban Mian Fish Soup</h2>
+      <img 
+          src="images/cards-yih-centralsquare-banmianfishsoup1.PNG" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-bbbs2.jpg" 
+          src="images/menu-centralsquare-banmianfishsoup1.PNG" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Drinks</h2>
+      <img 
+          src="images/cards-yih-centralsquare-drinks1.PNG" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-bbbs3.jpg" 
+          src="images/menu-centralsquare-drinks1.PNG" 
           class="menu"
-      >
-      </img> */}
+        >
+      </img>
+      <img 
+          src="images/menu-centralsquare-drinks2.PNG" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Jito's Dhaba</h2>
+      <img 
+          src="images/cards-yih-centralsquare-jitosdhaba1.PNG" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-centralsquare-jitosdhaba1.PNG" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Lamian Local Delight</h2>
+      <img 
+          src="images/cards-yih-centralsquare-lamian1.PNG" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-centralsquare-lamian1.PNG" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Mala Hot Pot</h2>
+      <img 
+          src="images/cards-yih-centralsquare-mala1.PNG" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-centralsquare-mala1.PNG" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Mixed Veg Rice</h2>
+      <img 
+          src="images/cards-yih-centralsquare-mixedvegrice1.PNG" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-centralsquare-mixedvegrice1.PNG" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Snacks</h2>
+      <img 
+          src="images/cards-yih-centralsquare-snacks1.PNG" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/cards-yih-centralsquare-snacks2.PNG" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-centralsquare-snacks1.PNG" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-centralsquare-snacks2.PNG" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-centralsquare-snacks3.PNG" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Supper</h2>
+      <img 
+          src="images/cards-yih-centralsquare-supper1.PNG" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Thai</h2>
+      <img 
+          src="images/cards-yih-centralsquare-thai1.PNG" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-centralsquare-thai1.PNG" 
+          class="menu"
+        >
+      </img>
     </>
   )
 }

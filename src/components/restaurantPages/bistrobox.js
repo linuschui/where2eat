@@ -10,7 +10,7 @@ function bistrobox() {
         <h1>Bistro Box</h1>
         <br></br>
         <img 
-          src="images/cards-sde-bistrobox1.jpeg" 
+          src="images/cards-sde-bistrobox2.png" 
           class="logo"
         >
         </img>
@@ -47,17 +47,42 @@ function bistrobox() {
           </a> */}
       </div>
       <img 
-          src="images/menu-bbbs1.jpg" 
+          src="images/menu-bistrobox1.jpeg" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-bbbs2.jpg" 
+          src="images/menu-bistrobox2.jpeg" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-bbbs3.jpg" 
+          src="images/menu-bistrobox3.jpeg" 
+          class="menu"
+      >
+      </img>
+      <img 
+          src="images/menu-bistrobox4.jpeg" 
+          class="menu"
+      >
+      </img>
+      <img 
+          src="images/menu-bistrobox5.png" 
+          class="menu"
+      >
+      </img>
+      <img 
+          src="images/menu-bistrobox6.png" 
+          class="menu"
+      >
+      </img>
+      <img 
+          src="images/menu-bistrobox7.png" 
+          class="menu"
+      >
+      </img>
+            <img 
+          src="images/menu-bistrobox8.png" 
           class="menu"
       >
       </img>

@@ -9,7 +9,7 @@ function ariseandshine() {
         <h1>Arise and Shine</h1>
         <br></br>
         <img 
-          src="images/cards-scp-ariseandshine1.jpeg" 
+          src="images/cards-sde-ariseandshine4.jpeg" 
           class="logo"
         >
         </img>

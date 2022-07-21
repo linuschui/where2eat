@@ -46,21 +46,182 @@ function frontier() {
           </h2>
           </a> */}
       </div>
-      {/* <img 
-          src="images/menu-flash1.png" 
+      <h2>Chefs Wok</h2>
+      <img 
+          src="images/cards-scp-frontier-chefswok1.PNG" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-flash2.png" 
+          src="images/menu-frontier-chefswok1.PNG" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Chicken Rice</h2>
+      <img 
+          src="images/cards-scp-frontier-chickenrice1.PNG" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-flash3.png" 
+          src="images/menu-frontier-chickenrice1.PNG" 
           class="menu"
         >
-      </img> */}
+      </img>
+      <h2>Chinese</h2>
+      <img 
+          src="images/cards-scp-frontier-chinese1.PNG" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Drinks and Snacks</h2>
+      <img 
+          src="images/cards-scp-frontier-drinksandsnacks1.PNG" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Fruits and Juices</h2>
+      <img 
+          src="images/cards-scp-frontier-fruitsandjuices1.PNG" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-frontier-fruitsandjuices1.PNG" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-frontier-fruitsandjuices2.PNG" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Indian</h2>
+      <img 
+          src="images/cards-scp-frontier-indian1.PNG" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-frontier-indian1.PNG" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Japanese</h2>
+      <img 
+          src="images/cards-scp-frontier-japanese1.PNG" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-frontier-japanese1.PNG" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Korean</h2>
+      <img 
+          src="images/cards-scp-frontier-korean1.PNG" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-frontier-korean1.PNG" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Mala Hotpot</h2>
+      <img 
+          src="images/cards-scp-frontier-mala1.PNG" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-frontier-mala1.PNG" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Mixed Vegetable Rice</h2>
+      <img 
+          src="images/menu-frontier-mixedvegetablerice1.PNG" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Muslim</h2>
+      <img 
+          src="images/cards-scp-frontier-muslim1.PNG" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-frontier-muslim1.PNG" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Noodles</h2>
+      <img 
+          src="images/cards-scp-frontier-noodles1.PNG" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-frontier-noodles1.PNG" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Thai</h2>
+      <img 
+          src="images/cards-scp-frontier-thai1.PNG" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-frontier-thai1.PNG" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Vegetarian</h2>
+      <img 
+          src="images/cards-scp-frontier-vegetarian1.PNG" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-frontier-vegetarian1.PNG" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Western</h2>
+      <img 
+          src="images/cards-scp-frontier-western1.PNG" 
+          class="menu"
+        >
+      </img>
+      <img 
+          src="images/menu-frontier-western1.PNG" 
+          class="menu"
+        >
+      </img>
+      <br></br>
+      <h2>Yong Tau Foo</h2>
+      <img 
+          src="images/cards-scp-frontier-yongtaufoo1.PNG" 
+          class="menu"
+        >
+      </img>
+      <br></br>
     </>
   )
 }

@@ -11,7 +11,7 @@ function BIZCards() {
         <h1>Mochtar Riady Building</h1>
           <ul className='cards__items'>
             <CardItem
-              src='images/cards-biz-spread3.jpeg'
+              src='images/cards-biz-spread4.png'
               text='The Spread'
               label='Italian'
               path='/thespread'

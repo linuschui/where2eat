@@ -10,13 +10,13 @@ function YSTCards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/cards-yst-barbar1.jpeg'
+              src='images/cards-yst-barbar2.png'
               text='Bar Bar Black Sheep'
               label='Western'
               path='/barbarblacksheep'
             />
             <CardItem
-              src='images/cards-yst-foreword1.jpeg'
+              src='images/cards-yst-foreword2.png'
               text='Foreword Coffee Roaster'
               label='Cafe'
               path='/forewordcoffee'

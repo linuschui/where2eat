@@ -47,27 +47,22 @@ function thespread() {
           </a>
       </div>
       <img 
-          src="images/menu-theteaparty1.png" 
+          src="images/menu-spread1.jpeg" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theteaparty2.png" 
+          src="images/menu-spread2.jpeg" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theteaparty3.png" 
+          src="images/menu-spread3.jpeg" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theteaparty4.png" 
-          class="menu"
-        >
-      </img>
-      <img 
-          src="images/menu-theteaparty5.png" 
+          src="images/menu-spread4.jpeg" 
           class="menu"
         >
       </img>

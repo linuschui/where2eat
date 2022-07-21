@@ -10,7 +10,7 @@ function forewordcoffee() {
         <h1>Foreword Coffee Roaster</h1>
         <br></br>
         <img 
-          src="images/cards-yst-foreword1.jpeg" 
+          src="images/cards-yst-foreword2.png" 
           class="logo"
         >
         </img>
@@ -46,7 +46,7 @@ function forewordcoffee() {
           </h2>
           </a>
       </div>
-      {/* <img 
+      <img 
           src="images/menu-flash1.png" 
           class="menu"
         >
@@ -60,7 +60,7 @@ function forewordcoffee() {
           src="images/menu-flash3.png" 
           class="menu"
         >
-      </img> */}
+      </img> 
     </>
   )
 }

@@ -32,7 +32,7 @@ function COMCards() {
           <h1>Innovation 4.0</h1>
           <ul className='cards__items'>
             <CardItem
-              src='images/cards-com-nami1.jpeg'
+              src='images/cards-com-nami2.png'
               text='Nami'
               label='Western'
               path='/nami'
