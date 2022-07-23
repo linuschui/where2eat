@@ -389,7 +389,8 @@ export const RestaurantList =
     "Name": "The Spread",
     "Location": "Business", 
     "Building": "Mochtar Riady Building",
-    "Website": "/thespread"
+    "Website": "/thespread",
+    "LocationWesbite" : "/biz"
   },
   {
     "id": 50,
