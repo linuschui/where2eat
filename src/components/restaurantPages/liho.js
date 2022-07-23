@@ -7,10 +7,10 @@ function liho() {
     <>
       <div>
         <br></br>
-        <h1>Bober Tea</h1>
+        <h1>Liho</h1>
         <br></br>
         <img 
-          src="images/cards-yst-barbar1.jpeg" 
+          src="images/cards-sde-liho1.jpeg" 
           class="logo"
         >
         </img>
@@ -47,17 +47,17 @@ function liho() {
           </a>
       </div>
       <img 
-          src="images/menu-bbbs1.jpg" 
+          src="images/menu-liho1.jpeg" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-bbbs2.jpg" 
+          src="images/menu-liho2.jpeg" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-bbbs3.jpg" 
+          src="images/menu-liho3.jpeg" 
           class="menu"
       >
       </img>

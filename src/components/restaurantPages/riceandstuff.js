@@ -47,57 +47,57 @@ function riceandstuff() {
           </a> */}
       </div>
       <img 
-          src="images/menu-theroyalsbistro1.png" 
+          src="images/menu-riceandstuff1.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theroyalsbistro2.png" 
+          src="images/menu-riceandstuff2.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theroyalsbistro3.png" 
+          src="images/menu-riceandstuff3.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theroyalsbistro4.png" 
+          src="images/menu-riceandstuff4.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theroyalsbistro5.png" 
+          src="images/menu-riceandstuff5.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theroyalsbistro6.png" 
+          src="images/menu-riceandstuff6.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theroyalsbistro7.png" 
+          src="images/menu-riceandstuff7.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theroyalsbistro8.png" 
+          src="images/menu-riceandstuff8.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theroyalsbistro9.png" 
+          src="images/menu-riceandstuff9.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theroyalsbistro10.png" 
+          src="images/menu-riceandstuff10.png" 
           class="menu"
         >
       </img>
       <img 
-          src="images/menu-theroyalsbistro11.png" 
+          src="images/menu-riceandstuff11.png" 
           class="menu"
         >
       </img>
