@@ -71,6 +71,7 @@ import theteaparty from './components/restaurantPages/theteaparty';
 import udondonbar from './components/restaurantPages/udondonbar';
 import unclepenyet from './components/restaurantPages/unclepenyet';
 import waacow from './components/restaurantPages/waacow';
+import Restaurant from './components/pages/Restaurant';
 
 function App2({handleLogOut}) {
   return (
@@ -98,7 +99,7 @@ function App2({handleLogOut}) {
           <Route path='/search' component={Search} />
           <Route path='/favourites' component={Favourites} />
           <Route path='/favourites2' component={Favourites2} />
-          <Route path='/restaurants' component={Restaurants} />
+          <Route path='/rest' component={Restaurants} />
           <Route path='/ariseandshine' component={ariseandshine} />
           <Route path='/barbarblacksheep' component={barbarblacksheep} />
           <Route path='/bistrobox' component={bistrobox} />
@@ -146,6 +147,7 @@ function App2({handleLogOut}) {
           <Route path='/udondonbar' component={udondonbar} />
           <Route path='/unclepenyet' component={unclepenyet} />
           <Route path='/waacow' component={waacow} />
+          <Route path='/restaurants' component={Restaurant} />
         </Switch>
         <Footer />
       </Router>
