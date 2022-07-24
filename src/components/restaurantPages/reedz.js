@@ -1,8 +1,31 @@
-import React from 'react'
-import resData from "../../data/allRestaurants.json";
-import './images.css'
+import React, { useState , useEffect } from 'react'
+import firebase from "../../fire";
+import './images.css';
 
-function reedz() {
+function Reedz() {
+
+  const [data, setData] = useState([])
+  const [loader, setLoader] = useState(false)
+  const ref = firebase.firestore().collection("restaurant");
+  console.log(ref);
+
+  function getData() {
+    setLoader(true);
+    ref.onSnapshot((querySnapshot) => {
+      const items = []
+      querySnapshot.forEach((doc) => {
+        items.push(doc.data())
+      })
+      setData(items)
+      setLoader(false)
+    })
+  }
+
+  useEffect(() => {
+    getData()
+    console.log(data)
+  }, [])
+
   return (
     <>
       <div>
@@ -15,7 +38,7 @@ function reedz() {
         >
         </img>
         <br></br> 
-          {resData.map(
+          {data.map(
             res => 
               res.Name == "Reedz Cafe" && (
                 <h2 key={res.id}>
@@ -69,4 +92,4 @@ function reedz() {
   )
 }
 
-export default reedz;
+export default Reedz;

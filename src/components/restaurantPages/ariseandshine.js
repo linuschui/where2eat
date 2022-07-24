@@ -1,5 +1,6 @@
 import React, { useState , useEffect } from 'react'
 import firebase from "../../fire";
+import './images.css';
 
 function Ariseandshine() {
 
@@ -55,12 +56,6 @@ function Ariseandshine() {
             )
           }
         <br></br>
-          {/* <a
-            href='https://www.starbucks.com.sg/'
-            target="_blank"
-          >
-          <h2>website : https://www.starbucks.com.sg/</h2>
-          </a> */}
       </div>
     </>
   )

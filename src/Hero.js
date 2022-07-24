@@ -97,8 +97,8 @@ function App2({handleLogOut}) {
           <Route path='/KRNorth' component={KRNorth} />
           <Route path='/KRSouth' component={KRSouth} />
           <Route path='/search' component={Search} />
-          <Route path='/favourites' component={Favourites} />
-          <Route path='/favourites2' component={Favourites2} />
+          <Route path='/favourites2' component={Favourites} />
+          <Route path='/favourites' component={Favourites2} />
           <Route path='/rest' component={Restaurants} />
           <Route path='/ariseandshine' component={ariseandshine} />
           <Route path='/barbarblacksheep' component={barbarblacksheep} />
