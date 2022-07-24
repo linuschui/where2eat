@@ -1,5 +1,4 @@
-{
-    "listt": [
+[
       {
         "Name": "Alice Lee Plaza",
         "Address": "50 Kent Ridge Crescent, 119279",
@@ -210,5 +209,4 @@
         "Location": "Yusof Ishak House",
         "Link": "/yih"
       }
-    ]
-}
+]
