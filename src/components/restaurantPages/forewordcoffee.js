@@ -69,7 +69,7 @@ function Forewordcoffee() {
           </h2>
           </a>
       </div>
-      <img 
+      {/* <img 
           src="images/menu-flash1.png" 
           class="menu"
         >
@@ -83,7 +83,7 @@ function Forewordcoffee() {
           src="images/menu-flash3.png" 
           class="menu"
         >
-      </img> 
+      </img>  */}
     </>
   )
 }

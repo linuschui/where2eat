@@ -69,7 +69,7 @@ function Spinelli() {
           </h2>
           </a>
       </div>
-      <img 
+      {/* <img 
           src="images/menu-theroyalsbistro1.png" 
           class="menu"
         >
@@ -123,7 +123,7 @@ function Spinelli() {
           src="images/menu-theroyalsbistro11.png" 
           class="menu"
         >
-      </img>
+      </img> */}
     </>
   )
 }

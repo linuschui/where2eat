@@ -69,7 +69,7 @@ function Pgpraircon() {
           </h2>
           </a> */}
       </div>
-      <img 
+      {/* <img 
           src="images/menu-prive1.png" 
           class="menu"
         >
@@ -83,7 +83,7 @@ function Pgpraircon() {
           src="images/menu-prive3.png" 
           class="menu"
         >
-      </img>
+      </img> */}
     </>
   )
 }

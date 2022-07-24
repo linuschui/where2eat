@@ -69,7 +69,7 @@ function Thesummit() {
           </h2>
           </a> */}
       </div>
-      <img 
+      {/* <img 
           src="images/menu-theteaparty1.png" 
           class="menu"
         >
@@ -93,7 +93,7 @@ function Thesummit() {
           src="images/menu-theteaparty5.png" 
           class="menu"
         >
-      </img>
+      </img> */}
     </>
   )
 }

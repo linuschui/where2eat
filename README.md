@@ -70,3 +70,7 @@ V1.14
 V1.15
 - switched from json file to firestore
 - edited restaurants page to get data from firestore
+
+V1.16
+- migrated all data from json to firestore
+- edited favourites page such that users can only see what they write to the database
