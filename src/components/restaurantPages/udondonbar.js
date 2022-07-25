@@ -28,7 +28,7 @@ function Udondonbar() {
     getData()
     console.log(data)
   }, [])
-
+  // qJwnjrmTC1b8jt
   const db = fire.firestore();
   const increment = firebase.firestore.FieldValue.increment(1);
   const decrement = firebase.firestore.FieldValue.increment(-1);
@@ -37,21 +37,21 @@ function Udondonbar() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("qJwnjrmTC1b8jt")
+      .doc("DESGhzptQU5JIt")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("qJwnjrmTC1b8jt")
+      .doc("DESGhzptQU5JIt")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("qJwnjrmTC1b8jt")
+      .doc("DESGhzptQU5JIt")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Udondonbar() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("qJwnjrmTC1b8jt")
+      .doc("DESGhzptQU5JIt")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("qJwnjrmTC1b8jt")
+      .doc("DESGhzptQU5JIt")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("qJwnjrmTC1b8jt")
+      .doc("DESGhzptQU5JIt")
       .update({
         like : decrement,
         dislike: increment

@@ -25,6 +25,8 @@ import Favourites from './components/pages/Favourites';
 import Favourites2 from './components/pages/Favourites2';
 import Favourites3 from './components/pages/Favourites3';
 import Restaurants from './components/pages/Restaurants.jsx';
+import Review from './components/pages/Review.js';
+import AllReviews from './components/pages/AllReviews';
 import ariseandshine from './components/restaurantPages/ariseandshine';
 import barbarblacksheep from './components/restaurantPages/barbarblacksheep';
 import bistrobox from './components/restaurantPages/bistrobox';
@@ -150,6 +152,8 @@ function App2({handleLogOut}) {
           <Route path='/waacow' component={waacow} />
           <Route path='/restaurants' component={Restaurant} />
           <Route path='/fav3' component={Favourites3} />
+          <Route path='/review' component={Review} />
+          <Route path='/allreviews' component={AllReviews} />
         </Switch>
         <Footer />
       </Router>

@@ -21,11 +21,12 @@ function Restaurant() {
 
   function getData() {
     setLoader(true);
-    ref.onSnapshot((querySnapshot) => {
-      const items = []
-      querySnapshot.forEach((doc) => {
-        items.push(doc.data())
-      })
+    ref.orderBy('id', 'asc')
+       .onSnapshot((querySnapshot) => {
+       const items = []
+       querySnapshot.forEach((doc) => {
+         items.push(doc.data())
+       })
       setData(items)
       setLoader(false)
     })
