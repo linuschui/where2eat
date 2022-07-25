@@ -1,0 +1,212 @@
+[
+      {
+        "Name": "Alice Lee Plaza",
+        "Address": "50 Kent Ridge Crescent, 119279",
+        "Coordinates": [1.3018159464645989, 103.7721838696423],
+        "Location": "Music",
+        "Link": "/yst"
+      },
+      {
+        "Name": "Arts Block AS2",
+        "Address": "1 Arts Link, Singapore 117568",
+        "Coordinates": [1.295571226248212, 103.77104171326712],
+        "Location": "Faculty of Arts and Social Sciences",
+        "Link": "/fass"
+      },
+      {
+        "Name": "Arts Block AS8",
+        "Address": "10 Kent Ridge Cres, Singapore 119260",
+        "Coordinates": [1.2961289830296232, 103.77200730846256],
+        "Location": "Faculty of Arts and Social Sciences",
+        "Link": "/fass"
+      },
+      {
+        "Name": "Central Library",
+        "Address": "12 Kent Ridge Cres, Singapore 119275",
+        "Coordinates": [1.2969029251717656, 103.7732262984776],
+        "Location": "Faculty of Arts and Social Sciences",
+        "Link": "/fass"
+      },
+      {
+        "Name": "Deck",
+        "Address": "Computing Dr",
+        "Coordinates": [1.2945785653670991, 103.77262130859448],
+        "Location": "Computing",
+        "Link": "/com"
+      },
+      {
+        "Name": "Education Resource Centre",
+        "Address": "8 College Ave West, Buona Vista, Singapore 138608",
+        "Coordinates": [1.30620946791251, 103.77319132680695],
+        "Location": "UTown",
+        "Link": "/utn"
+      },
+      {
+        "Name": "Engineering Block EA",
+        "Address": "National University of Singapore, Engineering Auditorium",
+        "Coordinates": [1.300926682132843, 103.77046176908962],
+        "Location": "Engineering",
+        "Link": "/sde"
+      },
+      {
+        "Name": "Engineering Block E2",
+        "Address": "9 Engineering Drive 1, Singapore 117575",
+        "Coordinates": [1.2993300423759728, 103.77136158683128],
+        "Location": "Engineering",
+        "Link": "/sde"
+      },
+      {
+        "Name": "Engineering Block E4",
+        "Address": "4 Engineering Drive 3, Singapore 117583",
+        "Coordinates": [1.299011933589555, 103.77214641601795],
+        "Location": "Engineering",
+        "Link": "/sde"
+      },
+      {
+        "Name": "Engineering Block E7",
+        "Address": "15 Kent Ridge Cres, Singapore 119276",
+        "Coordinates": [1.2988743988894778, 103.77357301381912],
+        "Location": "Engineering",
+        "Link": "/sde"
+      },
+      {
+        "Name": "Frontier",
+        "Address": "12 Science Drive 2, Singapore 117549",
+        "Coordinates": [1.2966180696039142, 103.7803906220884],
+        "Location": "Science",
+        "Link": "/scp"
+      }, 
+      {
+        "Name": "Innovation 4.0",
+        "Address": "3 Research Link, Singapore 117602",
+        "Coordinates": [1.294422816634335, 103.77595265614848],
+        "Location": "Computing",
+        "Link": "/com"
+      }, 
+      {
+        "Name": "Law Block B",
+        "Address": "Former Raffles College",
+        "Coordinates": [1.3191791296844504, 103.81688495574309],
+        "Location": "Law",
+        "Link": "/law"
+      }, 
+      {
+        "Name": "Li Ka Shing Building",
+        "Address": "Bukit Timah Rd, Singapore 259772",
+        "Coordinates": [1.3198200148708057, 103.8175687401677],
+        "Location": "Law",
+        "Link": "/law"
+      },
+      {
+        "Name": "Medicine Block MD6 - Centre for Translational Medicine",
+        "Address": "14 Medical Dr, Singapore 117599",
+        "Coordinates": [1.2955949992115734, 103.78176660032508],
+        "Location": "Medicine",
+        "Link": "/mdn"
+      },
+      {
+        "Name": "Medicine Block MD11 - Clinical Research Centre",
+        "Address": "10 Medical Dr, #01-40 Yong Loo Lin School of Medicine, Singapore 117597",
+        "Coordinates": [1.2965810000556728, 103.78197046427586],
+        "Location": "Medicine",
+        "Link": "/mdn"
+      },
+      {
+        "Name": "Mochtar Riady Building",
+        "Address": "15 Kent Ridge Drive NUS Business School, 119245",
+        "Coordinates": [1.2926751472803053, 103.77410062733131],
+        "Location": "Business",
+        "Link": "/biz"
+      },
+      {
+        "Name": "My Village",
+        "Address": "27 Prince George's Park, 118425",
+        "Coordinates": [1.2905941392291667, 103.78140726808739],
+        "Location": "Prince George’s Park Residences",
+        "Link": "/pgpr"
+      },
+      {
+        "Name": "Prince George’s Park Residences",
+        "Address": "27 Prince George's Park, Singapore 118425",
+        "Coordinates": [1.291096459610104, 103.78079345855703],
+        "Location": "Prince George’s Park Residences",
+        "Link": "/pgpr"
+      },
+      {
+        "Name": "Science Block S9 Wet Science Building",
+        "Address": "4 Science Drive 2, Singapore 117544",
+        "Coordinates": [1.2960216391897512, 103.78020799977367],
+        "Location": "Science",
+        "Link": "/scp"
+      },
+      {
+        "Name": "Science Block S16",
+        "Address": "Lower Kent Ridge Rd",
+        "Coordinates": [1.297208352169104, 103.7804405355823],
+        "Location": "Science",
+        "Link": "/scp"
+      },
+      {
+        "Name": "Shaw Foundation Alumni House",
+        "Address": "11 Kent Ridge Dr, Singapore 119244",
+        "Coordinates": [1.293526629929039, 103.7734353426545],
+        "Location": "Business",
+        "Link": "/biz"
+      },
+      {
+        "Name": "Stephen Riady Centre",
+        "Address": "2 College Ave West, Singapore 138607",
+        "Coordinates": [1.3046841168764716, 103.7719982910221],
+        "Location": "UTown",
+        "Link": "/utn"
+      },
+      {
+        "Name": "Techno Edge",
+        "Address": "2 Engineering Drive 4, Singapore 117584",
+        "Coordinates": [1.3018159464645989, 103.7721838696423],
+        "Location": "Engineering",
+        "Link": "/sde"
+      },
+      {
+        "Name": "Town Plaza",
+        "Address": "2 College Ave West, Singapore 138607",
+        "Coordinates": [1.3047682305027175, 103.7724806408713],
+        "Location": "UTown",
+        "Link": "/utn"
+      },
+      {
+        "Name": "University Hall Tan Chin Tuan Wing",
+        "Address": "21 Lower Kent Ridge Rd, Singapore 119077",
+        "Coordinates": [1.2975167366511275, 103.77793608917804],
+        "Location": "Science",
+        "Link": "/scp"
+      },
+      {
+        "Name": "University Sports Centre",
+        "Address": "2 Sports Drive 1, Singapore 117561",
+        "Coordinates": [1.2999893117670946, 103.77528937649085],
+        "Location": "Yusof Ishak House",
+        "Link": "/yih"
+      },
+      {
+        "Name": "Ventus",
+        "Address": "8 Kent Ridge Dr, Singapore 119246",
+        "Coordinates": [1.2955185948417973, 103.77025987148981],
+        "Location": "Faculty of Arts and Social Sciences",
+        "Link": "/fass"
+      },
+      {
+        "Name": "Yong Siew Toh Conservatory of Music",
+        "Address": "3 Conservatory Drive, 117376",
+        "Coordinates": [1.3025970378815104, 103.77209864080696],
+        "Location": "Music",
+        "Link": "/yst"
+      }, 
+      {
+        "Name": "Yusof Ishak House",
+        "Address": "31 Lower Kent Ridge Rd, Singapore 119078",
+        "Coordinates": [1.298784872808461, 103.77494926913555],
+        "Location": "Yusof Ishak House",
+        "Link": "/yih"
+      }
+]

@@ -1,8 +1,32 @@
-import React from 'react'
-import resData from "../../data/allRestaurants.json";
+import React, { useState , useEffect } from 'react'
+import firebase from "../../fire";
 import './images.css'
 
-function bobertea() {
+function Bobertea() {
+
+  const [data, setData] = useState([])
+  const [loader, setLoader] = useState(false)
+  const ref = firebase.firestore().collection("restaurant");
+  console.log(ref);
+
+  function getData() {
+    setLoader(true);
+    ref.onSnapshot((querySnapshot) => {
+      const items = []
+      querySnapshot.forEach((doc) => {
+        items.push(doc.data())
+      })
+      setData(items)
+      setLoader(false)
+    })
+  }
+
+  useEffect(() => {
+    getData()
+    console.log(data)
+  }, [])
+
+
   return (
     <>
       <div>
@@ -15,7 +39,7 @@ function bobertea() {
         >
         </img>
         <br></br> 
-          {resData.map(
+          {data.map(
             res => 
               res.Name == "Bober Tea" && (
                 <h2 key={res.id}>
@@ -36,13 +60,13 @@ function bobertea() {
             )
           }
         <br></br>
+        <h2>Website</h2>
           <a
             href='https://bobertea.sg/'
             target="_blank"
           >
           <h2>
-            <h5>Website <br></br>
-            https://bobertea.sg/</h5>
+            <h5>https://bobertea.sg/</h5>
           </h2>
           </a>
       </div>
@@ -95,4 +119,4 @@ function bobertea() {
   )
 }
 
-export default bobertea;
+export default Bobertea;

@@ -65,7 +65,7 @@ export const RestaurantList =
     "LocationWesbite" : "/utn"
   },
   {
-    "id": 47,
+    "id": 9,
     "Name": "Deck",
     "Location": "Computing", 
     "Building": "Deck",
@@ -73,7 +73,7 @@ export const RestaurantList =
     "LocationWesbite" : "/com"
   },
   {
-    "id": 9,
+    "id": 10,
     "Name": "E2 Kitchen",
     "Location": "Engineering", 
     "Building": "Engineering Block E2",
@@ -81,7 +81,7 @@ export const RestaurantList =
     "LocationWesbite" : "/sde"
   },
   {
-    "id": 10,
+    "id": 11,
     "Name": "Eureka Taste",
     "Location": "Medicine", 
     "Building": "Medicine Block MD6 - Centre for Translational Medicine",
@@ -89,7 +89,7 @@ export const RestaurantList =
     "LocationWesbite" : "/mdn"
   },
   {
-    "id": 11,
+    "id": 12,
     "Name": "Fine Food",
     "Location": "UTown", 
     "Building": "Town Plaza",
@@ -97,7 +97,7 @@ export const RestaurantList =
     "LocationWesbite" : "/utn"
   },
   {
-    "id": 12,
+    "id": 13,
     "Name": "Flash Coffee",
     "Location": "YIH", 
     "Building": "YIH",
@@ -105,7 +105,7 @@ export const RestaurantList =
     "LocationWesbite" : "/yih"
   },
   {
-    "id": 13,
+    "id": 14,
     "Name": "Flavours @ UTown",
     "Location": "UTown", 
     "Building": "Stephen Riady Centre",
@@ -113,7 +113,7 @@ export const RestaurantList =
     "LocationWesbite" : "/utn"
   },
   {
-    "id": 14,
+    "id": 15,
     "Name": "Foreword Coffee Roaster",
     "Location": "Music", 
     "Building": "Yong Siew Toh Conservatory of Music",
@@ -121,7 +121,7 @@ export const RestaurantList =
     "LocationWesbite" : "/yst"
   },
   {
-    "id": 15,
+    "id": 16,
     "Name": "Frontier",
     "Location": "Science", 
     "Building": "Frontier",
@@ -129,7 +129,7 @@ export const RestaurantList =
     "LocationWesbite" : "/scp"
   },
   {
-    "id": 16,
+    "id": 17,
     "Name": "Huggs Coffee",
     "Location": "Engineering", 
     "Building": "Engineering Block E7",
@@ -137,7 +137,7 @@ export const RestaurantList =
     "LocationWesbite" : "/sde"
   },
   {
-    "id": 17,
+    "id": 18,
     "Name": "Hwang’s Korean Restaurant",
     "Location": "UTown", 
     "Building": "Town Plaza",
@@ -145,7 +145,7 @@ export const RestaurantList =
     "LocationWesbite" : "/utn"
   },
   {
-    "id": 18,
+    "id": 19,
     "Name": "Jewel Coffee",
     "Location": "Medicine", 
     "Building": "Medicine Block MD11 - Clinical Research Centre",
@@ -153,7 +153,7 @@ export const RestaurantList =
     "LocationWesbite" : "/mdn"
   },
   {
-    "id": 19,
+    "id": 20,
     "Name": "KOI",
     "Location": "YIH", 
     "Building": "Yusof Ishak House",
@@ -161,7 +161,7 @@ export const RestaurantList =
     "LocationWesbite" : "/yih"
   },
   {
-    "id": 20,
+    "id": 21,
     "Name": "Lejomo Cafe",
     "Location": "PGPR",
     "Building": "My Village @ Prince George’s Park Residences",
@@ -169,7 +169,7 @@ export const RestaurantList =
     "LocationWesbite" : "/pgpr"
   },
   {
-    "id": 21,
+    "id": 22,
     "Name": "Li Ji Coffeehouse",
     "Location": "Science", 
     "Building": "Frontier",
@@ -177,7 +177,7 @@ export const RestaurantList =
     "LocationWesbite" : "/scp"
   },
   {
-    "id": 22,
+    "id": 23,
     "Name": "Liang Ban Kung Fu",
     "Location": "Computing", 
     "Building": "Deck",
@@ -185,7 +185,7 @@ export const RestaurantList =
     "LocationWesbite" : "/com"
   },
   {
-    "id": 23,
+    "id": 24,
     "Name": "LiHO Tea",
     "Location": "Engineering", 
     "Building": "Techno Edge",
@@ -193,7 +193,7 @@ export const RestaurantList =
     "LocationWesbite" : "/sde"
   },
   {
-    "id": 24,
+    "id": 25,
     "Name": "Maxx Coffee",
     "Location": "FASS", 
     "Building": "Central Library",
@@ -201,7 +201,7 @@ export const RestaurantList =
     "LocationWesbite" : "/fass"
   },
   {
-    "id": 25,
+    "id": 26,
     "Name": "Nami",
     "Location": "Computing", 
     "Building": "Innovation 4.0",
@@ -209,7 +209,7 @@ export const RestaurantList =
     "LocationWesbite" : "/com"
   },
   {
-    "id": 26,
+    "id": 27,
     "Name": "Nine Fresh",
     "Location": "Science", 
     "Building": "Science",
@@ -217,7 +217,7 @@ export const RestaurantList =
     "LocationWesbite" : "/scp"
   },
   {
-    "id": 27,
+    "id": 28,
     "Name": "Pasta Express",
     "Location": "Science", 
     "Building": "Frontier",
@@ -225,7 +225,7 @@ export const RestaurantList =
     "LocationWesbite" : "/scp"
   },
   {
-    "id": 28,
+    "id": 29,
     "Name": "PGPR Aircon Canteen",
     "Location": "PGPR",
     "Building": "Prince George’s Park Residences",
@@ -233,7 +233,7 @@ export const RestaurantList =
     "LocationWesbite" : "/pgpr"
   },
   {
-    "id": 29,
+    "id": 30,
     "Name": "PGPR Non Aircon Canteen",
     "Location": "PGPR",
     "Building": "Prince George’s Park Residences",
@@ -241,7 +241,7 @@ export const RestaurantList =
     "LocationWesbite" : "/pgpr"
   },
   {
-    "id" : 30,
+    "id" : 31,
     "Name": "Prive Grill University Club",
     "Location": "Business",
     "Building": "Shaw Foundation Alumni House",
@@ -249,7 +249,7 @@ export const RestaurantList =
     "LocationWesbite" : "/biz"
   },
   {
-    "id": 31,
+    "id": 32,
     "Name": "Reedz Cafe",
     "Location": "Shaw Foundation Alumni House",
     "Building": "Shaw Foundation Alumni House",
@@ -257,7 +257,7 @@ export const RestaurantList =
     "LocationWesbite" : "/biz"
   },
   {
-    "id": 32,
+    "id": 33,
     "Name": "Reedz Cafe",
     "Location": "Law",
     "Building": "Li Ka Shing Building",
@@ -265,7 +265,7 @@ export const RestaurantList =
     "LocationWesbite" : "/law"
   },
   {
-    "id": 33,
+    "id": 34,
     "Name": "Rice & Stuff",
     "Location": "PGPR",
     "Building": "My Village",
@@ -273,7 +273,7 @@ export const RestaurantList =
     "LocationWesbite" : "/pgpr"
   },
   {
-    "id": 34,
+    "id": 35,
     "Name": "Salad Express X Pasta Express",
     "Location": "Computing", 
     "Building": "Deck",
@@ -281,7 +281,7 @@ export const RestaurantList =
     "LocationWesbite" : "/com"
   },
   {
-    "id": 35,
+    "id": 36,
     "Name": "Sapore Italian Restaurant",
     "Location": "UTown", 
     "Building": "Town Plaza",
@@ -289,7 +289,7 @@ export const RestaurantList =
     "LocationWesbite" : "/utn"
   },
   {
-    "id": 36,
+    "id": 37,
     "Name": "Spinelli Coffee",
     "Location": "University Hall", 
     "Building": "University Hall Tan Chin Tuan Wing",
@@ -297,7 +297,7 @@ export const RestaurantList =
     "LocationWesbite" : "/scp"
   },
   {
-    "id": 37,
+    "id": 38,
     "Name": "Spinelli Coffee",
     "Location": "Engineering", 
     "Building": "Engineering Block EA",
@@ -305,7 +305,7 @@ export const RestaurantList =
     "LocationWesbite" : "/sde"
   },
   {
-    "id": 38,
+    "id": 39,
     "Name": "Starbucks",
     "Location": "Science", 
     "Building": "Science Block S9 Wet Science Building",
@@ -313,7 +313,7 @@ export const RestaurantList =
     "LocationWesbite" : "/scp"
   },
   {
-    "id": 39,
+    "id": 40,
     "Name": "Starbucks",
     "Location": "Engineering", 
     "Building": "Techno Edge",
@@ -321,7 +321,7 @@ export const RestaurantList =
     "LocationWesbite" : "/sde"
   },
   {
-    "id": 40,
+    "id": 41,
     "Name": "Starbucks",
     "Location": "UTown", 
     "Building": "Education Resource Centre",
@@ -329,7 +329,7 @@ export const RestaurantList =
     "LocationWesbite" : "/utn"
   },
   {
-    "id": 41,
+    "id": 42,
     "Name": "Supersnacks",
     "Location": "UTown", 
     "Building": "Stephen Riady Centre",
@@ -337,7 +337,7 @@ export const RestaurantList =
     "LocationWesbite" : "/utn"
   },
   {
-    "id": 42,
+    "id": 43,
     "Name": "Supersnacks",
     "Location": "PGPR",
     "Building": "Prince George’s Park Residences",
@@ -345,7 +345,7 @@ export const RestaurantList =
     "LocationWesbite" : "/pgpr"
   },
   {
-    "id": 43,
+    "id": 44,
     "Name": "Taiwan Ichiban",
     "Location": "Science",
     "Building": "Frontier",
@@ -353,7 +353,7 @@ export const RestaurantList =
     "LocationWesbite" : "/scp"
   },
   {
-    "id": 44,
+    "id": 45,
     "Name": "Techno Edge",
     "Location": "Engineering", 
     "Building": "Techno Edge",
@@ -361,7 +361,7 @@ export const RestaurantList =
     "LocationWesbite" : "/sde"
   },
   {
-    "id": 45,
+    "id": 46,
     "Name": "The Coffee Hut",
     "Location": "FASS", 
     "Building": "Arts Block AS2",
@@ -369,7 +369,7 @@ export const RestaurantList =
     "LocationWesbite" : "/fass"
   },
   {
-    "id": 46, 
+    "id": 47, 
     "Name": "The Coffee Roaster",
     "Location": "FASS", 
     "Building": "Arts Block AS8",
@@ -389,7 +389,8 @@ export const RestaurantList =
     "Name": "The Spread",
     "Location": "Business", 
     "Building": "Mochtar Riady Building",
-    "Website": "/thespread"
+    "Website": "/thespread",
+    "LocationWesbite" : "/biz"
   },
   {
     "id": 50,

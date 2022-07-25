@@ -16,8 +16,8 @@ const RestaurantTable = ({data}) => {
               </a>
             </td>
             <td>
-              <a href={item.LocationWesbite}>
-                {item.Location}
+              <a href={item.LocationWebsite}>
+                {item.Faculty}
               </a>
             </td>
           </tr>

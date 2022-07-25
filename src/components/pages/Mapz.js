@@ -7,13 +7,34 @@ import {
     Marker,
     InfoWindow
   } from "react-google-maps";
-import * as buildData from "../../data/buildings.json";
 import useGetLocation from "../../useGetLocation"
 import { Link } from 'react-router-dom';
+import firebase from "../../fire";
 
 function MapzCards() {
-    const [selectedBuilding, setSelectedBuilding] = useState(null);
-    const location = useGetLocation();
+  const [selectedBuilding, setSelectedBuilding] = useState(null);
+  const location = useGetLocation();
+  const [data, setData] = useState([])
+  const [loader, setLoader] = useState(false)
+  const ref = firebase.firestore().collection("buildings");
+  console.log(ref);
+
+  function getData() {
+    setLoader(true);
+    ref.onSnapshot((querySnapshot) => {
+      const items = []
+      querySnapshot.forEach((doc) => {
+        items.push(doc.data())
+      })
+      setData(items)
+      setLoader(false)
+    })
+  }
+
+  useEffect(() => {
+    getData()
+    console.log(data)
+  }, [])
 
   return (
     < GoogleMap
@@ -34,7 +55,7 @@ function MapzCards() {
             scaledSize: new window.google.maps.Size(40, 40)
           }}
           />
-        {buildData.listt.map(building => (
+        {data.map(building => (
             < Marker
               key={building.Name}
               position={{

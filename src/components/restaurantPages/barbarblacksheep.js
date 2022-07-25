@@ -1,8 +1,31 @@
-import React from 'react'
-import resData from "../../data/allRestaurants.json";
-import './images.css'
+import React, { useState , useEffect } from 'react'
+import firebase from "../../fire";
+import './images.css';
 
-function barbarblacksheep() {
+function Barbarblacksheep() {
+
+  const [data, setData] = useState([])
+  const [loader, setLoader] = useState(false)
+  const ref = firebase.firestore().collection("restaurant");
+  console.log(ref);
+
+  function getData() {
+    setLoader(true);
+    ref.onSnapshot((querySnapshot) => {
+      const items = []
+      querySnapshot.forEach((doc) => {
+        items.push(doc.data())
+      })
+      setData(items)
+      setLoader(false)
+    })
+  }
+
+  useEffect(() => {
+    getData()
+    console.log(data)
+  }, [])
+
   return (
     <>
       <div>
@@ -15,7 +38,7 @@ function barbarblacksheep() {
         >
         </img>
         <br></br> 
-          {resData.map(
+          {data.map(
             res => 
               res.Name == "Bar Bar Black Sheep" && (
                 <h2 key={res.id}>
@@ -36,13 +59,13 @@ function barbarblacksheep() {
             )
           }
         <br></br>
+          <h2>Website</h2>
           <a
             href='https://www.bbbs.com.sg/'
             target="_blank"
           >
           <h2>
-            <h5>Website <br></br>
-            https://www.bbbs.com.sg/</h5>
+            <h5>https://www.bbbs.com.sg/</h5>
           </h2>
           </a>
       </div>
@@ -65,4 +88,4 @@ function barbarblacksheep() {
   )
 }
 
-export default barbarblacksheep;
+export default Barbarblacksheep;

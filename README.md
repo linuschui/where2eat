@@ -66,3 +66,7 @@ V1.13
 
 V1.14
 - added all restaurant pages with menus
+
+V1.15
+- switched from json file to firestore
+- edited restaurants page to get data from firestore

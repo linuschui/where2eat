@@ -1,7 +1,31 @@
-import React from 'react'
-import resData from "../../data/allRestaurants.json";
+import React, { useState , useEffect } from 'react'
+import firebase from "../../fire";
+import './images.css';
 
-function ariseandshine() {
+function Ariseandshine() {
+
+  const [data, setData] = useState([])
+  const [loader, setLoader] = useState(false)
+  const ref = firebase.firestore().collection("restaurant");
+  console.log(ref);
+
+  function getData() {
+    setLoader(true);
+    ref.onSnapshot((querySnapshot) => {
+      const items = []
+      querySnapshot.forEach((doc) => {
+        items.push(doc.data())
+      })
+      setData(items)
+      setLoader(false)
+    })
+  }
+
+  useEffect(() => {
+    getData()
+    console.log(data)
+  }, [])
+
   return (
     <>
       <div>
@@ -14,7 +38,7 @@ function ariseandshine() {
         >
         </img>
         <br></br> 
-          {resData.map(
+          {data.map(
             res => 
               res.Name == "Arise and Shine" && (
                 <h2 key={res.id}>
@@ -32,15 +56,9 @@ function ariseandshine() {
             )
           }
         <br></br>
-          {/* <a
-            href='https://www.starbucks.com.sg/'
-            target="_blank"
-          >
-          <h2>website : https://www.starbucks.com.sg/</h2>
-          </a> */}
       </div>
     </>
   )
 }
 
-export default ariseandshine;
+export default Ariseandshine;
