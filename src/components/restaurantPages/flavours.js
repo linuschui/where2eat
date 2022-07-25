@@ -37,21 +37,21 @@ function Flavours() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("4TI977ID8F21S0")
+      .doc("d61apo9q8m435o")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("4TI977ID8F21S0")
+      .doc("d61apo9q8m435o")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("4TI977ID8F21S0")
+      .doc("d61apo9q8m435o")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Flavours() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("4TI977ID8F21S0")
+      .doc("d61apo9q8m435o")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("4TI977ID8F21S0")
+      .doc("d61apo9q8m435o")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("4TI977ID8F21S0")
+      .doc("d61apo9q8m435o")
       .update({
         like : decrement,
         dislike: increment

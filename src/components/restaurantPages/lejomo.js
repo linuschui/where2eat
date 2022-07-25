@@ -37,21 +37,21 @@ function Lejomo() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("7J935733546478")
+      .doc("6GzLsxSjB263AX")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("7J935733546478")
+      .doc("6GzLsxSjB263AX")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("7J935733546478")
+      .doc("6GzLsxSjB263AX")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Lejomo() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("7J935733546478")
+      .doc("6GzLsxSjB263AX")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("7J935733546478")
+      .doc("6GzLsxSjB263AX")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("7J935733546478")
+      .doc("6GzLsxSjB263AX")
       .update({
         like : decrement,
         dislike: increment

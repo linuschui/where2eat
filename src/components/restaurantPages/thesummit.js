@@ -37,21 +37,21 @@ function Thesummit() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("fkHT542Q9F6eHV")
+      .doc("yebvxqvgvu0lnz")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("fkHT542Q9F6eHV")
+      .doc("yebvxqvgvu0lnz")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("fkHT542Q9F6eHV")
+      .doc("yebvxqvgvu0lnz")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Thesummit() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("fkHT542Q9F6eHV")
+      .doc("yebvxqvgvu0lnz")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("fkHT542Q9F6eHV")
+      .doc("yebvxqvgvu0lnz")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("fkHT542Q9F6eHV")
+      .doc("yebvxqvgvu0lnz")
       .update({
         like : decrement,
         dislike: increment

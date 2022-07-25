@@ -37,21 +37,21 @@ function Pgpraircon() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("CeZNN6v61o645u")
+      .doc("KdMF4d0YhIZvaD")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("CeZNN6v61o645u")
+      .doc("KdMF4d0YhIZvaD")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("CeZNN6v61o645u")
+      .doc("KdMF4d0YhIZvaD")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Pgpraircon() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("CeZNN6v61o645u")
+      .doc("KdMF4d0YhIZvaD")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("CeZNN6v61o645u")
+      .doc("KdMF4d0YhIZvaD")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("CeZNN6v61o645u")
+      .doc("KdMF4d0YhIZvaD")
       .update({
         like : decrement,
         dislike: increment

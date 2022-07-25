@@ -37,21 +37,21 @@ function Technoedge() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("U92I1Y2S2Kd4N0")
+      .doc("9h3U7416Z54W6p")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("U92I1Y2S2Kd4N0")
+      .doc("9h3U7416Z54W6p")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("U92I1Y2S2Kd4N0")
+      .doc("9h3U7416Z54W6p")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Technoedge() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("U92I1Y2S2Kd4N0")
+      .doc("9h3U7416Z54W6p")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("U92I1Y2S2Kd4N0")
+      .doc("9h3U7416Z54W6p")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("U92I1Y2S2Kd4N0")
+      .doc("9h3U7416Z54W6p")
       .update({
         like : decrement,
         dislike: increment

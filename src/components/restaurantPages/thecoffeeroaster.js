@@ -37,21 +37,21 @@ function Thecoffeeroaster() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("YyX0FXIH6EDS2W")
+      .doc("6376359166941R")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("YyX0FXIH6EDS2W")
+      .doc("6376359166941R")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("YyX0FXIH6EDS2W")
+      .doc("6376359166941R")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Thecoffeeroaster() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("YyX0FXIH6EDS2W")
+      .doc("6376359166941R")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("YyX0FXIH6EDS2W")
+      .doc("6376359166941R")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("YyX0FXIH6EDS2W")
+      .doc("6376359166941R")
       .update({
         like : decrement,
         dislike: increment

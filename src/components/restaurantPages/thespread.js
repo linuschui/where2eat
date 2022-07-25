@@ -37,21 +37,21 @@ function Thespread() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("f2f9i281Vgx158")
+      .doc("9883K6508ZZ5c9")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("f2f9i281Vgx158")
+      .doc("9883K6508ZZ5c9")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("f2f9i281Vgx158")
+      .doc("9883K6508ZZ5c9")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Thespread() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("f2f9i281Vgx158")
+      .doc("9883K6508ZZ5c9")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("f2f9i281Vgx158")
+      .doc("9883K6508ZZ5c9")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("f2f9i281Vgx158")
+      .doc("9883K6508ZZ5c9")
       .update({
         like : decrement,
         dislike: increment

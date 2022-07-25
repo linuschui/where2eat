@@ -36,21 +36,21 @@ function Reedz() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("D6JpXMiMq71D09")
+      .doc("R879328x9977J0")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("D6JpXMiMq71D09")
+      .doc("R879328x9977J0")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("D6JpXMiMq71D09")
+      .doc("R879328x9977J0")
       .update({
         like: increment,
         dislike : decrement
@@ -63,21 +63,21 @@ function Reedz() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("D6JpXMiMq71D09")
+      .doc("R879328x9977J0")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("D6JpXMiMq71D09")
+      .doc("R879328x9977J0")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("D6JpXMiMq71D09")
+      .doc("R879328x9977J0")
       .update({
         like : decrement,
         dislike: increment

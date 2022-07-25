@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import firebase from "firebase";
 import fire from "../../fire";
+import { Link } from "react-router-dom"
+import { Button } from "@material-ui/core"
 
 function AllReviews() {
 
@@ -13,21 +14,55 @@ function AllReviews() {
     .orderBy('timestamp', 'desc')
       .onSnapshot((snapshot) => {
         setReviews(snapshot.docs.map((doc) => ({
-          id : doc.id,
+          
           title : doc.data().title,
           review : doc.data().review,
+          user: doc.data().user,
+          displayName : doc.data().displayName,
+          rating : doc.data().rating
         })
-        ))
+        ))  
       })
   })
 
   return (
-    <div>{reviews.map((review) => (
-      <div>
-        <h1>{review.title}</h1>
-        <h2>{review.review}</h2>
-        </div>
-     ))}
+    <div className="homePage"> 
+      <br></br>
+      <h1>SEE WHAT OTHERS ARE SAYING</h1>
+      <Button
+        component={ Link }
+        to='/review'
+      >
+        WRITE A REVIEW
+      </Button> 
+      {reviews.map((review) => (
+        <div className="post">
+          {review.review !== "" ? (
+            <>
+              <div className="postHeader">
+                <div className="title">
+                  <h1>{review.title}</h1>
+                </div> 
+              </div>   
+              <div classsName="postTextContainer">{review.review}</div>
+              <br></br>
+              {review.rating <= 5 && review.rating >= 0 ? (
+                <h4>rating : {review.rating}</ h4>
+              ) : (
+                <h4>rating : unavailable</h4>
+              )}
+              <br></br>
+              {review.displayName === "" ? (
+                <h4>anonymous</ h4>
+              ) : (
+                <h4>@{review.displayName}</ h4>
+              )}
+            </>
+          ) : (
+            null
+          )}
+        </div> 
+      ))}
     </div>
   )
 }

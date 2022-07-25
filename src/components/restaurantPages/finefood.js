@@ -37,21 +37,21 @@ function Finefood() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("43C3TK80Y9497M")
+      .doc("T6006Pa8474691")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("43C3TK80Y9497M")
+      .doc("T6006Pa8474691")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("43C3TK80Y9497M")
+      .doc("T6006Pa8474691")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Finefood() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("43C3TK80Y9497M")
+      .doc("T6006Pa8474691")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("43C3TK80Y9497M")
+      .doc("T6006Pa8474691")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("43C3TK80Y9497M")
+      .doc("T6006Pa8474691")
       .update({
         like : decrement,
         dislike: increment

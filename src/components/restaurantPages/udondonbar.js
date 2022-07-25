@@ -104,6 +104,13 @@ function Udondonbar() {
             res => 
               res.Name == "Udon Don Bar" && (
                 <h2 key={res.id}>
+                  {res.like + res.dislike !== 0 ? (
+                    <>
+                      <h2>Average User Rating : {res.like} / ({res.like} + {res.dislike}) x 5</h2>
+                    </>
+                  ) : (
+                    <h2>Average User Rating : not available</h2>
+                  )}
                   {res.Faculty === "UTown" ? (
                     <>
                      <h5>{res.like} <i class="fa-solid fa-heart"></i> {res.dislike} <i class="fa-solid fa-heart-crack"></i></h5> 

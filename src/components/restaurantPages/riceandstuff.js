@@ -37,21 +37,21 @@ function Riceandstuff() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("G471B5jzMWFEUM")
+      .doc("R8g7yrSThlV5YG")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("G471B5jzMWFEUM")
+      .doc("R8g7yrSThlV5YG")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("G471B5jzMWFEUM")
+      .doc("R8g7yrSThlV5YG")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Riceandstuff() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("G471B5jzMWFEUM")
+      .doc("R8g7yrSThlV5YG")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("G471B5jzMWFEUM")
+      .doc("R8g7yrSThlV5YG")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("G471B5jzMWFEUM")
+      .doc("R8g7yrSThlV5YG")
       .update({
         like : decrement,
         dislike: increment

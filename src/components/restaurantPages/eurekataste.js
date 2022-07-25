@@ -37,21 +37,21 @@ function Eurekataste() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("4176589187j6b2")
+      .doc("tUPltIYJBQNXhy")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("4176589187j6b2")
+      .doc("tUPltIYJBQNXhy")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("4176589187j6b2")
+      .doc("tUPltIYJBQNXhy")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Eurekataste() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("4176589187j6b2")
+      .doc("tUPltIYJBQNXhy")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("4176589187j6b2")
+      .doc("tUPltIYJBQNXhy")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("4176589187j6b2")
+      .doc("tUPltIYJBQNXhy")
       .update({
         like : decrement,
         dislike: increment

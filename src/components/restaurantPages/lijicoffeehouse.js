@@ -37,21 +37,21 @@ function Lijicoffeehouse() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("7wAcq9fXg1bzt0")
+      .doc("1B14566V6D0980")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("7wAcq9fXg1bzt0")
+      .doc("1B14566V6D0980")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("7wAcq9fXg1bzt0")
+      .doc("1B14566V6D0980")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Lijicoffeehouse() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("7wAcq9fXg1bzt0")
+      .doc("1B14566V6D0980")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("7wAcq9fXg1bzt0")
+      .doc("1B14566V6D0980")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("7wAcq9fXg1bzt0")
+      .doc("1B14566V6D0980")
       .update({
         like : decrement,
         dislike: increment

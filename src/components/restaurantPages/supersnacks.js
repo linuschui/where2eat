@@ -14,7 +14,7 @@ function Supersnacks() {
 
   function getData() {
     setLoader(true);
-    ref.onSnapshot((querySnapshot) => {
+    ref.orderBy('id', 'asc').onSnapshot((querySnapshot) => {
       const items = []
       querySnapshot.forEach((doc) => {
         items.push(doc.data())

@@ -37,21 +37,21 @@ function Pastaexpress() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("C0b3PH15i1sRg6")
+      .doc("5y83696yr80271")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("C0b3PH15i1sRg6")
+      .doc("5y83696yr80271")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("C0b3PH15i1sRg6")
+      .doc("5y83696yr80271")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Pastaexpress() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("C0b3PH15i1sRg6")
+      .doc("5y83696yr80271")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("C0b3PH15i1sRg6")
+      .doc("5y83696yr80271")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("C0b3PH15i1sRg6")
+      .doc("5y83696yr80271")
       .update({
         like : decrement,
         dislike: increment

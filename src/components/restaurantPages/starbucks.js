@@ -37,21 +37,21 @@ function Starbucks() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("O4LK597i3AUASx")
+      .doc("2neK7bt6q9m257")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("O4LK597i3AUASx")
+      .doc("2neK7bt6q9m257")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("O4LK597i3AUASx")
+      .doc("2neK7bt6q9m257")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Starbucks() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("O4LK597i3AUASx")
+      .doc("2neK7bt6q9m257")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("O4LK597i3AUASx")
+      .doc("2neK7bt6q9m257")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("O4LK597i3AUASx")
+      .doc("2neK7bt6q9m257")
       .update({
         like : decrement,
         dislike: increment

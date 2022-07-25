@@ -37,21 +37,21 @@ function Bobertea() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("143C6557016697")
+      .doc("lQod37I2gicTTO")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("143C6557016697")
+      .doc("lQod37I2gicTTO")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("143C6557016697")
+      .doc("lQod37I2gicTTO")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Bobertea() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("143C6557016697")
+      .doc("lQod37I2gicTTO")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("143C6557016697")
+      .doc("lQod37I2gicTTO")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("143C6557016697")
+      .doc("lQod37I2gicTTO")
       .update({
         like : decrement,
         dislike: increment

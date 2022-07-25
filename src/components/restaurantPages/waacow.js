@@ -37,21 +37,21 @@ function Waacow() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("va5r7Dr83x4N5q")
+      .doc("y64196561g9s0k")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("va5r7Dr83x4N5q")
+      .doc("y64196561g9s0k")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("va5r7Dr83x4N5q")
+      .doc("y64196561g9s0k")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Waacow() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("va5r7Dr83x4N5q")
+      .doc("y64196561g9s0k")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("va5r7Dr83x4N5q")
+      .doc("y64196561g9s0k")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("va5r7Dr83x4N5q")
+      .doc("y64196561g9s0k")
       .update({
         like : decrement,
         dislike: increment

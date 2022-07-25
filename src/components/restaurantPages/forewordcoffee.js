@@ -37,21 +37,21 @@ function Forewordcoffee() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("59186318115554")
+      .doc("472Z8M46947359")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("59186318115554")
+      .doc("472Z8M46947359")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("59186318115554")
+      .doc("472Z8M46947359")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Forewordcoffee() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("59186318115554")
+      .doc("472Z8M46947359")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("59186318115554")
+      .doc("472Z8M46947359")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("59186318115554")
+      .doc("472Z8M46947359")
       .update({
         like : decrement,
         dislike: increment

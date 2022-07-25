@@ -37,21 +37,21 @@ function Hwangs() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("6o9D822P773637")
+      .doc("vWrrrpUrtSHuJY")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("6o9D822P773637")
+      .doc("vWrrrpUrtSHuJY")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("6o9D822P773637")
+      .doc("vWrrrpUrtSHuJY")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Hwangs() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("6o9D822P773637")
+      .doc("vWrrrpUrtSHuJY")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("6o9D822P773637")
+      .doc("vWrrrpUrtSHuJY")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("6o9D822P773637")
+      .doc("vWrrrpUrtSHuJY")
       .update({
         like : decrement,
         dislike: increment
@@ -102,7 +102,7 @@ function Hwangs() {
         <br></br> 
           {data.map(
             res => 
-              res.Name == "Hwang's Korean Restaurant" && (
+              res.Name == "Hwangs Korean Restaurant" && (
                 <h2 key={res.id}>
                   {res.Faculty === "UTown" ? (
                     <>

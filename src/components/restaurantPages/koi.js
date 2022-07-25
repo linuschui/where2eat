@@ -37,21 +37,21 @@ function Koi() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("72268O357119Z0")
+      .doc("5870934hq67599")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("72268O357119Z0")
+      .doc("5870934hq67599")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("72268O357119Z0")
+      .doc("5870934hq67599")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Koi() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("72268O357119Z0")
+      .doc("5870934hq67599")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("72268O357119Z0")
+      .doc("5870934hq67599")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("72268O357119Z0")
+      .doc("5870934hq67599")
       .update({
         like : decrement,
         dislike: increment

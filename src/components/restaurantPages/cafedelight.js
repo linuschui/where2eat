@@ -37,21 +37,21 @@ function Cafedelight() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("17P4ZDZ2936868")
+      .doc("DACVPPAUCCNroT")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("17P4ZDZ2936868")
+      .doc("DACVPPAUCCNroT")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("17P4ZDZ2936868")
+      .doc("DACVPPAUCCNroT")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Cafedelight() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("17P4ZDZ2936868")
+      .doc("DACVPPAUCCNroT")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("17P4ZDZ2936868")
+      .doc("DACVPPAUCCNroT")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("17P4ZDZ2936868")
+      .doc("DACVPPAUCCNroT")
       .update({
         like : decrement,
         dislike: increment

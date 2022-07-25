@@ -37,21 +37,21 @@ function Barbarblacksheep() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("058z1I427VIT39")
+      .doc("HSR1Qr1lwhso32")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("058z1I427VIT39")
+      .doc("HSR1Qr1lwhso32")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("058z1I427VIT39")
+      .doc("HSR1Qr1lwhso32")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Barbarblacksheep() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("058z1I427VIT39")
+      .doc("HSR1Qr1lwhso32")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("058z1I427VIT39")
+      .doc("HSR1Qr1lwhso32")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("058z1I427VIT39")
+      .doc("HSR1Qr1lwhso32")
       .update({
         like : decrement,
         dislike: increment

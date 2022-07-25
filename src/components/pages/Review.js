@@ -11,6 +11,8 @@ function Review() {
   // add review to database
   const [title, setTitle] = useState("");
   const [reviewText, setReviewText] = useState("");
+  const [rating, setRating] = useState("");
+  const [displayName, setDisplayName] = useState("");
 
   const addReview = (e) => {
     e.preventDefault();
@@ -19,13 +21,27 @@ function Review() {
         title: title,
         review: reviewText,
         timestamp : firebase.firestore.FieldValue.serverTimestamp(),
-        user : firebase.auth().currentUser.uid
+        username : firebase.auth().currentUser.uid,
+        displayName : displayName,
+        rating : rating
       })
     setTitle([...title, title])
     setReviewText([...reviewText, reviewText]);
+    setRating([...rating, rating])
+    setDisplayName([...displayName, displayName])
     setTitle("");
-    setReviewText("")
+    setReviewText("");
+    setRating("");
+    setDisplayName("");
   }
+
+  function SubmitButton() {
+    if (title && reviewText && rating && displayName){
+      return <Button onClick={addReview}>SUBMIT REVIEW</Button>
+    } else {
+      return <Button disabled>FILL IN ALL FIELDS</Button>
+    };
+  };
 
   return (
     <>
@@ -50,13 +66,25 @@ function Review() {
           />
         </div>
         <br></br>
-        <Button
-          disabled={!title}
-          type="submit"
-          onClick={addReview}
-        >
-          Submit Review
-        </Button>
+        <div className="inputGp">
+          <h2> RATING </h2>
+          <input 
+            value={rating}
+            placeholder="rate it out of 5!"
+            onChange={e => {setRating(e.target.value)}}
+          />
+        </div>
+        <br></br>
+        <div className="inputGp">
+          <h2> DISPLAY NAME </h2>
+          <input 
+            value={displayName}
+            placeholder="choose a display name!"
+            onChange={e => {setDisplayName(e.target.value)}}
+          />
+        </div>
+        <br></br>
+        <SubmitButton />
         <Button
           component={ Link }
           to="/allreviews"

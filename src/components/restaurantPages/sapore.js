@@ -37,21 +37,21 @@ function Sapore() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("JPec506n8i373v")
+      .doc("RslGufrqmij2Vv")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("JPec506n8i373v")
+      .doc("RslGufrqmij2Vv")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("JPec506n8i373v")
+      .doc("RslGufrqmij2Vv")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Sapore() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("JPec506n8i373v")
+      .doc("RslGufrqmij2Vv")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("JPec506n8i373v")
+      .doc("RslGufrqmij2Vv")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("JPec506n8i373v")
+      .doc("RslGufrqmij2Vv")
       .update({
         like : decrement,
         dislike: increment

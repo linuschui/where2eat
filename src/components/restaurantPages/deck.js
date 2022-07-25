@@ -37,21 +37,21 @@ function Deck() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("2942B976055294")
+      .doc("1t3y12g7M7c077")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("2942B976055294")
+      .doc("1t3y12g7M7c077")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("2942B976055294")
+      .doc("1t3y12g7M7c077")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Deck() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("2942B976055294")
+      .doc("1t3y12g7M7c077")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("2942B976055294")
+      .doc("1t3y12g7M7c077")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("2942B976055294")
+      .doc("1t3y12g7M7c077")
       .update({
         like : decrement,
         dislike: increment

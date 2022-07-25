@@ -14,7 +14,7 @@ function Ariseandshine() {
 
   function getData() {
     setLoader(true);
-    ref.onSnapshot((querySnapshot) => {
+    ref.orderBy('id', 'asc').onSnapshot((querySnapshot) => {
       const items = []
       querySnapshot.forEach((doc) => {
         items.push(doc.data())
@@ -37,21 +37,21 @@ function Ariseandshine() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("00320338000o89")
+      .doc("xrsjpbhcpbuzgt")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("00320338000o89")
+      .doc("xrsjpbhcpbuzgt")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("00320338000o89")
+      .doc("xrsjpbhcpbuzgt")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Ariseandshine() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("00320338000o89")
+      .doc("xrsjpbhcpbuzgt")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("00320338000o89")
+      .doc("xrsjpbhcpbuzgt")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("00320338000o89")
+      .doc("xrsjpbhcpbuzgt")
       .update({
         like : decrement,
         dislike: increment

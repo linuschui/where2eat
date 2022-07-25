@@ -37,21 +37,21 @@ function Ninefresh() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("AX4yiYbzdtS7ka")
+      .doc("M04427145hn23r")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("AX4yiYbzdtS7ka")
+      .doc("M04427145hn23r")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("AX4yiYbzdtS7ka")
+      .doc("M04427145hn23r")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Ninefresh() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("AX4yiYbzdtS7ka")
+      .doc("M04427145hn23r")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("AX4yiYbzdtS7ka")
+      .doc("M04427145hn23r")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("AX4yiYbzdtS7ka")
+      .doc("M04427145hn23r")
       .update({
         like : decrement,
         dislike: increment

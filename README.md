@@ -78,3 +78,6 @@ V1.16
 V1.17
 - implemented like feature for all restaurant pages
 - added review page
+
+V1.18
+- implemented review page

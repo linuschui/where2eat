@@ -37,21 +37,21 @@ function Bistrobox() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("060mD836mqQ5Ej")
+      .doc("u28MV9V311322U")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("060mD836mqQ5Ej")
+      .doc("u28MV9V311322U")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("060mD836mqQ5Ej")
+      .doc("u28MV9V311322U")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Bistrobox() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("060mD836mqQ5Ej")
+      .doc("u28MV9V311322U")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("060mD836mqQ5Ej")
+      .doc("u28MV9V311322U")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("060mD836mqQ5Ej")
+      .doc("u28MV9V311322U")
       .update({
         like : decrement,
         dislike: increment

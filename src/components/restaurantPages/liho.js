@@ -37,21 +37,21 @@ function Liho() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("8L08W3063UDZRF")
+      .doc("1BPVScGKeWvD5W")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("8L08W3063UDZRF")
+      .doc("1BPVScGKeWvD5W")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("8L08W3063UDZRF")
+      .doc("1BPVScGKeWvD5W")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Liho() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("8L08W3063UDZRF")
+      .doc("1BPVScGKeWvD5W")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("8L08W3063UDZRF")
+      .doc("1BPVScGKeWvD5W")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("8L08W3063UDZRF")
+      .doc("1BPVScGKeWvD5W")
       .update({
         like : decrement,
         dislike: increment

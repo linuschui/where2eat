@@ -37,21 +37,21 @@ function Huggscoffee() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("64s23198885027")
+      .doc("324xi0q7930e5a")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("64s23198885027")
+      .doc("324xi0q7930e5a")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("64s23198885027")
+      .doc("324xi0q7930e5a")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Huggscoffee() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("64s23198885027")
+      .doc("324xi0q7930e5a")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("64s23198885027")
+      .doc("324xi0q7930e5a")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("64s23198885027")
+      .doc("324xi0q7930e5a")
       .update({
         like : decrement,
         dislike: increment

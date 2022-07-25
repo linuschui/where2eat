@@ -37,21 +37,21 @@ function E2kitchen() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("4072il0W562dYT")
+      .doc("ptfsyuyo32j65q")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("4072il0W562dYT")
+      .doc("ptfsyuyo32j65q")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("4072il0W562dYT")
+      .doc("ptfsyuyo32j65q")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function E2kitchen() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("4072il0W562dYT")
+      .doc("ptfsyuyo32j65q")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("4072il0W562dYT")
+      .doc("ptfsyuyo32j65q")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("4072il0W562dYT")
+      .doc("ptfsyuyo32j65q")
       .update({
         like : decrement,
         dislike: increment

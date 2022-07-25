@@ -37,21 +37,21 @@ function Nami() {
   const updateLike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("999AZVNIP5n1J4")
+      .doc("dSL5972x4D9s7k")
       .update({
         like: increment
       })
       setIsLike(true)   
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("999AZVNIP5n1J4")
+      .doc("dSL5972x4D9s7k")
       .update({
         like: decrement
       })
       setIsLike(false)  
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("999AZVNIP5n1J4")
+      .doc("dSL5972x4D9s7k")
       .update({
         like: increment,
         dislike : decrement
@@ -64,21 +64,21 @@ function Nami() {
   const updateDislike = () => {
     if (isDislike === false && isLike === false) {
       db.collection('restaurant')
-      .doc("999AZVNIP5n1J4")
+      .doc("dSL5972x4D9s7k")
       .update({
         dislike: increment
       })
       setIsDislike(true)
     } else if (isDislike === true && isLike === false) {
       db.collection('restaurant')
-      .doc("999AZVNIP5n1J4")
+      .doc("dSL5972x4D9s7k")
       .update({
         dislike: decrement
       })
       setIsDislike(false)
     } else if (isDislike === false && isLike === true) {
       db.collection('restaurant')
-      .doc("999AZVNIP5n1J4")
+      .doc("dSL5972x4D9s7k")
       .update({
         like : decrement,
         dislike: increment
