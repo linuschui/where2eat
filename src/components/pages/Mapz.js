@@ -16,7 +16,7 @@ function MapzCards() {
   const location = useGetLocation();
   const [data, setData] = useState([])
   const [loader, setLoader] = useState(false)
-  const ref = firebase.firestore().collection("buildings");
+  const ref = firebase.firestore().collection('buildings');
   console.log(ref);
 
   function getData() {

@@ -74,3 +74,7 @@ V1.15
 V1.16
 - migrated all data from json to firestore
 - edited favourites page such that users can only see what they write to the database
+
+V1.17
+- implemented like feature for all restaurant pages
+- added review page

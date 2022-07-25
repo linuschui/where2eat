@@ -26,8 +26,7 @@ function Favourites3() {
   const addFavourite = (e) => {
     e.preventDefault();
     db.collection('favourites')
-      .doc(firebase.auth().currentUser.uid)
-      .set({
+      .add({
         favourite: input,
         timestamp : firebase.firestore.FieldValue.serverTimestamp(),
         user : firebase.auth().currentUser.uid
@@ -56,7 +55,7 @@ function Favourites3() {
         </Button>
       </form>
       {favourites.map((favourite) => 
-        favourite.user == firebase.auth().currentUser.uid && (
+        favourite.user === firebase.auth().currentUser.uid && (
         <Favourites5 favourite={favourite} />
       ))}
     </div>
