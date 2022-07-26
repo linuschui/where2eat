@@ -16,7 +16,7 @@ function Review() {
   const [displayName, setDisplayName] = useState("");
 
   const addReview = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     db.collection('reviews')
       .add({
         title: title,
@@ -24,7 +24,9 @@ function Review() {
         timestamp : firebase.firestore.FieldValue.serverTimestamp(),
         username : firebase.auth().currentUser.uid,
         displayName : displayName,
-        rating : rating
+        rating : rating,
+        like: 0,
+        dislike: 0
       })
     setTitle([...title, title])
     setReviewText([...reviewText, reviewText]);
@@ -38,7 +40,11 @@ function Review() {
 
   function SubmitButton() {
     if (title && reviewText && rating && displayName){
-      return <Button onClick={addReview}>SUBMIT REVIEW</Button>
+      return (
+        <Button onClick={addReview}>
+          SUBMIT REVIEW
+        </Button>
+      )
     } else {
       return <Button disabled>FILL IN ALL FIELDS</Button>
     };

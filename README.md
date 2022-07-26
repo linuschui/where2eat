@@ -84,3 +84,7 @@ V1.18
 
 V1.19
 - improved review page
+
+V1.20
+- allow users to select the specific restaurant to review
+- added delete button to allow users to delete only reviews posted by them

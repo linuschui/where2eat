@@ -3,6 +3,7 @@ import fire from "../../fire";
 import { Link } from "react-router-dom"
 import { Button } from "@material-ui/core"
 import "./Review.css"
+import firebase from "firebase"
 
 function AllReviews() {
 
@@ -15,16 +16,77 @@ function AllReviews() {
     .orderBy('timestamp', 'desc')
       .onSnapshot((snapshot) => {
         setReviews(snapshot.docs.map((doc) => ({
-          
+          id : doc.id,
           title : doc.data().title.label,
           review : doc.data().review,
           user: doc.data().user,
           displayName : doc.data().displayName,
-          rating : doc.data().rating
+          rating : doc.data().rating,
+          username: doc.data().username,
+          like: doc.data().like,
+          dislike: doc.data().dislike
         })
         ))  
       })
   })
+
+  const [isLike, setIsLike] = useState(false);
+  const [isDislike, setIsDislike] = useState(false);
+  const increment = firebase.firestore.FieldValue.increment(1);
+  const decrement = firebase.firestore.FieldValue.increment(-1);
+  function handleLike(reviewID) {
+    if (isDislike === false && isLike === false) {
+      db.collection('reviews')
+      .doc(reviewID)
+      .update({
+        like: increment
+      })
+      setIsLike(true)   
+    } else if (isDislike === false && isLike === true) {
+      db.collection('reviews')
+      .doc(reviewID)
+      .update({
+        like: increment
+      })
+      setIsLike(false)  
+    } else if (isDislike === true && isLike === false) {
+      db.collection('reviews')
+      .doc(reviewID)
+      .update({
+        like: increment,
+        dislike: decrement
+      })
+      setIsLike(true)
+      setIsDislike(false) 
+    }
+  }
+
+  function handleDislike(reviewID) {
+    if (isDislike === false && isLike === false) {
+      db.collection('reviews')
+      .doc(reviewID)
+      .update({
+        dislike: increment
+      })
+      setIsDislike(true)
+    } else if (isDislike === true && isLike === false) {
+      db.collection('reviews')
+      .doc(reviewID)
+      .update({
+        dislike: decrement
+      })
+      setIsDislike(false)
+    } else if (isDislike === false && isLike === true) {
+      db.collection('reviews')
+      .doc(reviewID)
+      .update({
+        like: decrement,
+        dislike: increment
+      })
+      setIsLike(false);
+      setIsDislike(true);
+    }
+  }
 
   return (
     <div className="homePage"> 
@@ -45,19 +107,60 @@ function AllReviews() {
                   <h1>{review.title}</h1>
                 </div> 
               </div>   
-              <div classsName="postTextContainer">{review.review}</div>
+              <div classsName="postTextContainer">
+                {review.review}
+              </div>
               <br></br>
-              {review.rating <= 5 && review.rating >= 0 ? (
-                <h4>rating : {review.rating}</ h4>
-              ) : (
-                <h4>rating : unavailable</h4>
-              )}
+              {review.rating == 5 ? (
+                <h4>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                </h4>
+              ): (null)}
+              {review.rating == 4 ? (
+                <h4>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                </h4>
+              ): (null)}
+              {review.rating == 3 ? (
+                <h4>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                </h4>
+              ): (null)}
+              {review.rating == 2 ? (
+                <h4>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                </h4>
+              ): (null)}
+              {review.rating == 1 ? (
+                <h4>
+                <i class="fas fa-star"></i>
+                </h4>
+              ): (null)}
               <br></br>
               {review.displayName === "" ? (
                 <h4>anonymous</ h4>
               ) : (
-                <h4>@{review.displayName}</ h4>
+                <h4>@{review.displayName}</h4>
               )}
+              <br></br>
+              {review.username === firebase.auth().currentUser.uid ? (
+                <Button
+                  onClick={e => db.collection('reviews').doc(review.id).delete()}
+              >
+                DELETE  <i class="fa fa-trash"></i>
+              </Button>
+              ) : (null)}
+              <Button></Button>
             </>
           ) : (
             <></>
