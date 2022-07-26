@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import fire from "../../fire";
 import { Link } from "react-router-dom"
 import { Button } from "@material-ui/core"
+import "./Review.css"
 
 function AllReviews() {
 
@@ -15,7 +16,7 @@ function AllReviews() {
       .onSnapshot((snapshot) => {
         setReviews(snapshot.docs.map((doc) => ({
           
-          title : doc.data().title,
+          title : doc.data().title.label,
           review : doc.data().review,
           user: doc.data().user,
           displayName : doc.data().displayName,
@@ -59,7 +60,7 @@ function AllReviews() {
               )}
             </>
           ) : (
-            null
+            <></>
           )}
         </div> 
       ))}

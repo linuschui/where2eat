@@ -81,3 +81,6 @@ V1.17
 
 V1.18
 - implemented review page
+
+V1.19
+- improved review page
