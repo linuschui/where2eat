@@ -88,3 +88,6 @@ V1.19
 V1.20
 - allow users to select the specific restaurant to review
 - added delete button to allow users to delete only reviews posted by them
+
+V1.21
+- allow users to like reviews on all reviews page

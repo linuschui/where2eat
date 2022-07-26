@@ -21,7 +21,7 @@ function AllReviews() {
           review : doc.data().review,
           user: doc.data().user,
           displayName : doc.data().displayName,
-          rating : doc.data().rating,
+          rating : doc.data().rating.value,
           username: doc.data().username,
           like: doc.data().like,
           dislike: doc.data().dislike
@@ -31,62 +31,8 @@ function AllReviews() {
   })
 
   const [isLike, setIsLike] = useState(false);
-  const [isDislike, setIsDislike] = useState(false);
   const increment = firebase.firestore.FieldValue.increment(1);
   const decrement = firebase.firestore.FieldValue.increment(-1);
-  function handleLike(reviewID) {
-    if (isDislike === false && isLike === false) {
-      db.collection('reviews')
-      .doc(reviewID)
-      .update({
-        like: increment
-      })
-      setIsLike(true)   
-    } else if (isDislike === false && isLike === true) {
-      db.collection('reviews')
-      .doc(reviewID)
-      .update({
-        like: increment
-      })
-      setIsLike(false)  
-    } else if (isDislike === true && isLike === false) {
-      db.collection('reviews')
-      .doc(reviewID)
-      .update({
-        like: increment,
-        dislike: decrement
-      })
-      setIsLike(true)
-      setIsDislike(false) 
-    }
-  }
-
-  function handleDislike(reviewID) {
-    if (isDislike === false && isLike === false) {
-      db.collection('reviews')
-      .doc(reviewID)
-      .update({
-        dislike: increment
-      })
-      setIsDislike(true)
-    } else if (isDislike === true && isLike === false) {
-      db.collection('reviews')
-      .doc(reviewID)
-      .update({
-        dislike: decrement
-      })
-      setIsDislike(false)
-    } else if (isDislike === false && isLike === true) {
-      db.collection('reviews')
-      .doc(reviewID)
-      .update({
-        like: decrement,
-        dislike: increment
-      })
-      setIsLike(false);
-      setIsDislike(true);
-    }
-  }
 
   return (
     <div className="homePage"> 
@@ -153,6 +99,33 @@ function AllReviews() {
                 <h4>@{review.displayName}</h4>
               )}
               <br></br>
+              <h4>{review.like} LIKED THIS</h4>
+              <Button
+                onClick={() => {
+                  db.collection('reviews')
+                    .doc(review.id)
+                    .update({
+                      like: increment
+                    })
+                  setIsLike(true)}
+                }
+                disabled={isLike}
+              >
+                LIKE
+              </Button>
+              <Button
+                onClick={() => {
+                  db.collection('reviews')
+                    .doc(review.id)
+                    .update({
+                      like: decrement
+                    })
+                  setIsLike(false)}
+                }
+                disabled={!isLike}
+              >
+                UNLIKE
+              </Button>
               {review.username === firebase.auth().currentUser.uid ? (
                 <Button
                   onClick={e => db.collection('reviews').doc(review.id).delete()}
@@ -160,7 +133,6 @@ function AllReviews() {
                 DELETE  <i class="fa fa-trash"></i>
               </Button>
               ) : (null)}
-              <Button></Button>
             </>
           ) : (
             <></>

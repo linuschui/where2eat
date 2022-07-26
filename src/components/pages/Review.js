@@ -99,6 +99,14 @@ function Review() {
     { label: "Waacow", value: 46 },
   ];
 
+  const ratings = [
+    { label: "1", value: 1 },
+    { label: "2", value: 2 },
+    { label: "3", value: 3 },
+    { label: "4", value: 4 },
+    { label: "5", value: 5 },
+  ];
+
   return (
     <>
     <div className="createReview">
@@ -112,6 +120,7 @@ function Review() {
             onChange={e => {setTitle(e.target.value)}}
           /> */}
           <Select
+            placeholder="choose a restaurant to review !"
             className="select"
             defaultValue={title}
             onChange={setTitle}
@@ -130,10 +139,17 @@ function Review() {
         <br></br>
         <div className="inputGp">
           <h2> RATING </h2>
-          <input 
+          {/* <input 
             value={rating}
             placeholder="rate it out of 5!"
             onChange={e => {setRating(e.target.value)}}
+          /> */}
+          <Select
+            placeholder="choose a rating !"
+            className="select"
+            defaultValue={rating}
+            onChange={setRating}
+            options={ratings}
           />
         </div>
         <br></br>
