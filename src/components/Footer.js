@@ -11,7 +11,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-         where2eat helps you decide where to eat next
+         WHR2EAT helps you decide where to eat next
         </p>
         <p className='footer-subscription-text'>
         so you are no longer burdened with the difficult task of making a decision!
@@ -74,8 +74,15 @@ function Footer() {
               <i class="fa-solid fa-bowl-rice"></i>
             </Link>
           </div>
-          <small class='website-rights'>WHR2EAT © 2022</small>
+            <small class='website-rights'>WHR2EAT © 2022</small>
+            
           <div class='social-icons'>
+            <Link
+              to='/aboutus'
+            >
+              ABOUT US 
+            </Link>
+
             <Link
               class='social-icon-link-facebook'
               to='/'
@@ -94,7 +101,7 @@ function Footer() {
             </a>
             <a
               class='social-icon-link-youtube'
-              href="https://youtu.be/JJnxXRqBF5U"
+              href="https://youtu.be/3T--6qGajfI"
               target='_blank'
               aria-label='Youtube'
             >
@@ -108,14 +115,14 @@ function Footer() {
             >
               <i class='fab fa-github' />
             </a>
-            <Link
+{/*             <Link
               class='social-icon-link-linkedin'
               to='/'
               target='_blank'
               aria-label='LinkedIn'
             >
               <i class='fab fa-linkedin' />
-            </Link>
+            </Link> */}
           </div>
         </div>
       </section>

@@ -75,6 +75,7 @@ import udondonbar from './components/restaurantPages/udondonbar';
 import unclepenyet from './components/restaurantPages/unclepenyet';
 import waacow from './components/restaurantPages/waacow';
 import Restaurant from './components/pages/Restaurant';
+import Aboutus from './components/pages/Aboutus';
 
 function App2({handleLogOut}) {
   return (
@@ -154,6 +155,7 @@ function App2({handleLogOut}) {
           <Route path='/fav3' component={Favourites3} />
           <Route path='/review' component={Review} />
           <Route path='/allreviews' component={AllReviews} />
+          <Route path='/aboutus' component={Aboutus} />
         </Switch>
         <Footer />
       </Router>
