@@ -1,7 +1,7 @@
 # where2eat
 
 where2eat webapp
-https://whr2eat-nus.herokuapp.com/
+https://where2eat-puce.vercel.app/
 
 V1.1
 - added sign in page
