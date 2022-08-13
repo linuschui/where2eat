@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { ButtonFAV2 } from "../ButtonFAV2";
 import fire from "../../fire";
 
-function Favourites5(props) {
+function FavouritesTable(props) {
   const db = fire.firestore();
   const [editing, setEditing] = useState("");
   const [favourites, setFavourites] = useState([]);
@@ -74,4 +74,4 @@ function Favourites5(props) {
   )
 }
 
-export default Favourites5
+export default FavouritesTable

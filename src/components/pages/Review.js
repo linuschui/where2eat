@@ -16,7 +16,7 @@ function Review() {
   const [displayName, setDisplayName] = useState("");
 
   const addReview = (e) => {
-    // e.preventDefault();
+    e.preventDefault();
     db.collection('reviews')
       .add({
         title: title,

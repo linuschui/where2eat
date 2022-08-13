@@ -22,8 +22,6 @@ import KRNorth from './components/pages/KRNorth';
 import KRSouth from './components/pages/KRSouth';
 import Search from './components/pages/Search';
 import Favourites from './components/pages/Favourites';
-import Favourites2 from './components/pages/Favourites2';
-import Favourites3 from './components/pages/Favourites3';
 import Restaurants from './components/pages/Restaurants.jsx';
 import Review from './components/pages/Review.js';
 import AllReviews from './components/pages/AllReviews';
@@ -101,8 +99,7 @@ function App2({handleLogOut}) {
           <Route path='/KRNorth' component={KRNorth} />
           <Route path='/KRSouth' component={KRSouth} />
           <Route path='/search' component={Search} />
-          <Route path='/favourites2' component={Favourites} />
-          <Route path='/favourites' component={Favourites3} />
+          <Route path='/favourites' component={Favourites} />
           <Route path='/rest' component={Restaurants} />
           <Route path='/ariseandshine' component={ariseandshine} />
           <Route path='/barbarblacksheep' component={barbarblacksheep} />
@@ -152,7 +149,6 @@ function App2({handleLogOut}) {
           <Route path='/unclepenyet' component={unclepenyet} />
           <Route path='/waacow' component={waacow} />
           <Route path='/restaurants' component={Restaurant} />
-          <Route path='/fav3' component={Favourites3} />
           <Route path='/review' component={Review} />
           <Route path='/allreviews' component={AllReviews} />
           <Route path='/aboutus' component={Aboutus} />
